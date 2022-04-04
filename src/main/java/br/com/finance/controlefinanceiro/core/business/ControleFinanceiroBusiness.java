@@ -30,4 +30,12 @@ public class ControleFinanceiroBusiness {
         return nativeQueryRepository.findRendaGastosAnoMes(ano, mes);
     }
 
+    public List<ControleFinanceiro> buscarTodosAnoMes(Integer ano, Integer mes) {
+        return nativeQueryRepository.findAllAnoMes(ano, mes);
+    }
+
+    public ControleFinanceiro adicionar(ControleFinanceiro controleFinanceiro) {
+        return repository.save(controleFinanceiro);
+    }
+
 }

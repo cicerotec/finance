@@ -25,5 +25,12 @@ public class ControleFinanceiroService {
         return business.buscarRendaGastosAnoMes(ano, mes);
     }
 
+    public List<ControleFinanceiro> buscarTodosAnoMes(Integer ano, Integer mes) {
+        return business.buscarTodosAnoMes(ano, mes);
+    }
+
+    public ControleFinanceiro adicionar(ControleFinanceiro controleFinanceiro) {
+        return business.adicionar(controleFinanceiro);
+    }
 
 }

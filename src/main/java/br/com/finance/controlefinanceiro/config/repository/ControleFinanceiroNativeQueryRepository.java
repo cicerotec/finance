@@ -25,4 +25,13 @@ public interface ControleFinanceiroNativeQueryRepository extends CrudRepository<
             "          data_do_evento ")
     List<ControleFinanceiro> findRendaGastosAnoMes(Integer ano, Integer mes);
 
+    @Query("SELECT " + ALIAS_CONTROLE_FINANCEIRO_COMMONS +
+            " FROM testes " +
+            " WHERE DATE_PART_STR(data_de_referencia, 'year') = $1" +
+            " AND DATE_PART_STR(data_de_referencia, 'month') = $2" +
+            " ORDER BY data_de_referencia," +
+            "          data_do_pagamento," +
+            "          data_do_evento ")
+    List<ControleFinanceiro> findAllAnoMes(Integer ano, Integer mes);
+
 }

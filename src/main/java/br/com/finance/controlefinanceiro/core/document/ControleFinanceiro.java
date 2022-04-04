@@ -1,28 +1,57 @@
 package br.com.finance.controlefinanceiro.core.document;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+import com.fasterxml.jackson.datatype.jsr310.deser.LocalDateTimeDeserializer;
+import com.fasterxml.jackson.datatype.jsr310.ser.LocalDateTimeSerializer;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.couchbase.core.mapping.Document;
+import org.springframework.data.couchbase.core.mapping.id.GeneratedValue;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.List;
 
+import static org.springframework.data.couchbase.core.mapping.id.GenerationStrategy.UNIQUE;
+
 @Document
 public class ControleFinanceiro {
 
     @Id
+    @GeneratedValue(strategy = UNIQUE)
     private String id;
-    private LocalDate data_de_referencia;
-    private LocalDate data_do_evento;
-    private LocalDate data_do_pagamento;
+
+    @JsonFormat(pattern = "dd/MM/yyyy HH:mm:ss")
+    @JsonDeserialize(using = LocalDateTimeDeserializer.class)
+    @JsonSerialize(using = LocalDateTimeSerializer.class)
+    private LocalDateTime data_de_referencia;
+
+    @JsonFormat(pattern = "dd/MM/yyyy HH:mm:ss")
+    @JsonDeserialize(using = LocalDateTimeDeserializer.class)
+    @JsonSerialize(using = LocalDateTimeSerializer.class)
+    private LocalDateTime data_do_evento;
+
+    @JsonFormat(pattern = "dd/MM/yyyy HH:mm:ss")
+    @JsonDeserialize(using = LocalDateTimeDeserializer.class)
+    @JsonSerialize(using = LocalDateTimeSerializer.class)
+    private LocalDateTime data_do_pagamento;
+
     private String descricao;
+
     private String nota;
+
     private Double renda;
+
     private Double gastos;
+
     private List<String> grupo;
+
     private String instituicao_financeira;
+
     private String status;
+
     private String tags;
 
     public String getId() {
@@ -33,27 +62,27 @@ public class ControleFinanceiro {
         this.id = id;
     }
 
-    public LocalDate getData_de_referencia() {
+    public LocalDateTime getData_de_referencia() {
         return data_de_referencia;
     }
 
-    public void setData_de_referencia(LocalDate data_de_referencia) {
+    public void setData_de_referencia(LocalDateTime data_de_referencia) {
         this.data_de_referencia = data_de_referencia;
     }
 
-    public LocalDate getData_do_evento() {
+    public LocalDateTime getData_do_evento() {
         return data_do_evento;
     }
 
-    public void setData_do_evento(LocalDate data_do_evento) {
+    public void setData_do_evento(LocalDateTime data_do_evento) {
         this.data_do_evento = data_do_evento;
     }
 
-    public LocalDate getData_do_pagamento() {
+    public LocalDateTime getData_do_pagamento() {
         return data_do_pagamento;
     }
 
-    public void setData_do_pagamento(LocalDate data_do_pagamento) {
+    public void setData_do_pagamento(LocalDateTime data_do_pagamento) {
         this.data_do_pagamento = data_do_pagamento;
     }
 
