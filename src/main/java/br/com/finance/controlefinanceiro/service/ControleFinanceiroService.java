@@ -5,6 +5,7 @@ import br.com.finance.controlefinanceiro.core.document.ControleFinanceiro;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.awt.print.Pageable;
 import java.util.List;
 
 @Service
@@ -29,8 +30,8 @@ public class ControleFinanceiroService {
         return business.buscarTodosAnoMes(ano, mes);
     }
 
-    public ControleFinanceiro adicionar(ControleFinanceiro controleFinanceiro) {
-        return business.adicionar(controleFinanceiro);
+    public List<ControleFinanceiro> adicionarTodos(List<ControleFinanceiro> listaControleFinanceiro) {
+        return business.adicionarTodos(listaControleFinanceiro);
     }
 
 }

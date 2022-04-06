@@ -1,5 +1,6 @@
-package br.com.finance.controlefinanceiro.config;
+package br.com.finance.controlefinanceiro.util;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.couchbase.config.AbstractCouchbaseConfiguration;
@@ -9,28 +10,26 @@ import org.springframework.data.couchbase.repository.config.EnableCouchbaseRepos
 @EnableCouchbaseRepositories
 public class CouchbaseConfig extends AbstractCouchbaseConfiguration {
 
-    @Value("${storage.host}") private String host;
-    @Value("${storage.username}") private String username;
-    @Value("${storage.password}") private String password;
-    @Value("${storage.bucket}") private String bucket;
+    @Autowired
+    private StorageUtil storageUtil;
 
     @Override
     public String getConnectionString() {
-        return host;
+        return storageUtil.getHost();
     }
 
     @Override
     public String getUserName() {
-        return username;
+        return storageUtil.getUsername();
     }
 
     @Override
     public String getPassword() {
-        return password;
+        return storageUtil.getPassword();
     }
 
     @Override
     public String getBucketName() {
-        return bucket;
+        return storageUtil.getBucket();
     }
 }

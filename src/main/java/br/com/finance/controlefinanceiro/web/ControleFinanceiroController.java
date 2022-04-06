@@ -1,7 +1,7 @@
 package br.com.finance.controlefinanceiro.web;
 
-import br.com.finance.controlefinanceiro.service.ControleFinanceiroService;
 import br.com.finance.controlefinanceiro.core.document.ControleFinanceiro;
+import br.com.finance.controlefinanceiro.service.ControleFinanceiroService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -41,9 +41,9 @@ public class ControleFinanceiroController {
     }
 
     @PostMapping
-    public ResponseEntity<ControleFinanceiro> postControleFinanceiro(
-            @RequestBody ControleFinanceiro request) {
-        return new ResponseEntity<>(service.adicionar(request), HttpStatus.CREATED);
+    public ResponseEntity<List<ControleFinanceiro>> postControleFinanceiroLista(
+            @RequestBody List<ControleFinanceiro> request) {
+        return new ResponseEntity<>(service.adicionarTodos(request), HttpStatus.CREATED);
     }
 
 }

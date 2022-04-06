@@ -1,4 +1,4 @@
-package br.com.finance.controlefinanceiro.config.repository;
+package br.com.finance.controlefinanceiro.repository;
 
 import br.com.finance.controlefinanceiro.core.document.ControleFinanceiro;
 import org.springframework.data.couchbase.repository.Query;
@@ -18,8 +18,8 @@ public interface ControleFinanceiroNativeQueryRepository extends CrudRepository<
     @Query("SELECT " + ALIAS_CONTROLE_FINANCEIRO_COMMONS +
             " FROM testes " +
             " WHERE ANY grupos IN grupo SATISFIES grupos IN ['RENDA','GASTOS'] END" +
-            " AND DATE_PART_STR(data_de_referencia, 'year') = $1" +
-            " AND DATE_PART_STR(data_de_referencia, 'month') = $2" +
+            " AND DATE_PART_MILLIS(data_de_referencia, 'year') = $1" +
+            " AND DATE_PART_MILLIS(data_de_referencia, 'month') = $2" +
             " ORDER BY data_de_referencia," +
             "          data_do_pagamento," +
             "          data_do_evento ")
@@ -27,8 +27,8 @@ public interface ControleFinanceiroNativeQueryRepository extends CrudRepository<
 
     @Query("SELECT " + ALIAS_CONTROLE_FINANCEIRO_COMMONS +
             " FROM testes " +
-            " WHERE DATE_PART_STR(data_de_referencia, 'year') = $1" +
-            " AND DATE_PART_STR(data_de_referencia, 'month') = $2" +
+            " WHERE DATE_PART_MILLIS(data_de_referencia, 'year') = $1" +
+            " AND DATE_PART_MILLIS(data_de_referencia, 'month') = $2" +
             " ORDER BY data_de_referencia," +
             "          data_do_pagamento," +
             "          data_do_evento ")

@@ -1,8 +1,8 @@
 package br.com.finance.controlefinanceiro.core.business;
 
-import br.com.finance.controlefinanceiro.config.repository.ControleFinanceiroNativeQueryRepository;
-import br.com.finance.controlefinanceiro.config.repository.ControleFinanceiroRepository;
 import br.com.finance.controlefinanceiro.core.document.ControleFinanceiro;
+import br.com.finance.controlefinanceiro.repository.ControleFinanceiroNativeQueryRepository;
+import br.com.finance.controlefinanceiro.repository.ControleFinanceiroRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -34,8 +34,8 @@ public class ControleFinanceiroBusiness {
         return nativeQueryRepository.findAllAnoMes(ano, mes);
     }
 
-    public ControleFinanceiro adicionar(ControleFinanceiro controleFinanceiro) {
-        return repository.save(controleFinanceiro);
+    public List<ControleFinanceiro> adicionarTodos(List<ControleFinanceiro> listaControleFinanceiro) {
+        return (List<ControleFinanceiro>) repository.saveAll(listaControleFinanceiro);
     }
 
 }
