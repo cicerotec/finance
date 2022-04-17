@@ -9,8 +9,9 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@CrossOrigin(origins = "http://localhost:4200")
 @RestController
-@RequestMapping("/controle-financeiro")
+@RequestMapping("/controles-financeiros")
 public class ControleFinanceiroController {
 
     @Autowired
@@ -21,7 +22,7 @@ public class ControleFinanceiroController {
         return new ResponseEntity<>(service.buscarPorId(id), HttpStatus.OK);
     }
 
-    @GetMapping("/all")
+    @GetMapping("/todos")
     public ResponseEntity<List<ControleFinanceiro>> getControleFinanceiroAll() {
         return new ResponseEntity<>(service.buscarTodos(), HttpStatus.OK);
     }
@@ -40,10 +41,31 @@ public class ControleFinanceiroController {
         return new ResponseEntity<>(service.buscarTodosAnoMes(ano, mes), HttpStatus.OK);
     }
 
-    @PostMapping
-    public ResponseEntity<List<ControleFinanceiro>> postControleFinanceiroLista(
+/*    @PostMapping
+    public ResponseEntity<List<ControleFinanceiro>> postListaControleFinanceiro(
             @RequestBody List<ControleFinanceiro> request) {
         return new ResponseEntity<>(service.adicionarTodos(request), HttpStatus.CREATED);
+    }*/
+
+    @PostMapping
+    public ResponseEntity<ControleFinanceiro> postControleFinanceiro(
+            @RequestBody ControleFinanceiro request) {
+        return new ResponseEntity<>(service.adicionar(request), HttpStatus.CREATED);
+    }
+
+    @PutMapping("/{id}")
+    public ResponseEntity<ControleFinanceiro> putControleFinanceiro(
+            @PathVariable String id,
+            @RequestBody ControleFinanceiro request) {
+        request.setId(id);
+        return new ResponseEntity<>(service.atualizar(request), HttpStatus.OK);
+    }
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity deleteControleFinanceiro(
+            @PathVariable String id) {
+        service.deletar(id);
+        return ResponseEntity.noContent().build();
     }
 
 }

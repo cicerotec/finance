@@ -30,8 +30,20 @@ public class ControleFinanceiroService {
         return business.buscarTodosAnoMes(ano, mes);
     }
 
+    public ControleFinanceiro adicionar(ControleFinanceiro controleFinanceiro) {
+        return business.adicionar(controleFinanceiro);
+    }
+
     public List<ControleFinanceiro> adicionarTodos(List<ControleFinanceiro> listaControleFinanceiro) {
         return business.adicionarTodos(listaControleFinanceiro);
+    }
+
+    public ControleFinanceiro atualizar(ControleFinanceiro controleFinanceiro) {
+        return business.atualizar(controleFinanceiro);
+    }
+
+    public void deletar(String id) {
+        business.deletar(id);
     }
 
 }
