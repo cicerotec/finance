@@ -23,19 +23,10 @@ public class ControleFinanceiro {
     @GeneratedValue(strategy = UNIQUE)
     private String id;
 
-    //@JsonFormat(pattern = "dd/MM/yyyy HH:mm:ss")
-    //@JsonDeserialize(using = LocalDateTimeDeserializer.class)
-    //@JsonSerialize(using = LocalDateTimeSerializer.class)
     private LocalDateTime data_de_referencia;
 
-    @JsonFormat(pattern = "dd/MM/yyyy HH:mm:ss")
-    @JsonDeserialize(using = LocalDateTimeDeserializer.class)
-    @JsonSerialize(using = LocalDateTimeSerializer.class)
     private LocalDateTime data_do_evento;
 
-    @JsonFormat(pattern = "dd/MM/yyyy HH:mm:ss")
-    @JsonDeserialize(using = LocalDateTimeDeserializer.class)
-    @JsonSerialize(using = LocalDateTimeSerializer.class)
     private LocalDateTime data_do_pagamento;
 
     private String descricao;
