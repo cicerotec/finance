@@ -1,0 +1,191 @@
+[
+	{
+	"data_do_pagamento": "2020/09/23",
+	"data_do_evento": "2020/09/23",	
+	"descricao": "Combustivel",
+	"gastos": 60,
+	"instituicao_financeira": "C6BANK",
+	"forma_de_pagamento":"DEBITO",
+	"status": "PAGO",
+	"tags": "#Carro #Combustivel #Variavel"
+	},
+	{
+	"data_do_pagamento": "2020/01/31",
+	"data_da_previsao_do_pagamento": "2020/01/31",	
+	"descricao": "Inicio",
+	"renda": 2133.93,
+	"instituicao_financeira": "NUBANK",
+	"forma_de_pagamento":"DEPOSITO",
+	"status": "PAGO",
+	"tags": "#Recebimentos #Ajuste"
+	},
+	{
+	"data_do_pagamento": "2020/11/08",
+	"data_da_previsao_do_pagamento": "2020/11/24",	
+	"descricao": "Agua - ITAQUERA",
+	"gastos": 54.41,
+	"instituicao_financeira": "NUBANK",
+	"forma_de_pagamento":"DEBITO",    
+	"status": "PAGO",
+	"tags": "#Itaquera #Essencial #AjudaAlmir #Fixo"
+	},
+	{
+	"data_do_pagamento": "2020/01/09",
+	"data_da_previsao_do_pagamento": "2020/01/09",		
+	"descricao": "Elshaday - dia das mães",
+	"nota": "Campo dos alemães",
+	"gastos": 75,
+	"instituicao_financeira": "NUBANK",
+	"forma_de_pagamento":"DEBITO",    
+	"status": "PAGO",
+	"tags": "#Lazer #Presentes #Variavel #Roberta"
+	},
+	{
+	"data_do_pagamento": "2020/01/17",
+	"data_da_previsao_do_pagamento": "2020/01/17",
+	"descricao": "DPVAT",
+	"gastos": 5.23,
+	"instituicao_financeira": "ITAU",
+	"forma_de_pagamento":"DEBITO",    	
+	"status": "PAGO",
+	"tags": "#Carro #Impostos #Variavel"
+	},
+	{
+	"data_do_evento": "2020/04/08",
+	"descricao": "Transferencia via TED > ITAU",
+	"gastos": 1000,
+	"instituicao_financeira": "NUBANK",
+	"forma_de_pagamento":"TED",    	
+	"status": "ENTRECONTAS",
+	"tags": "#Transferencia"
+	},
+	{
+	"data_do_evento": "2020/04/08",
+	"descricao": "Transferencia via TED > ITAU",
+	"renda": 1000,
+	"instituicao_financeira": "ITAU",
+	"forma_de_pagamento":"TED",    	
+	"status": "ENTRECONTAS",
+	"tags": "#Transferencia"
+	},	
+	{
+		"data_da_previsao_do_pagamento": "2020/01/09",
+		"descricao": "Financiamento da casa",
+		"gastos": 250.13,
+		"instituicao_financeira": "NUBANK",
+		"forma_de_pagamento":"DEBITO",    		
+		"status": "PREVISTO",
+		"tags": "#Pagamentos #Emprestimo #Fixo"
+	},
+	{
+		"data_da_previsao_do_pagamento": "2020/01/09",		
+		"descricao": "Manutenção CEF",
+		"gastos": 42.90,
+		"instituicao_financeira": "NUBANK",
+		"forma_de_pagamento":"DEBITO",    				
+		"status": "PREVISTO",
+		"tags": "#Pagamentos #Emprestimo #Fixo"
+	},
+	{
+		"data_da_previsao_do_pagamento": "2020/01/10",
+		"descricao": "Semestralidade Jazigo",
+		"gastos": 635.31,
+		"instituicao_financeira": "ITAU",
+		"forma_de_pagamento":"DEBITO",    				
+		"status": "PREVISTO",
+		"tags": "#Jazigo #Semestralidade #Variavel"
+	},
+	{
+		"data_do_evento": "2020/01/13",
+		"data_da_previsao_do_pagamento": "2020/02/08",
+		"descricao": "PAG*Farmacon-CT",
+		"gastos": 35.37,
+		"instituicao_financeira": "ITAU",
+		"forma_de_pagamento":"CREDITO",    				
+		"status": "PREVISTO",
+		"tags": "#Variavel #Remedios #Carlos #Eduardo"
+	},
+	{
+		"data_do_evento": "2020/01/13",		
+		"data_da_previsao_do_pagamento": "2020/02/08",
+		"descricao": "INSTITUTO MIX SJC EDUCACAO. CURSO DE CONFEITARIA 01/10",
+		"total_parcelas":10,
+		"parcela":1,
+		"gastos": 223.38,
+		"instituicao_financeira": "ITAU",
+		"forma_de_pagamento":"CREDITO",    				
+		"status": "PREVISTO",
+		"tags": "#Roberta #Cursos #Variavel"
+	},
+	{
+		"data_do_evento": "2020/01/13",		
+		"data_da_previsao_do_pagamento": "2020/03/08",
+		"descricao": "INSTITUTO MIX SJC EDUCACAO. CURSO DE CONFEITARIA 02/10",
+		"total_parcelas":10,
+		"parcela":2,
+		"gastos": 223.38,
+		"instituicao_financeira": "ITAU",
+		"forma_de_pagamento":"CREDITO",    				
+		"status": "PREVISTO",
+		"tags": "#Roberta #Cursos #Variavel"
+	},
+	{
+		"data_do_evento": "2020/02/10",		
+		"data_da_previsao_do_pagamento": "2020/03/12",
+		"descricao": "Google YouTube Premium",
+		"gastos": 31.90,
+		"instituicao_financeira": "NUBANK",
+		"forma_de_pagamento":"CREDITO",    				
+		"status": "PREVISTO",
+		"tags": "#Streaming #Fixo"
+	},
+	{
+		"data_do_evento": "2020/02/10",				
+		"data_da_previsao_do_pagamento": "2020/03/12",
+		"descricao": "Amazonprimebr",
+		"gastos": 9.90,
+		"instituicao_financeira": "NUBANK",
+		"forma_de_pagamento":"CREDITO",    				
+		"status": "PREVISTO",
+		"tags": "#Streaming #Fixo "
+	},
+
+	{
+		"data_do_evento": "2020/01/10",				
+		"data_do_pagamento": "2020/02/12",
+		"data_da_previsao_do_pagamento": "2020/02/12",
+		"descricao": "AZUL AUTO - SEGUROS - R$ 1.574,01 - 6x - 1/6",
+		"total_parcelas":6,
+		"parcela":1,
+		"gastos": 262.33,
+		"instituicao_financeira": "NUBANK",
+		"forma_de_pagamento":"CREDITO",    				
+		"status": "PAGO",
+		"tags": "#Carro #Seguro #Variavel"
+	},
+	{
+		"data_do_evento": "2020/01/10",				
+		"data_da_previsao_do_pagamento": "2020/03/12",
+		"descricao": "AZUL AUTO - SEGUROS - R$ 1.574,01 - 6x - 2/6",
+		"total_parcelas":6,
+		"parcela":2,
+		"gastos": 262.33,
+		"instituicao_financeira": "NUBANK",
+		"forma_de_pagamento":"CREDITO",    				
+		"status": "PREVISTO",
+		"tags": "#Carro #Seguro #Variavel"
+	},
+	{
+		"data_do_evento": "2020/01/10",				
+		"data_da_previsao_do_pagamento": "2020/04/12",
+		"descricao": "AZUL AUTO - SEGUROS - R$ 1.574,01 - 6x - 3/6",
+		"total_parcelas":6,
+		"parcela":3,
+		"gastos": 262.33,
+		"instituicao_financeira": "NUBANK",
+		"forma_de_pagamento":"CREDITO",    				
+		"status": "PREVISTO",
+		"tags": "#Carro #Seguro #Variavel"
+	}
+
+]

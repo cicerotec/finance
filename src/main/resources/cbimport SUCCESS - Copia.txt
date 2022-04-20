@@ -1,0 +1,157 @@
+cbimport json --format list -c http://localhost:8091 -u sync_gateway -p password -d file://financas_2020.json -b bucket-app --scope-collection-exp "_default._default" -g "#UUID#"
+
+//bucket financas - ORIGINAL
+cbimport json --format list -c http://localhost:8091 -u sync_gateway -p password -d file://financas_2020.json -b financas --scope-collection-exp "gastos.mensais" -g "#UUID#"
+
+//bucket financas 2020 - TESTES
+cbimport json --format list -c http://localhost:8091 -u sync_gateway -p password -d file://financas_2020_TESTES.json -b financas --scope-collection-exp "gastos.testes" -g "#UUID#"
+
+//bucket financas 2021-2022 - TESTES
+cbimport json --format list -c http://localhost:8091 -u sync_gateway -p password -d file://financas_2021-2022-TESTES.json -b financas --scope-collection-exp "gastos.testes" -g "#UUID#"
+
+
+
+--SELECTS
+
+select a.* from mensais a WHERE a.data_evento BETWEEN "30/01/20200" AND "31/01/2020";
+
+SELECT DATE_FORMAT_STR('2016-05-15T00:00:23+00:00', '1111-11-11') as full_to_short,
+       DATE_FORMAT_STR('2016-05-15', '1111-11-11T00:00:00+00:00') as short_to_full,
+       DATE_FORMAT_STR('01:10:05', '1111-11-11T01:01:01Z') as time_to_full;
+	   
+select a.data_evento from mensais a WHERE a.data_evento BETWEEN "2020-01-30" AND "2020-01-31";	   
+
+select DATE_FORMAT_STR(a.data_evento, '1234-12-12') from mensais a where META().id = '0013a2b6-8cba-4129-8d7b-528bcd6c3bd2';
+
+select a.* from mensais a WHERE DATE_FORMAT_STR(a.data_evento,'1234-12-12') BETWEEN "2020-01-30" AND "2020-01-31";
+
+SELECT DATE_PART_STR(a.data_evento, 'day') as day,
+       DATE_PART_STR(a.data_evento, 'millisecond') as millisecond,
+       DATE_PART_STR(a.data_evento, 'month') as month,
+       DATE_PART_STR(a.data_evento, 'week') as week,
+       DATE_PART_STR(a.data_evento, 'year') as year
+	   FROM mensais a
+	   WHERE META().id = '0013a2b6-8cba-4129-8d7b-528bcd6c3bd2';
+	   
+SELECT DATE_PART_STR(a.data_evento, 'day') as day,
+       DATE_PART_STR(a.data_evento, 'millisecond') as millisecond,
+       DATE_PART_STR(a.data_evento, 'month') as month,
+       DATE_PART_STR(a.data_evento, 'week') as week,
+       DATE_PART_STR(a.data_evento, 'year') as year
+	   FROM mensais a
+	   WHERE (META().id ='0013a2b6-8cba-4129-8d7b-528bcd6c3bd2'
+	   OR META().id = '0049d72f-ce04-40fd-91b5-63e3f8ff90f1')
+	   AND DATE_PART_STR(a.data_evento, 'year') = 2020;	   
+	   
+SELECT a.* 
+	   FROM mensais a
+	   WHERE (META().id ='0013a2b6-8cba-4129-8d7b-528bcd6c3bd2'
+	   OR META().id = '0049d72f-ce04-40fd-91b5-63e3f8ff90f1')
+	   AND DATE_PART_STR(a.data_evento, 'year') = 2020;	   
+	   
+select a.* from mensais a WHERE a.data_evento BETWEEN "2020-01-30" AND "2020-11-25";	   
+
+select sum(a.gastos) from mensais a WHERE a.data_evento BETWEEN "2020-01-30" AND "2020-11-25";
+
+SELECT a.* 
+	   FROM mensais a
+	   WHERE (META().id ='0013a2b6-8cba-4129-8d7b-528bcd6c3bd2'
+	   OR META().id = '0049d72f-ce04-40fd-91b5-63e3f8ff90f1'
+	   OR META().id = '009e3c48-c9fc-4f7b-8d2b-c4ad7823c2a6'
+	   OR META().id = '010ad6af-6cf3-4dd0-98a6-2b234f1f1405'
+	   OR META().id = '018b4a9a-a703-4afd-a3f5-c58ac302c039'
+	   OR META().id = '019229e5-d4fa-4b02-950c-0957b8d7361b');
+
+
+--QUERY NO BUCKET FINANÇAS - COLLECTION TESTES
+
+CREATE PRIMARY INDEX ON `default`:`financas`.`gastos`.`testes`;
+
+--ALL
+SELECT a.* FROM testes a;
+
+--ID
+SELECT Meta().id, a.* FROM testes a;
+
+--LIKE
+SELECT a.* FROM testes a WHERE tags LIKE '%#Variavel%';
+SELECT a.* FROM testes a WHERE tags LIKE '%#Variavel%' AND tags LIKE '%#Carro%';
+
+--SUM 
+SELECT sum(a.renda) AS renda, sum(a.gastos) AS gastos  FROM testes a WHERE tags LIKE '%#Variavel%';
+SELECT sum(a.renda) AS renda, sum(a.gastos) AS gastos  FROM testes a WHERE tags LIKE '%#Variavel%' AND tags LIKE '%#Carro%';
+
+--SUM CREDITO
+SELECT sum(a.gastos) AS gastos FROM testes a WHERE forma_de_pagamento = 'CREDITO';
+
+--SUM LIST
+SELECT sum(a.renda) AS renda, sum(a.gastos) AS gastos  FROM testes a where status in ['PAGO','PREVISTO'];
+
+--STATUS
+SELECT a.* FROM testes a WHERE status = 'PAGO';
+
+--CREDITO
+SELECT a.* FROM testes a WHERE forma_de_pagamento = 'CREDITO';
+SELECT a.* FROM testes a WHERE forma_de_pagamento = 'CREDITO' AND instituicao_financeira = 'NUBANK';
+SELECT Meta().id, a.* FROM testes a WHERE forma_de_pagamento = 'CREDITO' AND instituicao_financeira = 'NUBANK';
+
+
+--ENTRA E SAI DA PLANILHA E NAO É RENDA
+SELECT a.*  FROM testes a where status in ['PAGO','PREVISTO'] AND tags not like '%Salario%' and renda is not null;
+
+--GASTOS
+SELECT sum(a.renda) AS renda, sum(a.gastos) AS gastos  FROM testes a where status in ['PAGO','PREVISTO'] AND tags not like '%Salario%' and gastos is not null;
+
+
+--GASTOS SEM ALUGUEL AJUDAALMIR CONSOLE
+SELECT sum(a.renda) AS renda, sum(a.gastos) AS gastos  FROM testes a where status in ['PAGO','PREVISTO'] AND tags not like '%Salario%' and gastos is not null and (tags not like '%Aluguel%' and tags not like '%AjudaAlmir%' and tags not like '%Console%');
+
+
+Aluguel
+AjudaAlmir
+Console
+
+SELECT Meta().id, a.*   FROM testes a where status in ['PAGO','PREVISTO'] AND tags like '%Aluguel%' or tags like '%AjudaAlmir%' or tags like '%Console%' and gastos is not null;
+
+SELECT sum(a.gastos) AS gastos   FROM testes a where status in ['PAGO','PREVISTO'] AND (tags like '%Aluguel%' or tags like '%AjudaAlmir%' or tags like '%Console%') and gastos is not null;
+
+*******************************
+
+--NOVAS QUERYS COM NODE GRUPO
+
+--SUM 
+SELECT sum(a.renda) AS renda, sum(a.gastos) AS gastos FROM testes a WHERE grupo IN ['RENDA','GASTOS'];
+
+SELECT sum(a.renda) AS renda, sum(a.gastos) AS gastos FROM testes a WHERE grupo IN ['RENDA','GASTOS'] AND DATE_PART_STR(a.data_do_evento, 'year') = 2022 AND DATE_PART_STR(a.data_do_evento, 'month') = 3;
+
+
+--SELECAO
+SELECT a.* FROM testes a WHERE grupo IN ['RENDA','GASTOS'] order by data_de_referencia, data_do_pagamento, data_do_evento;
+
+--SELECAO MES
+SELECT a.* FROM testes a WHERE grupo IN ['RENDA','GASTOS'] AND DATE_PART_STR(a.data_do_evento, 'year') = 2022 AND DATE_PART_STR(a.data_do_evento, 'month') = 3 order by data_de_referencia, data_do_pagamento, data_do_evento;
+
+--SELECAO MES BANCOS
+SELECT sum(a.renda) AS renda, sum(a.gastos) AS gastos FROM testes a WHERE instituicao_financeira = 'ITAU' AND DATE_PART_STR(a.data_de_referencia, 'year') = 2022 AND DATE_PART_STR(a.data_de_referencia, 'month') = 3;
+
+--SELECAO SUM BANCO: ITAU
+SELECT SUM(a.renda) - SUM(a.gastos) AS saldo
+FROM testes a
+WHERE status NOT IN ['PREVISTO']
+    AND DATE_PART_STR(a.data_do_evento, 'year') = 2022
+    AND DATE_PART_STR(a.data_do_evento, 'month') = 3
+    AND instituicao_financeira = 'ITAU';
+	
+	
+--PREVISTO ALL
+SELECT a.* FROM testes a WHERE grupo IN ['RENDA','GASTOS'] AND DATE_PART_STR(a.data_de_referencia, 'year') = 2022 AND DATE_PART_STR(a.data_de_referencia, 'month') = 4 order by data_de_referencia, data_do_pagamento, data_do_evento;
+
+--PREVISTO SUM
+SELECT sum(a.renda) AS renda, sum(a.gastos) AS gastos FROM testes a WHERE grupo IN ['RENDA','GASTOS'] AND DATE_PART_STR(a.data_de_referencia, 'year') = 2022 AND DATE_PART_STR(a.data_de_referencia, 'month') = 4;
+
+
+
+
+
+--DELETE ALL
+delete FROM testes a ;

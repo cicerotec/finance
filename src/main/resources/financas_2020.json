@@ -1,0 +1,5710 @@
+[
+	{
+		"status": "PAGO",
+		"descricao": "Entrada ano anterior",
+		"data_evento": "01/01/2020",
+		"data_pagamento": "01/01/2020",
+		"renda": "6874.87",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Recebimentos #Ajuste #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Agua - DEBITO AUTO",
+		"data_evento": "02/01/2020",
+		"gastos": "47.42",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Moradia #Essencial #Fixo #Luz"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Rend pago em aplic Itau",
+		"data_evento": "02/01/2020",
+		"renda": "0.07",
+		"instituicao_financeira": "ITAU"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "IOF",
+		"data_evento": "02/01/2020",
+		"gastos": "0.67",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Encargos #IOF #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Supermercado Maximo",
+		"data_evento": "02/01/2020",
+		"gastos": "43.12",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Farmácia - byo fórmula",
+		"data_evento": "03/01/2020",
+		"gastos": "75.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Creme #Carlos #Eduardo #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Transferi para minha carteira",
+		"data_evento": "03/01/2020",
+		"gastos": "110.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Transferencia #Carteira #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Combustivel",
+		"data_evento": "05/01/2020",
+		"gastos": "120.05",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Carro #Combustivel #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Supermercado Assaí",
+		"data_evento": "05/01/2020",
+		"gastos": "472.92",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Bowling Shibata",
+		"nota": "15 minutos de brinquedos",
+		"data_evento": "05/01/2020",
+		"gastos": "30.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Lazer #Shopping #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Ajuste",
+		"data_evento": "06/01/2020",
+		"renda": "543.03",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Recebimentos #Ajuste #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Mercado - Itaquera",
+		"data_evento": "06/01/2020",
+		"gastos": "250.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Itaquera #Essencial #AjudaAlmir #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Médico sem fronteiras - DEBITO AUTO",
+		"data_evento": "06/01/2020",
+		"gastos": "41.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Doação #Extra #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Cartao Roberta",
+		"data_evento": "08/01/2020",
+		"data_pagamento": "07/01/2020",
+		"gastos": "335.02",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Pagamentos #CartaoDeCredito #Roberta #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Cartao Walmart",
+		"data_evento": "08/01/2020",
+		"data_pagamento": "07/01/2020",
+		"gastos": "402.94",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Pagamentos #CartaoDeCredito #Walmart #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Fatura NET CLARO - DEBITO AUTO",
+		"data_evento": "08/01/2020",
+		"gastos": "233.77",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Lazer #TVPaga #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Transferi para investimento",
+		"data_evento": "08/01/2020",
+		"gastos": "1400.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Transferencia #Investimento #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Restaurante - Volta de Campinas",
+		"data_evento": "09/01/2020",
+		"gastos": "27.75",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Restaurante #DomRock #Variavel #Alimentação"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Financiamento da casa",
+		"data_evento": "09/01/2020",
+		"gastos": "250.13",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Pagamentos #Emprestimo #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Manutenção CEF",
+		"data_evento": "09/01/2020",
+		"gastos": "42.90",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Pagamentos #Emprestimo #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Semestralidade Jazigo",
+		"data_evento": "10/01/2020",
+		"gastos": "635.31",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Jazigo #Semestralidade #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Bowling Shibata",
+		"nota": "15 minutos de brinquedos 30,00 5 fichas 20,00",
+		"data_evento": "11/01/2020",
+		"gastos": "50.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Lazer #Shopping #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Supermercado Maximo",
+		"data_evento": "11/01/2020",
+		"gastos": "26.44",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Farmácia",
+		"nota": "Montelair 4mg",
+		"data_evento": "11/01/2020",
+		"gastos": "43.25",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Remedios #Eduardo #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Supermercado Shibata",
+		"data_evento": "11/01/2020",
+		"gastos": "8.28",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Bowling Shibata",
+		"nota": "15 minutos de brinquedos 30,00 4 fichas 16,00",
+		"data_evento": "11/01/2020",
+		"gastos": "46.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Lazer #Shopping #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Purificador Consul - Magazine Luiza",
+		"nota": "Purificador de Agua Consul Branco CPB34AS Bivolt",
+		"data_evento": "11/01/2020",
+		"gastos": "404.30",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Pessoal #Cozinha #Roberta #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Carlos",
+		"data_evento": "15/01/2020",
+		"data_pagamento": "13/01/2020",
+		"gastos": "183.74",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Saude #Convenio #Familia #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Eduardo",
+		"data_evento": "15/01/2020",
+		"data_pagamento": "13/01/2020",
+		"gastos": "183.74",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Saude #Convenio #Familia #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Roberta",
+		"data_evento": "15/01/2020",
+		"data_pagamento": "13/01/2020",
+		"gastos": "188.73",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Saude #Convenio #Familia #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Restaurante - Campinas",
+		"data_evento": "15/01/2020",
+		"gastos": "13.53",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Restaurante #DomRock #Variavel #Alimentação"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Restaurante - Campinas",
+		"data_evento": "15/01/2020",
+		"gastos": "25.75",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Restaurante #DomRock #Variavel #Alimentação"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Restaurante - Campinas",
+		"data_evento": "16/01/2020",
+		"gastos": "15.16",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Restaurante #DomRock #Variavel #Alimentação"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Lojas Ottima",
+		"nota": "Presentes Eduardo e Carlos; Predendor para saco;",
+		"data_evento": "18/01/2020",
+		"gastos": "97.68",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Lazer #Presentes #Moradia #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Casa e enxoval - Cidade Jardim SJC",
+		"nota": "Cadeira tipo rede",
+		"data_evento": "18/01/2020",
+		"gastos": "90.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Lazer #Presentes #Moradia #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Casa e enxoval - Cidade Jardim SJC",
+		"nota": "Casa e enxoval - Cidade Jardim SJC",
+		"data_evento": "18/01/2020",
+		"gastos": "25.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Lazer #Presentes #Moradia #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Deposito de Material de Construção",
+		"nota": "Ducha Higienica; Corda; Torneira de cozinha;",
+		"data_evento": "18/01/2020",
+		"gastos": "173.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Lazer #Presentes #Moradia #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "iFood - Yakisoba 2 marmitas",
+		"data_evento": "18/01/2020",
+		"gastos": "41.99",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Lazer #Comida #Variavel #Alimentação"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Frango Assado - Cidade Jardim SJC",
+		"data_evento": "19/01/2020",
+		"gastos": "27.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Moradia #Essencial #Mistura #Variavel #Alimentação"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Rend pago em aplic Itau",
+		"data_evento": "19/01/2020",
+		"renda": "0.05",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Recebimentos #Rendimentos #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Transferencia via TED Nubank",
+		"data_evento": "20/01/2020",
+		"renda": "40.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Recebimentos #Transferencia #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Luz - Itaquera VER DEBITO AUTO",
+		"data_evento": "21/01/2020",
+		"data_pagamento": "19/01/2020",
+		"gastos": "131.13",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Itaquera #Essencial #AjudaAlmir #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Agua - ITAQUERA",
+		"data_evento": "22/01/2020",
+		"data_pagamento": "19/01/2020",
+		"gastos": "85.59",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Itaquera #Essencial #AjudaAlmir #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Luz - DEBITO AUTO",
+		"data_evento": "22/01/2020",
+		"gastos": "188.06",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Moradia #Essencial #Fixo #Luz"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Japonês SJC - Material de construção",
+		"nota": "mosqueteiro; cotovelo (25mm); luva (25mm); lixa; tubo de cola de pvc;",
+		"data_evento": "25/01/2020",
+		"gastos": "45.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Moradia #Essencial #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Quitanda do Sa",
+		"data_evento": "26/01/2020",
+		"gastos": "20.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Moradia #Essencial #Variavel #Alimentação"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Combustível",
+		"data_evento": "26/01/2020",
+		"gastos": "110.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Carro #Combustivel #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Sr. Antonio",
+		"data_evento": "30/01/2020",
+		"data_pagamento": "19/01/2020",
+		"gastos": "868.38",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Saude #Convenio #Papai #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Inicio",
+		"data_evento": "31/01/2020",
+		"renda": "5.07",
+		"instituicao_financeira": "CAIXA",
+		"tags": "#Recebimentos #Ajuste"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Inicio",
+		"data_evento": "31/01/2020",
+		"renda": "2133.93",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Recebimentos #Ajuste"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Transferencia via TED > ITAU",
+		"data_evento": "31/01/2020",
+		"gastos": "600.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Transferencia #TED #Nubank #Itau"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Recebimento via TED < NUBANK",
+		"data_evento": "31/01/2020",
+		"renda": "600.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Recebimentos #TED #Nubank #Itau"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Inicio",
+		"data_evento": "31/01/2020",
+		"renda": "44.65",
+		"instituicao_financeira": "INTER",
+		"tags": "#Recebimentos #Ajuste"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Mercado DIA Campinas",
+		"data_evento": "31/01/2020",
+		"gastos": "8.72",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Lazer #Comida #Variavel #Alimentação"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Transferi para minha carteira",
+		"data_evento": "31/01/2020",
+		"gastos": "50.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Transferencia #Carteira #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Agua - DEBITO AUTO",
+		"data_evento": "02/02/2020",
+		"gastos": "47.42",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Moradia #Essencial #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Combustível",
+		"data_evento": "03/02/2020",
+		"gastos": "123.12",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Carro #Combustivel #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Rendimento",
+		"data_evento": "03/02/2020",
+		"renda": "0.18",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Recebimentos #Rendimentos #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Supermercado Máximo",
+		"data_evento": "04/02/2020",
+		"gastos": "63.60",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "IOF",
+		"data_evento": "04/02/2020",
+		"gastos": "0.65",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Encargos #IOF #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Mercado - Itaquera",
+		"data_evento": "06/02/2020",
+		"gastos": "250.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Itaquera #Essencial #AjudaAlmir #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Médico sem fronteiras - DEBITO AUTO",
+		"data_evento": "06/02/2020",
+		"gastos": "41.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Doação #Extra #Fixo"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via TED > CAIXA",
+		"data_evento": "07/02/2020",
+		"gastos": "290.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Transferencia #TED #Nubank #Caixa"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Recebimento via TED < NUBANK",
+		"data_evento": "07/02/2020",
+		"renda": "290.00",
+		"instituicao_financeira": "CAIXA",
+		"tags": "#Recebimentos #TED #Nubank #Caixa"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Salario",
+		"data_evento": "07/02/2020",
+		"renda": "2333.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Recebimentos #Salario #Nubank"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Cartao Roberta",
+		"data_evento": "08/02/2020",
+		"gastos": "848.41",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Pagamentos #CartaoDeCredito #Roberta #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Cartao Walmart",
+		"data_evento": "08/02/2020",
+		"data_pagamento": "07/02/2020",
+		"gastos": "66.58",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Pagamentos #CartaoDeCredito #Walmart #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Fatura NET CLARO - DEBITO AUTO",
+		"data_evento": "08/02/2020",
+		"gastos": "259.24",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Lazer #TVPaga #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Estacionamento - Shopping Centro",
+		"data_evento": "08/02/2020",
+		"gastos": "3.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Carro #Estacionamento #Shopping #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Assaí Atacadista",
+		"data_evento": "08/02/2020",
+		"gastos": "223.23",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Moradia #Essencial #Mercado #Fixo #Alimentação"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Leroy: Bomba de piscina; Lixeira;",
+		"data_evento": "09/02/2020",
+		"gastos": "317.58",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Lazer #Piscina #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Rendimento",
+		"data_evento": "09/02/2020",
+		"renda": "0.47",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Recebimentos #Rendimentos #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Financiamento da casa",
+		"data_evento": "09/02/2020",
+		"data_pagamento": "10/02/2020",
+		"gastos": "249.74",
+		"instituicao_financeira": "CAIXA",
+		"tags": "#Pagamentos #Emprestimo #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Manutenção CEF",
+		"data_evento": "09/02/2020",
+		"data_pagamento": "10/02/2020",
+		"gastos": "42.90",
+		"instituicao_financeira": "CAIXA",
+		"tags": "#Pagamentos #Emprestimo #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Combustível",
+		"data_evento": "09/02/2020",
+		"gastos": "102.83",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Carro #Combustivel #Variavel"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via TED > ITAU",
+		"data_evento": "10/02/2020",
+		"gastos": "898.41",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Transferencia #TED #Nubank #Itau"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Recebimento via TED < NUBANK",
+		"data_evento": "10/02/2020",
+		"renda": "898.41",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Recebimentos #TED #Nubank #Itau"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Cartao NuBank",
+		"data_evento": "11/02/2020",
+		"data_pagamento": "09/02/2020",
+		"gastos": "216.30",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Pagamentos #CartaoDeCredito #Nubank #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Transferi para minha carteira",
+		"data_evento": "11/02/2020",
+		"gastos": "20.00",
+		"instituicao_financeira": "INTER",
+		"tags": "#Transferencia #Carteira #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Transferencia via TED - RICO > ITAU",
+		"data_evento": "14/02/2020",
+		"renda": "1500.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Transferencia #TED #Rico #Corretora #Itau"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Apaloosas Churrascaria",
+		"data_evento": "14/02/2020",
+		"gastos": "49.90",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Lazer #Comida #DomRock"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Rendimento",
+		"data_evento": "14/02/2020",
+		"renda": "0.63",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Recebimentos #Rendimentos #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Farmácia",
+		"nota": "Montelair 4mg",
+		"data_evento": "14/02/2020",
+		"gastos": "52.39",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Remedios #Eduardo #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Carlos",
+		"data_evento": "15/02/2020",
+		"data_pagamento": "14/02/2020",
+		"gastos": "183.74",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Saude #Convenio #Familia #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Eduardo",
+		"data_evento": "15/02/2020",
+		"data_pagamento": "14/02/2020",
+		"gastos": "183.74",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Saude #Convenio #Familia #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Roberta",
+		"data_evento": "15/02/2020",
+		"data_pagamento": "14/02/2020",
+		"gastos": "203.73",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Saude #Convenio #Familia #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Pão de Açucar",
+		"data_evento": "15/02/2020",
+		"gastos": "36.63",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Assaí",
+		"data_evento": "15/02/2020",
+		"gastos": "455.50",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Moradia #Essencial #Mercado #Fixo #Alimentação"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Farmácia Droga Quinze",
+		"nota": "Mucofan xarope pediatrico",
+		"data_evento": "16/02/2020",
+		"gastos": "17.98",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Remedios #Carlos #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Farmácia Farma Conde",
+		"nota": "desonex plus",
+		"data_evento": "16/02/2020",
+		"gastos": "10.48",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Remedios #Carlos #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "IPVA",
+		"data_evento": "17/02/2020",
+		"data_pagamento": "15/02/2020",
+		"gastos": "1356.11",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Carro #Impostos #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "DPVAT",
+		"data_evento": "17/02/2020",
+		"data_pagamento": "15/02/2020",
+		"gastos": "5.23",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Carro #Impostos #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "IPTU SJC",
+		"data_evento": "17/02/2020",
+		"data_pagamento": "03/02/2020",
+		"gastos": "449.82",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Moradia #Impostos #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Combustível",
+		"data_evento": "17/02/2020",
+		"gastos": "122.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Carro #Combustivel #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Transf. TED CLEAR  > NUBANK > ITAU",
+		"data_evento": "17/02/2020",
+		"renda": "500.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Transferencia #TED #Clear #Corretora #Itau"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Transferi para Roberta",
+		"data_evento": "18/02/2020",
+		"gastos": "60.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Transferencia #Carteira #Variavel"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via TED > ITAU",
+		"data_evento": "20/02/2020",
+		"gastos": "105.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Transferencia #TED #Nubank #Itau"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Recebimento via TED < NUBANK",
+		"data_evento": "20/02/2020",
+		"renda": "105.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Recebimentos #TED #Nubank #Itau"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via TED > ITAU",
+		"data_evento": "20/02/2020",
+		"gastos": "20.00",
+		"instituicao_financeira": "INTER",
+		"tags": "#Transferencia #TED #Inter #Itau"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Recebimento via TED < INTER",
+		"data_evento": "20/02/2020",
+		"renda": "20.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Recebimentos #TED #Inter #Itau"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Agua - ITAQUERA",
+		"data_evento": "20/02/2020",
+		"data_pagamento": "20/02/2020",
+		"gastos": "93.83",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Itaquera #Essencial #AjudaAlmir #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Adiantamento Salarial",
+		"data_evento": "20/02/2020",
+		"renda": "2600.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Recebimentos #Salario #Nubank"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Leroy ",
+		"data_evento": "20/02/2020",
+		"gastos": "122.85",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Moradia #Variavel #Cozinha"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Luz - Itaquera VER DEBITO AUTO",
+		"data_evento": "21/02/2020",
+		"data_pagamento": "20/02/2020",
+		"gastos": "135.89",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Itaquera #Essencial #AjudaAlmir #Fixo"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via TED > ITAU",
+		"data_evento": "21/02/2020",
+		"gastos": "200.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Transferencia #TED #Nubank #Itau"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Recebimento via TED < NUBANK",
+		"data_evento": "21/02/2020",
+		"renda": "200.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Recebimentos #TED #Nubank #Itau"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Bowling Shibata",
+		"nota": "15 minutos de brinquedos 30,00 4 fichas 16,00",
+		"data_evento": "21/02/2020",
+		"gastos": "70.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Lazer #Shopping #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Ferragens Del Rey SJC",
+		"nota": "Material para tela mosquiteira da porta da sala",
+		"data_evento": "22/02/2020",
+		"gastos": "75.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Moradia #Essencial #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Ferragens Japones SJC",
+		"nota": "Material para tela mosquiteira da area de serviço na cozinha",
+		"data_evento": "23/02/2020",
+		"gastos": "204.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Moradia #Essencial #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Ferragens Del Rey SJC",
+		"nota": "Material faltante para tela mosquiteira da porta da sala - 2 metros de trilho branco",
+		"data_evento": "23/02/2020",
+		"gastos": "19.80",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Moradia #Essencial #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata",
+		"nota": "cafe da manha, tranqueiras",
+		"data_evento": "25/02/2020",
+		"gastos": "67.05",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Rendimento",
+		"data_evento": "25/02/2020",
+		"renda": "0.04",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Recebimentos #Rendimentos #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Luz - DEBITO AUTO",
+		"data_evento": "26/02/2020",
+		"gastos": "196.62",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Moradia #Essencial #Fixo #Luz"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Combustível",
+		"data_evento": "26/02/2020",
+		"gastos": "111.86",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Carro #Combustivel #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Sr. Antonio",
+		"data_evento": "29/02/2020",
+		"data_pagamento": "20/02/2020",
+		"gastos": "747.38",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Saude #Convenio #Papai #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Ferragens Japones SJC",
+		"nota": "Material para tela mosquiteira da area de serviço na cozinha",
+		"data_evento": "29/02/2020",
+		"gastos": "12.60",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Moradia #Essencial #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Assaí",
+		"data_evento": "29/02/2020",
+		"gastos": "42.73",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Moradia #Essencial #Mercado #Alimentação"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Churrascaria Aquarius SJC",
+		"data_evento": "29/02/2020",
+		"gastos": "180.80",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Lazer #Comida #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Rendimento",
+		"data_evento": "25/02/2020",
+		"renda": "0.37",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Recebimentos #Rendimentos #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Agua - DEBITO AUTO",
+		"data_evento": "03/03/2020",
+		"gastos": "47.42",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Moradia #Essencial #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Extra SJC - All in One Processador  e +",
+		"data_evento": "04/03/2020",
+		"gastos": "159.99",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Moradia #Essencial #Variavel #Roberta"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Extra SJC",
+		"data_evento": "04/03/2020",
+		"gastos": "77.14",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Moradia #Essencial #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Combustível",
+		"data_evento": "05/03/2020",
+		"gastos": "108.46",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Carro #Combustivel #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Sodimac - compramos mesa e cadeiras",
+		"data_evento": "05/03/2020",
+		"gastos": "384.90",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Moradia #Essencial #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Médico sem fronteiras - DEBITO AUTO",
+		"data_evento": "05/03/2020",
+		"gastos": "41.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Doação #Extra #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Salario",
+		"data_evento": "06/03/2020",
+		"renda": "2650.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Recebimentos #Salario #Nubank"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Cartao Walmart",
+		"data_evento": "08/03/2020",
+		"data_pagamento": "06/03/2020",
+		"gastos": "855.36",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Pagamentos #CartaoDeCredito #Walmart #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Antonia Adeiuda - Quitanda do Sa",
+		"data_evento": "08/03/2020",
+		"gastos": "30.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Lazer #Comida #Variavel #Alimentação"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via TED > CAIXA",
+		"data_evento": "09/03/2020",
+		"gastos": "300.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Transferencia #TED #Nubank #Caixa"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Recebimento via TED < NUBANK",
+		"data_evento": "09/03/2020",
+		"renda": "300.00",
+		"instituicao_financeira": "CAIXA",
+		"tags": "#Recebimentos #TED #Nubank #Caixa"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via TED > ITAU",
+		"data_evento": "09/03/2020",
+		"gastos": "720.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Transferencia #TED #Nubank #Itau"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Recebimento via TED < NUBANK",
+		"data_evento": "09/03/2020",
+		"renda": "720.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Recebimentos #TED #Nubank #Itau"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Assaí",
+		"data_evento": "09/03/2020",
+		"gastos": "91.67",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Moradia #Essencial #Mercado #Alimentação"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Fatura NET CLARO - DEBITO AUTO",
+		"data_evento": "09/03/2020",
+		"gastos": "247.98",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Lazer #TVPaga #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Resgate poupança",
+		"data_evento": "09/03/2020",
+		"renda": "300.00",
+		"instituicao_financeira": "CAIXA",
+		"tags": "#Recebimentos #Poupança #Caixa"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Mercado - Itaquera",
+		"data_evento": "09/03/2020",
+		"gastos": "250.00",
+		"instituicao_financeira": "CAIXA",
+		"tags": "#Itaquera #Essencial #AjudaAlmir #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Entrada prestação casa de Itaquera",
+		"nota": "Venda da casa de itaquera (Dida)",
+		"data_evento": "09/03/2020",
+		"renda": "2500.00",
+		"instituicao_financeira": "INTER",
+		"tags": "#Recebimentos #Prestação #Itaquera #Inter"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "OBRAS > Transferencia via TEV > CAIXA",
+		"nota": "Fazer o beiral na casa de itaquera (Sr Antonio); compra de materiais;",
+		"data_evento": "09/03/2020",
+		"gastos": "70.00",
+		"instituicao_financeira": "CAIXA",
+		"tags": "#Transferencia #TEV #Nubank #Caixa #Itaquera #Obras"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "OBRAS > Transferencia via TED > CAIXA",
+		"nota": "Fazer o beiral na casa de itaquera (Sr Antonio); compra de materiais;",
+		"data_evento": "09/03/2020",
+		"gastos": "2500.00",
+		"instituicao_financeira": "INTER",
+		"tags": "#Transferencia #TED #Nubank #Caixa #Itaquera #Obras"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Financiamento da casa",
+		"data_evento": "09/03/2020",
+		"gastos": "249.34",
+		"instituicao_financeira": "CAIXA",
+		"tags": "#Pagamentos #Emprestimo #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Manutenção CEF",
+		"data_evento": "09/03/2020",
+		"gastos": "42.90",
+		"instituicao_financeira": "CAIXA",
+		"tags": "#Pagamentos #Emprestimo #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Combustível",
+		"data_evento": "09/03/2020",
+		"gastos": "158.04",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Carro #Combustivel #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Cafe do Barao SJC Parque Tecnologico",
+		"data_evento": "09/03/2020",
+		"gastos": "13.80",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Lazer #Comida #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Rendimento",
+		"data_evento": "09/03/2020",
+		"renda": "0.15",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Recebimentos #Rendimentos #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Transferencia via TED > CAIXA",
+		"data_evento": "10/03/2020",
+		"gastos": "20.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Transferencia #TED #Nubank #Caixa"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Recebimento via TED < NUBANK",
+		"data_evento": "10/03/2020",
+		"renda": "20.00",
+		"instituicao_financeira": "CAIXA",
+		"tags": "#Recebimentos #TED #Nubank #Caixa"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Resgate tesouro direto - Rico Corretora",
+		"data_evento": "10/03/2020",
+		"renda": "2500.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Recebimentos #Investimento #Itaquera #Inter"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via BOLETO > NUBANK",
+		"data_evento": "11/03/2020",
+		"gastos": "1000.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Transferencia #Boleto #Nubank #Itau"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Recebimento via BOLETO < ITAU",
+		"data_evento": "11/03/2020",
+		"renda": "1000.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Recebimentos #Boleto #Nubank #Itau"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Cartao NuBank",
+		"data_evento": "11/03/2020",
+		"data_pagamento": "06/03/2020",
+		"gastos": "333.49",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Pagamentos #CartaoDeCredito #Nubank #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "OBRAS > PEDREIRO - BEIRAL ITAQUERA",
+		"data_evento": "13/03/2020",
+		"gastos": "1000.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Transferencia #TED #Nubank #Caixa #Itaquera #Obras"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via BOLETO > NUBANK",
+		"data_evento": "13/03/2020",
+		"gastos": "300.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Transferencia #Boleto #Nubank #Itau"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Recebimento via BOLETO < ITAU",
+		"data_evento": "13/03/2020",
+		"renda": "300.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Recebimentos #Boleto #Nubank #Itau"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Farmácia Farma Leste - Shibata",
+		"nota": "2 termometros digitais",
+		"data_evento": "14/03/2020",
+		"gastos": "39.98",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Remedios #Carlos #Eduardo #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Assaí Atacadista",
+		"data_evento": "14/03/2020",
+		"gastos": "387.48",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Moradia #Essencial #Mercado #Fixo #Alimentação"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Carlos",
+		"data_evento": "15/03/2020",
+		"data_pagamento": "06/03/2020",
+		"gastos": "183.74",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Saude #Convenio #Familia #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Eduardo",
+		"data_evento": "15/03/2020",
+		"data_pagamento": "06/03/2020",
+		"gastos": "183.74",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Saude #Convenio #Familia #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Roberta",
+		"data_evento": "15/03/2020",
+		"data_pagamento": "06/03/2020",
+		"gastos": "232.33",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Saude #Convenio #Familia #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Transferi para minha carteira",
+		"nota": "plano de saude: sao francisco vida R$ 345,00 adicional de primeira mensalidade R$ 15,00 O resto é meu R$ 60,00",
+		"data_evento": "16/03/2020",
+		"gastos": "420.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Transferencia #Carteira #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Farmácia",
+		"nota": "Farmaconde Andromeda perto do vale sul, remedio manipulado para Roberta",
+		"data_evento": "16/03/2020",
+		"gastos": "80.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Remedios #Roberta #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Rendimento",
+		"data_evento": "16/03/2020",
+		"renda": "0.01",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Recebimentos #Rendimentos #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Transferencia via TED > BRADESCO",
+		"data_evento": "17/03/2020",
+		"renda": "250.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Transferencia #TED #Nubank #Roberta"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "OBRAS > Transferencia via TED > CAIXA",
+		"nota": "Fazer o beiral na casa de itaquera (Sr Antonio); compra de materiais;",
+		"data_evento": "17/03/2020",
+		"gastos": "550.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Transferencia #TED #Nubank #Caixa #Itaquera #Obras"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Farmácia Farma Leste - Shibata",
+		"nota": "puran 62,5",
+		"data_evento": "22/03/2020",
+		"gastos": "14.05",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Remedios #Roberta #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "OBRAS > PEDREIRO - BEIRAL ITAQUERA",
+		"data_evento": "23/03/2020",
+		"gastos": "1500.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Transferencia #TED #Nubank #Caixa #Itaquera #Obras"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "OBRAS > Transferencia via TED > CAIXA",
+		"nota": "Fazer o beiral na casa de itaquera (Sr Antonio); compra de materiais;",
+		"data_evento": "23/03/2020",
+		"gastos": "400.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Transferencia #TED #Nubank #Caixa #Itaquera #Obras"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Adiantamento Salarial",
+		"data_evento": "23/03/2020",
+		"renda": "2600.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Recebimentos #Salario #Nubank"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Luz - DEBITO AUTO",
+		"data_evento": "23/03/2020",
+		"gastos": "222.59",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Moradia #Essencial #Fixo #Luz"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via TED > ITAU",
+		"data_evento": "23/03/2020",
+		"gastos": "50.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Transferencia #TED #Nubank #Itau"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Recebimento via TED < NUBANK",
+		"data_evento": "23/03/2020",
+		"renda": "50.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Recebimentos #TED #Nubank #Itau"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Luz - ITAQUERA",
+		"data_evento": "23/03/2020",
+		"gastos": "118.18",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Itaquera #Essencial #AjudaAlmir #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Agua - ITAQUERA",
+		"data_evento": "24/03/2020",
+		"data_pagamento": "23/03/2020",
+		"gastos": "102.06",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Itaquera #Essencial #AjudaAlmir #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata",
+		"data_evento": "26/03/2020",
+		"gastos": "26.23",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata",
+		"data_evento": "26/03/2020",
+		"gastos": "26.90",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Rendimento",
+		"data_evento": "26/03/2020",
+		"renda": "0.08",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Recebimentos #Rendimentos #Variavel"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via TED > ITAU",
+		"data_evento": "30/03/2020",
+		"gastos": "100.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Transferencia #TED #Nubank #Itau"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Recebimento via TED < NUBANK",
+		"data_evento": "30/03/2020",
+		"renda": "100.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Recebimentos #TED #Nubank #Itau"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Sr. Antonio 747,38 Roberta pagou",
+		"data_evento": "30/03/2020",
+		"gastos": "0.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Saude #Convenio #Papai #Fixo #Roberta"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Agua - DEBITO AUTO",
+		"data_evento": "01/04/2020",
+		"gastos": "47.42",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Moradia #Essencial #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "IOF",
+		"data_evento": "02/04/2020",
+		"gastos": "1.92",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Encargos #IOF #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata",
+		"data_evento": "02/04/2020",
+		"gastos": "232.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata - Pizza",
+		"data_evento": "02/04/2020",
+		"gastos": "26.90",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Recebimento via TED < NUBANK",
+		"data_evento": "03/04/2020",
+		"renda": "250.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Recebimentos #TED #Nubank #Itau"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Transferencia via TED > ITAU",
+		"data_evento": "03/04/2020",
+		"gastos": "250.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Transferencia #TED #Nubank #Itau"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Farmácia Farma Leste - Shibata",
+		"nota": "Carlos - fralda 2 pacotes babysec XG 36 por pacote; Eduardo - Montelair;",
+		"data_evento": "05/04/2020",
+		"gastos": "136.83",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Remedios #Eduardo #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata - contém brinquedos",
+		"data_evento": "05/04/2020",
+		"gastos": "441.65",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação #Presentes"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "MultTela - Fechamento de porta",
+		"data_evento": "06/04/2020",
+		"gastos": "114.99",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Moradia #Essencial #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Médico sem fronteiras - DEBITO AUTO",
+		"data_evento": "06/04/2020",
+		"gastos": "41.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Doação #Extra #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Salario",
+		"data_evento": "08/04/2020",
+		"renda": "2621.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Recebimentos #Salario #Nubank"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Recebimento via TED < NUBANK",
+		"data_evento": "08/04/2020",
+		"renda": "1000.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Recebimentos #TED #Nubank #Itau"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via TED > ITAU",
+		"data_evento": "08/04/2020",
+		"gastos": "1000.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Transferencia #TED #Nubank #Itau"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Rendimento",
+		"data_evento": "08/04/2020",
+		"renda": "0.09",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Recebimentos #Rendimentos #Variavel"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via TED > CAIXA",
+		"data_evento": "08/04/2020",
+		"gastos": "300.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Transferencia #TED #Nubank #Caixa"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Recebimento via TED < NUBANK",
+		"data_evento": "08/04/2020",
+		"renda": "300.00",
+		"instituicao_financeira": "CAIXA",
+		"tags": "#Recebimentos #TED #Nubank #Caixa"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Fatura NET CLARO - DEBITO AUTO",
+		"data_evento": "08/04/2020",
+		"gastos": "257.98",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Lazer #TVPaga #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Mercado - Itaquera",
+		"data_evento": "08/04/2020",
+		"gastos": "250.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Itaquera #Essencial #AjudaAlmir #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Combustivel",
+		"data_evento": "08/04/2020",
+		"gastos": "60.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Carro #Combustivel #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Cartao Roberta",
+		"data_evento": "08/04/2020",
+		"gastos": "546.16",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Pagamentos #CartaoDeCredito #Roberta #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Farmácia - byo fórmula",
+		"data_evento": "08/04/2020",
+		"gastos": "87.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Remedios #Creme #Carlos #Eduardo #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Financiamento da casa",
+		"data_evento": "09/04/2020",
+		"gastos": "248.94",
+		"instituicao_financeira": "CAIXA",
+		"tags": "#Pagamentos #Emprestimo #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Manutenção CEF",
+		"data_evento": "09/04/2020",
+		"gastos": "42.90",
+		"instituicao_financeira": "CAIXA",
+		"tags": "#Pagamentos #Emprestimo #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata",
+		"data_evento": "10/04/2020",
+		"gastos": "188.62",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Drop Burguer do Vale",
+		"data_evento": "10/04/2020",
+		"gastos": "55.30",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Lazer #Comida #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Cartao NuBank",
+		"data_evento": "11/04/2020",
+		"data_pagamento": "08/04/2020",
+		"gastos": "83.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Pagamentos #CartaoDeCredito #Nubank #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Entrada prestação casa de Itaquera",
+		"nota": "Venda da casa de itaquera (Dida)",
+		"data_evento": "14/04/2020",
+		"renda": "2500.00",
+		"instituicao_financeira": "INTER",
+		"tags": "#Recebimentos #Prestação #Itaquera #Inter"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Camargo Baterias SJC",
+		"data_evento": "14/04/2020",
+		"gastos": "330.00",
+		"instituicao_financeira": "INTER",
+		"tags": "#Carro #Manutenção #Bateria"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Tokio - Yakisoba",
+		"data_evento": "14/04/2020",
+		"gastos": "19.99",
+		"instituicao_financeira": "INTER",
+		"tags": "#Lazer #Comida #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "PJCONTRATO SERVICOS CONTABEIS LTDA",
+		"data_evento": "15/04/2020",
+		"gastos": "600.00",
+		"instituicao_financeira": "INTER",
+		"tags": "#Pagamentos  #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Carlos",
+		"data_evento": "15/04/2020",
+		"gastos": "183.74",
+		"instituicao_financeira": "INTER",
+		"tags": "#Saude #Convenio #Familia #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Eduardo",
+		"data_evento": "15/04/2020",
+		"gastos": "183.74",
+		"instituicao_financeira": "INTER",
+		"tags": "#Saude #Convenio #Familia #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Roberta",
+		"data_evento": "15/04/2020",
+		"gastos": "247.33",
+		"instituicao_financeira": "INTER",
+		"tags": "#Saude #Convenio #Familia #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata",
+		"data_evento": "15/04/2020",
+		"gastos": "187.58",
+		"instituicao_financeira": "INTER",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Farmácia Pague Menos ",
+		"data_evento": "18/04/2020",
+		"gastos": "35.96",
+		"instituicao_financeira": "INTER",
+		"tags": "#Remedios #Roberta #Carlos #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Cicero",
+		"data_evento": "20/04/2020",
+		"gastos": "345.30",
+		"instituicao_financeira": "INTER",
+		"tags": "#Saude #Convenio #Familia #Cicero #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Adiantamento Salarial",
+		"data_evento": "20/04/2020",
+		"renda": "2600.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Recebimentos #Salario #Nubank #Itau"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Galinha pintadinha",
+		"data_evento": "21/04/2020",
+		"gastos": "18.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Lazer #Comida #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Rendimento",
+		"data_evento": "21/04/2020",
+		"renda": "0.05",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Recebimentos #Rendimentos #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Drop Burguer do Vale",
+		"data_evento": "21/04/2020",
+		"gastos": "59.30",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Lazer #Comida #Variavel"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Recebimento via TED < NUBANK",
+		"data_evento": "22/04/2020",
+		"renda": "150.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Recebimentos #TED #Nubank #Itau"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via TED > ITAU",
+		"data_evento": "22/04/2020",
+		"gastos": "150.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Transferencia #TED #Nubank #Itau"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Luz - DEBITO AUTO",
+		"data_evento": "22/04/2020",
+		"gastos": "201.68",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Moradia #Essencial #Fixo #Luz"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Luz - ITAQUERA",
+		"data_evento": "22/04/2020",
+		"gastos": "108.98",
+		"instituicao_financeira": "INTER",
+		"tags": "#Itaquera #Essencial #AjudaAlmir #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata",
+		"data_evento": "22/04/2020",
+		"gastos": "236.62",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação #Presentes"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Agua - ITAQUERA",
+		"data_evento": "23/04/2020",
+		"data_pagamento": "22/04/2020",
+		"gastos": "93.83",
+		"instituicao_financeira": "INTER",
+		"tags": "#Itaquera #Essencial #AjudaAlmir #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Pansleys House - Disk Marmitex",
+		"data_evento": "25/04/2020",
+		"gastos": "23.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Lazer #Comida #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Assaí Atacadista",
+		"data_evento": "26/04/2020",
+		"gastos": "422.43",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Moradia #Essencial #Mercado #Fixo #Alimentação"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Gas de Cozinha",
+		"data_evento": "29/04/2020",
+		"gastos": "72.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Moradia #Essencial #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata",
+		"data_evento": "29/04/2020",
+		"gastos": "126.56",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Rendimento",
+		"data_evento": "29/04/2020",
+		"renda": "0.61",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Recebimentos #Rendimentos #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Sr. Antonio",
+		"data_evento": "30/04/2020",
+		"gastos": "772.38",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Saude #Convenio #Papai #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Pizza Havena",
+		"data_evento": "01/05/2020",
+		"gastos": "25.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Lazer #Comida #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Tokyo Delivery - Japonese Food",
+		"data_evento": "02/05/2020",
+		"gastos": "39.98",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Lazer #Comida #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "SERASA EXPERIAN - CERTIFICADO DIGITAL",
+		"data_evento": "04/05/2020",
+		"gastos": "155.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Pagamentos  #Variavel #CertificadoDigital"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata",
+		"data_evento": "04/05/2020",
+		"gastos": "99.51",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Agua - DEBITO AUTO",
+		"data_evento": "04/05/2020",
+		"gastos": "47.42",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Moradia #Essencial #Fixo"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Recebimento via TED < NUBANK",
+		"data_evento": "05/05/2020",
+		"renda": "300.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Recebimentos #TED #Nubank #Itau"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via TED > ITAU",
+		"data_evento": "05/05/2020",
+		"gastos": "300.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Transferencia #TED #Nubank #Itau"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Médico sem fronteiras - DEBITO AUTO",
+		"data_evento": "05/05/2020",
+		"gastos": "41.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Doação #Extra #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "IOF",
+		"data_evento": "06/05/2020",
+		"gastos": "0.68",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Encargos #IOF #Variavel #Fixo"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Recebimento via TED < NUBANK",
+		"data_evento": "07/05/2020",
+		"renda": "50.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Recebimentos #TED #Nubank #Itau"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via TED > ITAU",
+		"data_evento": "07/05/2020",
+		"gastos": "50.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Transferencia #TED #Nubank #Itau"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Salario",
+		"data_evento": "08/05/2020",
+		"renda": "2620.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Recebimentos #Salario #Nubank "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Fatura NET CLARO - DEBITO AUTO",
+		"data_evento": "08/05/2020",
+		"gastos": "254.92",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Lazer #TVPaga #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Mercado - Itaquera",
+		"data_evento": "08/05/2020",
+		"data_pagamento": "12/05/2020",
+		"gastos": "250.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Itaquera #Essencial #AjudaAlmir #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Cartao Roberta",
+		"data_evento": "08/05/2020",
+		"gastos": "107.82",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Pagamentos #CartaoDeCredito #Roberta #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Pansleys House - Disk Marmitex",
+		"data_evento": "08/05/2020",
+		"gastos": "37.00",
+		"instituicao_financeira": "INTER",
+		"tags": "#Lazer #Comida #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Financiamento da casa",
+		"data_evento": "09/05/2020",
+		"gastos": "248.55",
+		"instituicao_financeira": "CAIXA",
+		"tags": "#Pagamentos #Emprestimo #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Manutenção CEF",
+		"data_evento": "09/05/2020",
+		"gastos": "42.90",
+		"instituicao_financeira": "CAIXA",
+		"tags": "#Pagamentos #Emprestimo #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Deposito material construçao - antena",
+		"data_evento": "09/05/2020",
+		"gastos": "95.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Lazer #Moradia #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Elshaday - dia das mães",
+		"nota": "Campo dos alemães",
+		"data_evento": "09/05/2020",
+		"gastos": "75.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Lazer #Presentes #Variavel #Roberta"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata - Pizza",
+		"data_evento": "09/05/2020",
+		"gastos": "26.90",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Lazer #Moradia #Mercado #Variavel #Alimentação"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata",
+		"data_evento": "09/05/2020",
+		"gastos": "226.25",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via TED > CAIXA",
+		"data_evento": "11/05/2020",
+		"gastos": "300.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Transferencia #TED #Nubank #Caixa"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Recebimento via TED < NUBANK",
+		"data_evento": "11/05/2020",
+		"renda": "300.00",
+		"instituicao_financeira": "CAIXA",
+		"tags": "#Recebimentos #TED #Nubank #Caixa"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Rendimento",
+		"data_evento": "12/05/2020",
+		"renda": "0.14",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Recebimentos #Rendimentos #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Combustivel",
+		"data_evento": "12/05/2020",
+		"gastos": "60.00",
+		"instituicao_financeira": "INTER",
+		"tags": "#Carro #Combustivel #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Transferi para minha carteira",
+		"data_evento": "12/05/2020",
+		"gastos": "70.00",
+		"instituicao_financeira": "INTER",
+		"tags": "#Transferencia #Carteira #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Supermercado Máximo",
+		"data_evento": "12/05/2020",
+		"gastos": "8.62",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Farmácia Pague Menos ",
+		"nota": "1 Dicloridrato (Carlos) 2 Nasonex - com desconto de cadastro no laboratorio (Eduardo) 1 Dorflex",
+		"data_evento": "12/05/2020",
+		"gastos": "104.64",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Remedios #Eduardo #Carlos #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Carrefour online - Celular Moto G8 Power",
+		"data_evento": "13/05/2020",
+		"gastos": "1289.34",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Lazer #Presentes #Variavel #Eduardo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "ENTRADA RESCIÇÃO DOM ROCK",
+		"nota": "TOTAL DE 5.273,33",
+		"data_evento": "15/05/2020",
+		"renda": "600.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Recebimentos #Salario #Nubank #Rescição"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Carlos",
+		"data_evento": "15/05/2020",
+		"gastos": "183.74",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Saude #Convenio #Familia #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Eduardo",
+		"data_evento": "15/05/2020",
+		"gastos": "183.74",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Saude #Convenio #Familia #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Roberta",
+		"data_evento": "15/05/2020",
+		"gastos": "232.33",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Saude #Convenio #Familia #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Farmácia Farma Leste - Shibata",
+		"nota": "2 fraldas babsec xg - carlos",
+		"data_evento": "15/05/2020",
+		"gastos": "55.98",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Remedios #Carlos #Eduardo #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata - Pizza",
+		"data_evento": "15/05/2020",
+		"gastos": "19.90",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Lazer #Comida #Variavel #Alimentação"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata",
+		"data_evento": "15/05/2020",
+		"gastos": "143.79",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Pansleys House - Disk Marmitex",
+		"data_evento": "18/05/2020",
+		"gastos": "13.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Lazer #Comida #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Transferi para minha carteira",
+		"data_evento": "18/05/2020",
+		"gastos": "20.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Transferencia #Carteira #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Supermercado Maximo",
+		"data_evento": "19/05/2020",
+		"gastos": "29.54",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "ENTRADA RESCIÇÃO DOM ROCK",
+		"nota": "TOTAL DE 5.273,33",
+		"data_evento": "19/05/2020",
+		"renda": "2700.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Recebimentos #Salario #Nubank #Rescição"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Recebimento via TED < NUBANK",
+		"data_evento": "19/05/2020",
+		"renda": "220.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Recebimentos #TED #Nubank #Itau"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via TED > ITAU",
+		"data_evento": "19/05/2020",
+		"gastos": "220.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Transferencia #TED #Nubank #Itau"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Ajuda Almir",
+		"data_evento": "19/05/2020",
+		"gastos": "1000.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Itaquera #Essencial #AjudaAlmir #Variavel #Transferencia #Caixa"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Cicero",
+		"data_evento": "20/05/2020",
+		"gastos": "345.30",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Saude #Convenio #Familia #Cicero #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Luz - ITAQUERA",
+		"data_evento": "21/05/2020",
+		"data_pagamento": "20/05/2020",
+		"gastos": "111.27",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Itaquera #Essencial #AjudaAlmir #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Agua - ITAQUERA",
+		"data_evento": "21/05/2020",
+		"data_pagamento": "20/05/2020",
+		"gastos": "85.59",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Itaquera #Essencial #AjudaAlmir #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Luz - DEBITO AUTO",
+		"data_evento": "22/05/2020",
+		"gastos": "218.37",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Moradia #Essencial #Luz #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "ENTRADA RESCIÇÃO DOM ROCK",
+		"nota": "TOTAL DE 5.273,33",
+		"data_evento": "22/05/2020",
+		"renda": "100.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Recebimentos #Salario #Nubank #Rescição"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata",
+		"data_evento": "22/05/2020",
+		"gastos": "186.51",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Recebimento via TED < NUBANK",
+		"data_evento": "25/05/2020",
+		"renda": "20.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Recebimentos #TED #Nubank #Itau"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via TED > ITAU",
+		"data_evento": "25/05/2020",
+		"gastos": "20.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Transferencia #TED #Nubank #Itau"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Farmácia Pague Menos ",
+		"nota": "1 Dicloridrato (Carlos)",
+		"data_evento": "26/05/2020",
+		"gastos": "17.75",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Remedios #Carlos #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Supermercado Maximo",
+		"data_evento": "26/05/2020",
+		"gastos": "46.64",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "ENTRADA RESCIÇÃO DOM ROCK",
+		"nota": "TOTAL DE 5.273,33",
+		"data_evento": "26/05/2020",
+		"renda": "200.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Recebimentos #Salario #Nubank #Rescição"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Recebimento via TED < NUBANK",
+		"data_evento": "26/05/2020",
+		"renda": "100.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Recebimentos #TED #Nubank #Itau"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via TED > ITAU",
+		"data_evento": "26/05/2020",
+		"gastos": "100.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Transferencia #TED #Nubank #Itau"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Sr. Antonio",
+		"data_evento": "30/05/2020",
+		"data_pagamento": "20/05/2020",
+		"gastos": "822.38",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Saude #Convenio #Papai #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Farmácia Farma Leste - Shibata",
+		"nota": "dicloridrato hidroxizine - carlos 1 pacote fralda babysec",
+		"data_evento": "30/05/2020",
+		"gastos": "46.56",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Remedios #Carlos #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata",
+		"data_evento": "30/05/2020",
+		"gastos": "283.46",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "ENTRADA RESCIÇÃO DOM ROCK",
+		"nota": "TOTAL DE 5.273,33",
+		"data_evento": "30/05/2020",
+		"renda": "1675.02",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Recebimentos #Salario #Nubank #Rescição"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Lojas Otimma SJC",
+		"data_evento": "01/06/2020",
+		"gastos": "131.80",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Presentes #Variavel #Eduardo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Liomar Estacionamento - Lojas Otima",
+		"data_evento": "01/06/2020",
+		"gastos": "3.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Presentes #Variavel #Eduardo #Estacionamento"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Fest  Mania",
+		"data_evento": "01/06/2020",
+		"gastos": "85.55",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Presentes #Variavel #Eduardo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Arena Toys Tda ",
+		"data_evento": "01/06/2020",
+		"gastos": "112.99",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Presentes #Variavel #Eduardo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Mercadinho Vovoli",
+		"data_evento": "01/06/2020",
+		"gastos": "27.67",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Presentes #Variavel #Eduardo #Mercado"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Recebimento via TED < NUBANK",
+		"data_evento": "02/06/2020",
+		"renda": "300.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Recebimentos #TED #Nubank #Itau"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via TED > ITAU",
+		"data_evento": "02/06/2020",
+		"gastos": "300.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Transferencia #TED #Nubank #Itau"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Rendimento",
+		"data_evento": "02/06/2020",
+		"renda": "0.29",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Recebimentos #Rendimentos #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Serttel - zona azul sjc - reembolso",
+		"data_evento": "02/06/2020",
+		"renda": "9.54",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Recebimentos #Reembolso #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Dory Edson Tavares - Cama Elastica",
+		"data_evento": "02/06/2020",
+		"gastos": "120.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Lazer #Eduardo #Aniversario #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Agua - DEBITO AUTO",
+		"data_evento": "04/06/2020",
+		"gastos": "47.42",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Moradia #Essencial #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "PJCONTRATO SERVICOS CONTABEIS LTDA",
+		"data_evento": "05/06/2020",
+		"gastos": "145.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": " #Fixo #Contador"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Recebimento via TED < NUBANK",
+		"data_evento": "05/06/2020",
+		"renda": "100.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Recebimentos #TED #Nubank #Itau"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via TED > ITAU",
+		"data_evento": "05/06/2020",
+		"gastos": "100.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Transferencia #TED #Nubank #Itau"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Rendimento",
+		"data_evento": "05/06/2020",
+		"renda": "0.72",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Recebimentos #Rendimentos #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Pansleys House - Disk Marmitex",
+		"data_evento": "05/06/2020",
+		"gastos": "26.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Lazer #Comida #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Médico sem fronteiras - DEBITO AUTO",
+		"data_evento": "05/06/2020",
+		"gastos": "49.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Doação #Extra #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Salario",
+		"data_evento": "05/06/2020",
+		"renda": "9006.67",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Recebimentos #Salario #Nubank "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata",
+		"data_evento": "05/06/2020",
+		"gastos": "272.52",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Pizza - Hilda da Piedade Moreira",
+		"data_evento": "07/06/2020",
+		"gastos": "52.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Lazer #Comida #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Fatura NET CLARO - DEBITO AUTO",
+		"data_evento": "08/06/2020",
+		"gastos": "19.98",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Lazer #TVPaga #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Fatura VIVOFIBRA INTERNET",
+		"data_evento": "08/06/2020",
+		"gastos": "81.32",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Lazer #TVPaga #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Cartao Roberta",
+		"data_evento": "08/06/2020",
+		"gastos": "248.35",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Pagamentos #CartaoDeCredito #Roberta #Fixo"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via TED > CAIXA",
+		"data_evento": "08/06/2020",
+		"gastos": "150.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Transferencia #TED #Nubank #Caixa"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Recebimento via TED < NUBANK",
+		"data_evento": "08/06/2020",
+		"renda": "150.00",
+		"instituicao_financeira": "CAIXA",
+		"tags": "#Recebimentos #TED #Nubank #Caixa"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Transferi para investimento",
+		"data_evento": "09/06/2020",
+		"gastos": "2000.00",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Transferencia #Investimento #Variavel "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "SOS Familias do Sertao",
+		"nota": "sosfamiliasdosertao.org",
+		"data_evento": "09/06/2020",
+		"gastos": "500.00",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Doação #Extra #Variavel "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Financiamento da casa",
+		"data_evento": "09/06/2020",
+		"gastos": "107.04",
+		"instituicao_financeira": "CAIXA",
+		"tags": "#Pagamentos #Emprestimo #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Manutenção CEF",
+		"data_evento": "09/06/2020",
+		"gastos": "42.90",
+		"instituicao_financeira": "CAIXA",
+		"tags": "#Pagamentos #Emprestimo #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Supermercado Maximo ",
+		"data_evento": "11/06/2020",
+		"gastos": "60.60",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Cartao NuBank",
+		"data_evento": "12/06/2020",
+		"gastos": "127.50",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Pagamentos #CartaoDeCredito #Nubank #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Assaí Atacadista",
+		"data_evento": "13/06/2020",
+		"gastos": "625.92",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Moradia #Essencial #Mercado #Fixo #Alimentação "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Carlos",
+		"data_evento": "15/06/2020",
+		"gastos": "183.74",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Saude #Convenio #Familia #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Eduardo",
+		"data_evento": "15/06/2020",
+		"gastos": "183.74",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Saude #Convenio #Familia #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Roberta",
+		"data_evento": "15/06/2020",
+		"gastos": "262.33",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Saude #Convenio #Familia #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Carrefour online - Celular Moto G8 Power",
+		"nota": "***NAO OUVIR MAIS NENHUMA OPINIAO EXTERNA A RESPEITO DE DINHEIRO, PEDI REEMBOLSO DE UM PRODUTO MELHOR PARA COMPRAR UM PRODUTO PIOR PELO MESMO PREÇO*** Smartphone Motorola Moto G8 Power 64GB Azul Atlântico 4G DE RAM Tela 6,4 Câmera Quadrupla 16MP Dual Chip Android 10",
+		"data_evento": "17/06/2020",
+		"renda": "1289.34",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Lazer #Presentes #Variavel #Eduardo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Mercadolivre - Celular Redmi 8 32GB",
+		"nota": "***NAO OUVIR MAIS NENHUMA OPINIAO EXTERNA A RESPEITO DE DINHEIRO, PEDI REEMBOLSO DE UM PRODUTO MELHOR PARA COMPRAR UM PRODUTO PIOR PELO MESMO PREÇO*** Xiaomi Redmi 8 Dual Sim 32 Gb Azul-safira 3 Gb Ram Android 9 com Garantia estendida",
+		"data_evento": "18/06/2020",
+		"gastos": "1215.41",
+		"instituicao_financeira": "CAIXA",
+		"tags": "#Lazer #Presentes #Variavel #Eduardo #Reembolso"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "1a. parcela do seguro-desemprego",
+		"data_evento": "17/06/2020",
+		"renda": "1814.00",
+		"instituicao_financeira": "CAIXA",
+		"tags": "#Recebimentos #Caixa #SeguroDesemprego"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata",
+		"data_evento": "18/06/2020",
+		"gastos": "273.22",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Farmácia Pague Menos SJC Bosque",
+		"nota": "Montelair 4mg ",
+		"data_evento": "18/06/2020",
+		"gastos": "80.35",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Remedios #Eduardo #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Farmácia Pague Menos SJC Bosque",
+		"nota": "2 Dicloridrato Hidroxizilne Xarope para Carlos",
+		"data_evento": "19/06/2020",
+		"gastos": "37.40",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Remedios #Carlos #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Cicero",
+		"data_evento": "20/06/2020",
+		"gastos": "345.30",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Saude #Convenio #Familia #Cicero #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Pizza - krueger lanches",
+		"data_evento": "21/06/2020",
+		"gastos": "54.90",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Lazer #Comida #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Luz - ITAQUERA",
+		"data_evento": "21/06/2020",
+		"data_pagamento": "17/06/2020",
+		"gastos": "109.70",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Itaquera #Essencial #AjudaAlmir #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Agua - ITAQUERA",
+		"data_evento": "21/06/2020",
+		"data_pagamento": "17/06/2020",
+		"gastos": "85.59",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Itaquera #Essencial #AjudaAlmir #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Resgate CDB Inter",
+		"data_evento": "22/06/2020",
+		"renda": "6067.13",
+		"instituicao_financeira": "INTER",
+		"tags": "#Recebimentos #Inter #CDB"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via TED > ITAU",
+		"data_evento": "22/06/2020",
+		"gastos": "890.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Transferencia #TED #Inter #Itau"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Recebimento via TED < INTER",
+		"data_evento": "22/06/2020",
+		"renda": "890.00",
+		"instituicao_financeira": "INTER",
+		"tags": "#Recebimentos #TED #Inter #Itau"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via TED > CAIXA",
+		"data_evento": "22/06/2020",
+		"gastos": "610.00",
+		"instituicao_financeira": "CAIXA",
+		"tags": "#Transferencia #TED #Inter #Caixa"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Recebimento via TED < INTER",
+		"data_evento": "22/06/2020",
+		"renda": "610.00",
+		"instituicao_financeira": "INTER",
+		"tags": "#Recebimentos #TED #Inter #Caixa"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via TED > ITAU",
+		"data_evento": "22/06/2020",
+		"gastos": "250.00",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Transferencia #TED #C6Bank #Itau "
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Recebimento via TED < C6BANK",
+		"data_evento": "22/06/2020",
+		"renda": "250.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Recebimentos #TED #C6Bank #Itau"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Supermercado Maximo ",
+		"data_evento": "22/06/2020",
+		"gastos": "16.42",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Ajuda Almir",
+		"data_evento": "23/06/2020",
+		"gastos": "7500.00",
+		"instituicao_financeira": "INTER",
+		"tags": "#AjudaAlmir"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Luz - DEBITO AUTO",
+		"data_evento": "24/06/2020",
+		"gastos": "254.64",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Moradia #Essencial #Luz #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Combustivel",
+		"data_evento": "25/06/2020",
+		"gastos": "60.00",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Carro #Combustivel #Variavel "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata",
+		"data_evento": "25/06/2020",
+		"gastos": "274.45",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Motorola Online - Motorola One Action",
+		"nota": "Motorola One Action 128GB 4GB Ram Android 9",
+		"data_evento": "26/06/2020",
+		"gastos": "1379.08",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Lazer #Presentes #Variavel #Cicero "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Pizza - Havena",
+		"data_evento": "26/06/2020",
+		"gastos": "58.00",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Lazer #Comida #Variavel "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Supermercado Maximo ",
+		"data_evento": "30/06/2020",
+		"gastos": "60.02",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Sr. Antonio",
+		"data_evento": "30/06/2020",
+		"data_pagamento": "15/06/2020",
+		"gastos": "802.38",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Saude #Convenio #Papai #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Agua - DEBITO AUTO",
+		"data_evento": "02/07/2020",
+		"gastos": "47.42",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Moradia #Essencial #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Recarga TIM Roberta 12 981575395",
+		"data_evento": "02/07/2020",
+		"gastos": "15.00",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Variavel #Recarga #TIM "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Recarga TIM Cicero 11 948825242",
+		"data_evento": "02/07/2020",
+		"gastos": "20.00",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Variavel #Recarga #TIM "
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via TED > ITAU",
+		"data_evento": "02/07/2020",
+		"gastos": "250.00",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Transferencia #TED #C6Bank #Itau "
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Recebimento via TED < C6BANK",
+		"data_evento": "02/07/2020",
+		"renda": "250.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Recebimentos #TED #C6Bank #Itau"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata",
+		"data_evento": "03/07/2020",
+		"gastos": "333.38",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Deposito material construçao - canos",
+		"data_evento": "03/07/2020",
+		"gastos": "165.90",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Lazer #Moradia #Variavel "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata - 4 Hot Dog com refri",
+		"data_evento": "03/07/2020",
+		"gastos": "14.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Lazer #Comida #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Pizza Havena",
+		"data_evento": "04/07/2020",
+		"gastos": "59.60",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Lazer #Comida #Variavel "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "PJCONTRATO SERVICOS CONTABEIS LTDA",
+		"data_evento": "05/07/2020",
+		"data_pagamento": "02/07/2020",
+		"gastos": "145.00",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Fixo #Contador  "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Médico sem fronteiras - DEBITO AUTO",
+		"data_evento": "06/07/2020",
+		"gastos": "49.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Doação #Extra #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Salario",
+		"data_evento": "07/07/2020",
+		"renda": "9650.00",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Recebimentos #Salario #Nubank "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Fatura NET CLARO - DEBITO AUTO",
+		"data_evento": "08/07/2020",
+		"gastos": "106.77",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Lazer #TVPaga #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Fatura VIVOFIBRA INTERNET",
+		"data_evento": "08/07/2020",
+		"gastos": "134.99",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Lazer #TVPaga #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Cartao Roberta",
+		"data_evento": "08/07/2020",
+		"gastos": "313.84",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Pagamentos #CartaoDeCredito #Roberta #Fixo "
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via TED > CAIXA",
+		"data_evento": "08/07/2020",
+		"gastos": "150.00",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Transferencia #TED #C6Bank #Itau "
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Recebimento via TED < C6BANK",
+		"data_evento": "08/07/2020",
+		"renda": "150.00",
+		"instituicao_financeira": "CAIXA",
+		"tags": "#Recebimentos #TED #C6Bank #Itau"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Venda Ações OIBR3 - Rico Corretora",
+		"data_evento": "09/07/2020",
+		"renda": "470.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Recebimentos #Investimento #Nubank"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Transferencia Recebida - Roberta",
+		"data_evento": "09/07/2020",
+		"renda": "445.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Recebimentos #Transferencia #Nubank #Roberta"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Transferencia Recebida - Roberta",
+		"data_evento": "09/07/2020",
+		"renda": "600.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Recebimentos #Transferencia #Nubank #Roberta"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Rendimento",
+		"data_evento": "09/07/2020",
+		"renda": "0.05",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Recebimentos #Rendimentos #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Financiamento da casa",
+		"data_evento": "09/07/2020",
+		"data_pagamento": "08/07/2020",
+		"gastos": "106.93",
+		"instituicao_financeira": "CAIXA",
+		"tags": "#Pagamentos #Emprestimo #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Manutenção CEF",
+		"data_evento": "09/07/2020",
+		"data_pagamento": "08/07/2020",
+		"gastos": "42.90",
+		"instituicao_financeira": "CAIXA",
+		"tags": "#Pagamentos #Emprestimo #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Farmácia Pague Menos SJC Bosque",
+		"nota": "2 Dicloridrato Hidroxizilne Xarope para Carlos e Eduardo 18,70 cada Tarfic 0,03mg para Carlos e Eduardo 178,35",
+		"data_evento": "09/07/2020",
+		"gastos": "215.65",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Remedios #Carlos #Eduardo #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "TFE: Taxa de Fiscalização de Estabelecimento ",
+		"nota": "taxa anual 818500000011 698457 012004 710060001030 980700299314",
+		"data_evento": "10/07/2020",
+		"data_pagamento": "08/07/2020",
+		"gastos": "169.84",
+		"instituicao_financeira": "C6BANK",
+		"tags": "  #Variavel "
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via TED > ITAU",
+		"data_evento": "10/07/2020",
+		"gastos": "200.00",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Transferencia #TED #C6Bank #Itau "
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Recebimento via TED < C6BANK",
+		"data_evento": "10/07/2020",
+		"renda": "200.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Recebimentos #TED #C6Bank #Itau"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Assaí Atacadista",
+		"data_evento": "11/07/2020",
+		"gastos": "501.17",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Moradia #Essencial #Mercado #Fixo #Alimentação "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata - 4 Hot Dog com refri",
+		"data_evento": "11/07/2020",
+		"gastos": "14.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Lazer #Comida #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata",
+		"data_evento": "11/07/2020",
+		"gastos": "43.33",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Cobasi",
+		"data_evento": "11/07/2020",
+		"gastos": "24.50",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Lazer #Roberta #Aquario #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Cartao NuBank",
+		"data_evento": "12/07/2020",
+		"data_pagamento": "08/07/2020",
+		"gastos": "208.22",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Pagamentos #CartaoDeCredito #Nubank #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata - 4 Hot Dog SEM REFRI",
+		"data_evento": "12/07/2020",
+		"gastos": "10.00",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Lazer #Comida #Variavel "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata",
+		"data_evento": "12/07/2020",
+		"gastos": "92.58",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação "
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via TED > ITAU",
+		"data_evento": "13/07/2020",
+		"gastos": "100.00",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Transferencia #TED #C6Bank #Itau "
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Recebimento via TED < C6BANK",
+		"data_evento": "13/07/2020",
+		"renda": "100.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Recebimentos #TED #C6Bank #Itau"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "2a. parcela do seguro-desemprego",
+		"data_evento": "13/07/2020",
+		"renda": "1814.00",
+		"instituicao_financeira": "CAIXA",
+		"tags": "#Recebimentos #Caixa #SeguroDesemprego"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via TED > CAIXA",
+		"nota": "FGTS da Roberta - Saque Emergencial Pandemia Coronavirus",
+		"data_evento": "14/07/2020",
+		"gastos": "1045.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Transferencia #TED #Nubank #Caixa #Roberta"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Recebimento via TED < NUBANK",
+		"nota": "FGTS da Roberta - Saque Emergencial Pandemia Coronavirus",
+		"data_evento": "14/07/2020",
+		"renda": "1045.00",
+		"instituicao_financeira": "CAIXA",
+		"tags": "#Recebimentos #TED #Nubank #Caixa #Roberta"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via BOLETO > NUBANK",
+		"data_evento": "14/07/2020",
+		"gastos": "1814.00",
+		"instituicao_financeira": "CAIXA",
+		"tags": "#Transferencia #Boleto #Nubank #Caixa"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Recebimento via BOLETO  < CAIXA",
+		"data_evento": "14/07/2020",
+		"renda": "1814.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Recebimentos #Boleto #Nubank #Caixa"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Financiamento da casa - amortização",
+		"data_evento": "09/07/2020",
+		"gastos": "1045.00",
+		"instituicao_financeira": "CAIXA",
+		"tags": "#Pagamentos #Emprestimo #Variavel #Roberta"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Transferi para investimento",
+		"data_evento": "15/07/2020",
+		"gastos": "1814.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Transferencia #Investimento #Variavel #Clear #FIIs"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Carlos",
+		"data_evento": "15/07/2020",
+		"gastos": "183.74",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Saude #Convenio #Familia #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Eduardo",
+		"data_evento": "15/07/2020",
+		"gastos": "183.74",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Saude #Convenio #Familia #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Roberta",
+		"data_evento": "15/07/2020",
+		"gastos": "232.33",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Saude #Convenio #Familia #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Estacionamento - Prontil",
+		"nota": "Carlos deslocou o braço",
+		"data_evento": "16/07/2020",
+		"gastos": "6.50",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Carro #Estacionamento #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Combustivel",
+		"data_evento": "16/07/2020",
+		"gastos": "60.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Carro #Combustivel #Variavel"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via TED > ITAU",
+		"data_evento": "16/07/2020",
+		"gastos": "180.00",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Transferencia #TED #C6Bank #Itau "
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Recebimento via TED < C6BANK",
+		"data_evento": "16/07/2020",
+		"renda": "180.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Recebimentos #TED #C6Bank #Itau"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Supermercado Máximo",
+		"data_evento": "18/07/2020",
+		"gastos": "34.75",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Pansleys House - Disk Marmitex",
+		"data_evento": "18/07/2020",
+		"gastos": "31.00",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Lazer #Comida #Variavel "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Transferi para investimento",
+		"data_evento": "20/07/2020",
+		"gastos": "1400.00",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Transferencia #Investimento #Variavel "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "DAS - Simples Nacional",
+		"data_evento": "20/07/2020",
+		"data_pagamento": "16/07/2020",
+		"gastos": "540.39",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Impostos #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Cicero",
+		"data_evento": "20/07/2020",
+		"data_pagamento": "15/07/2020",
+		"gastos": "345.30",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Saude #Convenio #Familia #Cicero #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "FINANCIAMENTO DA CASA - QUITAÇÃO",
+		"data_evento": "20/07/2020",
+		"gastos": "3139.46",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Pagamentos #Emprestimo #Variavel "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Luz - ITAQUERA",
+		"data_evento": "21/07/2020",
+		"data_pagamento": "13/07/2020",
+		"gastos": "54.71",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Itaquera #Essencial #AjudaAlmir #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Agua - ITAQUERA",
+		"data_evento": "21/07/2020",
+		"data_pagamento": "13/07/2020",
+		"gastos": "93.83",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Itaquera #Essencial #AjudaAlmir #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Transferi para Roberta",
+		"nota": "Venda das ações da OIBR3 para ajudar pagamento do celular dela",
+		"data_evento": "22/07/2020",
+		"gastos": "470.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Transferencia #Investimento #Variavel #Roberta"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via TED > ITAU",
+		"data_evento": "22/07/2020",
+		"gastos": "200.00",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Transferencia #TED #C6Bank #Itau "
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Recebimento via TED < C6BANK",
+		"data_evento": "22/07/2020",
+		"renda": "200.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Recebimentos #TED #C6Bank #Itau"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Farmácia Farma Leste - Shibata",
+		"nota": "dicloridrato hidroxizine - carlos 1 pacote fralda babysec",
+		"data_evento": "22/07/2020",
+		"gastos": "74.97",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Remedios #Carlos #Variavel "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata",
+		"data_evento": "22/07/2020",
+		"gastos": "213.53",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Luz - DEBITO AUTO",
+		"data_evento": "23/07/2020",
+		"gastos": "240.46",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Moradia #Essencial #Luz #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata - Pizza",
+		"nota": "2 pizzas",
+		"data_evento": "24/07/2020",
+		"gastos": "58.80",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Lazer #Moradia #Mercado #Variavel #Alimentação "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata",
+		"data_evento": "24/07/2020",
+		"gastos": "56.97",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "COMBO 2 Refis Purificadores de Água Consul",
+		"nota": "COMBO 2 Refis originais (CIX06) para Purificadores de Água Consul CPC31, CPB34 CJ-CIK04AX",
+		"data_evento": "27/07/2020",
+		"gastos": "255.66",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Moradia #Essencial #Cozinha #Variavel "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Recarga TIM Cicero 11 948825242",
+		"data_evento": "27/07/2020",
+		"gastos": "20.00",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Variavel #Recarga #TIM "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata",
+		"data_evento": "28/07/2020",
+		"gastos": "211.16",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Farmácia Farma Leste - Shibata",
+		"nota": "pantoprazol 40mg cx 29; creme pós barba - cicero",
+		"data_evento": "28/07/2020",
+		"gastos": "29.39",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Remedios #Cicero #Variavel "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Farmácia - byo fórmula",
+		"data_evento": "29/07/2020",
+		"gastos": "87.00",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Remedios #Creme #Carlos #Eduardo #Variavel "
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via TED > ITAU",
+		"data_evento": "30/07/2020",
+		"gastos": "640.00",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Transferencia #TED #C6Bank #Itau "
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Recebimento via TED < C6BANK",
+		"data_evento": "30/07/2020",
+		"renda": "640.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Recebimentos #TED #C6Bank #Itau"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Sr. Antonio - Santa Casa SJC",
+		"data_evento": "30/07/2020",
+		"gastos": "747.38",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Saude #Convenio #Papai #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Transferi para investimento - IRPF",
+		"nota": "informativo - 5876,02",
+		"data_evento": "31/07/2020",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Transferencia #Investimento #Variavel #Clear #FIIs"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata - 5 Hot Dog SEM REFRI",
+		"data_evento": "31/07/2020",
+		"gastos": "12.50",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Lazer #Comida #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata",
+		"data_evento": "31/07/2020",
+		"gastos": "92.45",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Agua - DEBITO AUTO",
+		"data_evento": "03/08/2020",
+		"gastos": "47.42",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Moradia #Essencial #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "PJCONTRATO SERVICOS CONTABEIS LTDA",
+		"data_evento": "05/08/2020",
+		"gastos": "199.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Fixo #Contador "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Médico sem fronteiras - DEBITO AUTO",
+		"data_evento": "06/08/2020",
+		"gastos": "49.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Doação #Extra #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Simples Nacional - Onofre - Dom Rock",
+		"data_evento": "06/08/2020",
+		"renda": "1119.40",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Impostos #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Assaí Atacadista",
+		"data_evento": "06/08/2020",
+		"gastos": "249.50",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Moradia #Essencial #Mercado #Fixo #Alimentação "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata - 5 Hot Dog SEM REFRI",
+		"data_evento": "06/08/2020",
+		"gastos": "12.50",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Lazer #Comida #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata",
+		"data_evento": "06/08/2020",
+		"gastos": "91.39",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Farmácia Farma Leste - Shibata",
+		"nota": "2 pacotes com 36 fraldas por pacote babysec XG ",
+		"data_evento": "06/08/2020",
+		"gastos": "55.98",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Remedios #Cicero #Variavel "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Cartao Roberta (ela pagara esse mes)",
+		"data_evento": "08/08/2020",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Pagamentos #CartaoDeCredito #Roberta #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Fatura VIVOFIBRA INTERNET",
+		"data_evento": "08/08/2020",
+		"data_pagamento": "09/08/2020",
+		"gastos": "134.99",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Lazer #TVPaga #Fixo "
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via TED > CAIXA",
+		"data_evento": "10/08/2020",
+		"gastos": "27.18",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Transferencia #TED #Nubank #Caixa"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Recebimento via TED < NUBANK",
+		"data_evento": "10/08/2020",
+		"renda": "27.18",
+		"instituicao_financeira": "CAIXA",
+		"tags": "#Recebimentos #TED #Nubank #Caixa"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Manutenção CEF",
+		"data_evento": "10/08/2020",
+		"gastos": "42.90",
+		"instituicao_financeira": "CAIXA",
+		"tags": "#Pagamentos #Emprestimo #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Supermercado Maximo",
+		"data_evento": "11/08/2020",
+		"gastos": "15.45",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Salario",
+		"data_evento": "11/08/2020",
+		"renda": "9650.00",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Recebimentos #Salario #Nubank "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Cartao NuBank",
+		"data_evento": "11/08/2020",
+		"gastos": "66.88",
+		"instituicao_financeira": "INTER",
+		"tags": "#Pagamentos #CartaoDeCredito #Nubank #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Transferência via TED para Roberta",
+		"nota": "Licenciamento HB20 2020",
+		"data_evento": "12/08/2020",
+		"gastos": "93.87",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Transferencia #TED #Roberta # Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Pizza - krueger lanches",
+		"nota": "2 pizzas e 1 refri",
+		"data_evento": "12/08/2020",
+		"gastos": "59.90",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Lazer #Comida #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata",
+		"data_evento": "13/08/2020",
+		"gastos": "194.57",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Carlos",
+		"data_evento": "15/08/2020",
+		"data_pagamento": "17/08/2020",
+		"gastos": "183.74",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Saude #Convenio #Familia #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Eduardo",
+		"data_evento": "15/08/2020",
+		"data_pagamento": "17/08/2020",
+		"gastos": "183.74",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Saude #Convenio #Familia #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Roberta",
+		"data_evento": "15/08/2020",
+		"data_pagamento": "17/08/2020",
+		"gastos": "247.33",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Saude #Convenio #Familia #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata",
+		"data_evento": "16/08/2020",
+		"gastos": "212.42",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Farmácia Pague Menos SJC Bosque",
+		"nota": "2 Dicloridrato Hidroxizine Xarope para Carlos e Eduardo 18,00 cada, três no total (um foi grátis) 36,00. Antisséptico 14,00. BandAid 17,89",
+		"data_evento": "16/08/2020",
+		"gastos": "67.89",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Remedios #Carlos #Eduardo #Variavel "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Entrada prestação casa de Itaquera",
+		"nota": "Venda da casa de itaquera (Dida)",
+		"data_evento": "18/08/2020",
+		"renda": "2500.00",
+		"instituicao_financeira": "INTER",
+		"tags": "#Recebimentos #Prestação #Itaquera #Inter"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via TED",
+		"data_evento": "18/08/2020",
+		"gastos": "2500.00",
+		"instituicao_financeira": "INTER",
+		"tags": "#Transferencia #TED #Nubank #Inter"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Recebimento via TED ",
+		"data_evento": "18/08/2020",
+		"renda": "2500.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Recebimentos #TED #Nubank #Inter"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Transferi para investimento - Nubank",
+		"data_evento": "18/08/2020",
+		"gastos": "2500.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Transferencia #Investimento #Variavel #Nubank"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "DAS - Simples Nacional - R$ 579,00",
+		"nota": "1119,40 é referente as 2 notas que emiti para ajudar o Onofre da Dom Rock pois ele ainda não podia emitir com o CNPJ dele.",
+		"data_evento": "20/08/2020",
+		"gastos": "1698.40",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Impostos #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Cicero",
+		"data_evento": "20/08/2020",
+		"data_pagamento": "17/08/2020",
+		"gastos": "345.30",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Saude #Convenio #Familia #Cicero #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Luz - ITAQUERA - CANCELADA",
+		"data_evento": "21/08/2020",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Itaquera #Essencial #AjudaAlmir #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Agua - ITAQUERA",
+		"data_evento": "21/08/2020",
+		"gastos": "52.62",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Itaquera #Essencial #AjudaAlmir #Fixo "
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via TED",
+		"data_evento": "21/08/2020",
+		"gastos": "100.00",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Transferencia #TED #C6Bank #Itau"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Recebimento via TED ",
+		"data_evento": "21/08/2020",
+		"renda": "100.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Recebimentos #TED #C6Bank #Itau"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Pansleys House - Disk Marmitex",
+		"data_evento": "21/08/2020",
+		"gastos": "16.00",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Lazer #Comida #Variavel "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Assaí Atacadista",
+		"data_evento": "22/08/2020",
+		"gastos": "221.04",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Moradia #Essencial #Mercado #Fixo #Alimentação "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Luz - DEBITO AUTO",
+		"data_evento": "24/08/2020",
+		"gastos": "207.64",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Moradia #Essencial #Luz #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Rendimento",
+		"data_evento": "24/08/2020",
+		"renda": "0.14",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Recebimentos #Rendimentos #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "3a. parcela do seguro-desemprego",
+		"nota": "Peguei em dinheiro na Caixa pois encerrei a conta (virou conta simples) e depositei no Itau",
+		"data_evento": "25/08/2020",
+		"renda": "1814.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Recebimentos #Itau #SeguroDesemprego"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via BOLETO",
+		"data_evento": "21/08/2020",
+		"gastos": "1814.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Transferencia #Boleto #Nubank #Itau"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Gas de Cozinha",
+		"nota": "Fui buscar: rua do bradesco e ubs",
+		"data_evento": "25/08/2020",
+		"gastos": "60.00",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Moradia #Essencial #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Supermercado Maximo",
+		"data_evento": "25/08/2020",
+		"gastos": "11.64",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Pet Shop - casa rações na cidade jardim",
+		"nota": "3 oleos de neem, 1 pacote 2kg terra vegetal",
+		"data_evento": "25/08/2020",
+		"gastos": "29.90",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Lazer #Jardinagem #Variavel "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Casa de embalagens na salinas",
+		"data_evento": "25/08/2020",
+		"gastos": "11.30",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Lazer #Jardinagem #Variavel "
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Recebimento via BOLETO",
+		"data_evento": "26/08/2020",
+		"renda": "1814.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Recebimentos #TED #Nubank #Itau"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Transferi para investimento - Nubank",
+		"data_evento": "26/08/2020",
+		"gastos": "1814.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Transferencia #Investimento #Variavel #Nubank"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Levitar - sorvetes após passeio de bike",
+		"data_evento": "26/08/2020",
+		"gastos": "20.40",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Lazer #Comida #Variavel "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Supermercado Maximo",
+		"data_evento": "27/08/2020",
+		"gastos": "42.66",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Pet Shop - casa rações na cidade jardim",
+		"nota": "1 pacote 1kg húmus de minhoca",
+		"data_evento": "27/08/2020",
+		"gastos": "5.00",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Lazer #Jardinagem #Variavel "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Pizza - dominus",
+		"nota": "2 pizzas e 1 refri",
+		"data_evento": "28/08/2020",
+		"gastos": "51.00",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Lazer #Comida #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Combustivel",
+		"data_evento": "30/08/2020",
+		"gastos": "60.00",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Carro #Combustivel #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata",
+		"data_evento": "30/08/2020",
+		"gastos": "232.92",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Sr. Antonio - CANCELADO",
+		"nota": "Foi morar na casa da Cida em Itaquera",
+		"data_evento": "30/08/2020",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Saude #Convenio #Papai #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Saída próximo mês",
+		"data_evento": "31/08/2020",
+		"gastos": "5000.00",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Transferencia #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Entrada mês anterior",
+		"data_evento": "01/09/2020",
+		"renda": "5000.00",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Recebimentos #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata",
+		"data_evento": "02/09/2020",
+		"gastos": "122.20",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Farmácia Farma Leste - Shibata",
+		"nota": "1 pct fralda babysec - Carlos",
+		"data_evento": "02/09/2020",
+		"gastos": "28.99",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Remedios #Cicero #Variavel "
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via TED",
+		"data_evento": "03/09/2020",
+		"gastos": "520.32",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Transferencia #TED #Nubank #C6Bank"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via TED",
+		"data_evento": "03/09/2020",
+		"renda": "520.32",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Transferencia #TED #Nubank #C6Bank"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Transferi para investimento - Nubank",
+		"nota": "Sobra do mês anterior",
+		"data_evento": "03/09/2020",
+		"gastos": "520.32",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Transferencia #Investimento #Variavel #Nubank"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Agua - DEBITO AUTO",
+		"data_evento": "03/09/2020",
+		"gastos": "47.56",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Moradia #Essencial #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "PJCONTRATO SERVICOS CONTABEIS LTDA",
+		"data_evento": "03/09/2020",
+		"gastos": "199.00",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Fixo #Contador "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Deposito material construçao - canos",
+		"nota": "Joel Ginel Garcia - Dell Rey [material para horta vertical]",
+		"data_evento": "06/09/2020",
+		"gastos": "61.00",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Lazer #Moradia #Variavel "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata - Pizza",
+		"nota": "2 pizzas",
+		"data_evento": "06/09/2020",
+		"gastos": "59.80",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Lazer #Moradia #Mercado #Variavel #Alimentação "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata",
+		"data_evento": "06/09/2020",
+		"gastos": "102.64",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Cartao Roberta (ela pagara esse mes)",
+		"data_evento": "08/09/2020",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Pagamentos #CartaoDeCredito #Roberta #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Fatura VIVOFIBRA INTERNET",
+		"data_evento": "08/09/2020",
+		"gastos": "134.99",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Lazer #TVPaga #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Assaí Atacadista",
+		"data_evento": "08/09/2020",
+		"gastos": "587.67",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Moradia #Essencial #Mercado #Fixo #Alimentação "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Cartao NuBank",
+		"nota": "fatura não fechou por baixo valor, ficou para o próximo mês",
+		"data_evento": "11/09/2020",
+		"instituicao_financeira": "INTER",
+		"tags": "#Pagamentos #CartaoDeCredito #Nubank #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata",
+		"data_evento": "11/09/2020",
+		"gastos": "106.82",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Carlos",
+		"data_evento": "15/09/2020",
+		"gastos": "183.74",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Saude #Convenio #Familia #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Eduardo",
+		"data_evento": "15/09/2020",
+		"gastos": "183.74",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Saude #Convenio #Familia #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Roberta",
+		"data_evento": "15/09/2020",
+		"gastos": "232.33",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Saude #Convenio #Familia #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "4a. parcela do seguro-desemprego 1814,00",
+		"nota": "Peguei em dinheiro na Caixa pois encerrei a conta (virou conta simples) e depositei no Itau SÓ PRA CONSTAR ",
+		"data_evento": "15/09/2020",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Recebimentos #Itau #SeguroDesemprego"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Supermercado Maximo",
+		"data_evento": "16/09/2020",
+		"gastos": "16.80",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Pansleys House - Disk Marmitex",
+		"data_evento": "18/09/2020",
+		"gastos": "32.00",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Lazer #Comida #Variavel "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata",
+		"data_evento": "18/09/2020",
+		"gastos": "191.36",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "DAS - Simples Nacional - R$ 570,00",
+		"nota": "não emiti nota fiscal no mês passado",
+		"data_evento": "20/09/2020",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Impostos #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Cicero",
+		"data_evento": "20/09/2020",
+		"data_pagamento": "15/09/2020",
+		"gastos": "345.30",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Saude #Convenio #Familia #Cicero #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Nova Canaã (sertão)",
+		"data_evento": "21/09/2020",
+		"gastos": "100.00",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Doação #Extra #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Farmácia Pague Menos SJC Bosque",
+		"nota": "1 cx Enterogermina (com 10 unidades) - Médico gastroenterologista",
+		"data_evento": "21/09/2020",
+		"gastos": "58.49",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Remedios #Cicero #Variavel "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Agua - ITAQUERA",
+		"data_evento": "22/09/2020",
+		"gastos": "54.23",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Itaquera #Essencial #AjudaAlmir #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Loja ALL Star SJC  - 10 Baterias LR44",
+		"data_evento": "22/09/2020",
+		"gastos": "17.00",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Moradia #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "McDonald's Drive Thru - Andrômeda SJC",
+		"nota": "2 combos Big Mac R$ 26,00 cada; 2 McLanches Feliz R$ 21,00 cada; Saindo da quarentena com cuidado!!!",
+		"data_evento": "22/09/2020",
+		"gastos": "94.00",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Lazer #Comida #Variavel "
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via TED",
+		"data_evento": "22/09/2020",
+		"gastos": "220.00",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Transferencia #TED #Itau #C6Bank"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via TED",
+		"data_evento": "22/09/2020",
+		"renda": "220.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Transferencia #TED #Itau #C6Bank"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Combustivel",
+		"data_evento": "23/09/2020",
+		"gastos": "60.00",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Carro #Combustivel #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata",
+		"data_evento": "23/09/2020",
+		"gastos": "155.88",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Recarga TIM Cicero 11 948825242",
+		"data_evento": "24/09/2020",
+		"gastos": "20.00",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Variavel #Recarga #TIM "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Depósito Recarga TIM Cicero 11 948825242",
+		"nota": "Promoção TIM C6Bank - até 50 reais de recarga recebe 10 reais de volta, acima de 50 reais de recarga recebe 20 reais de volta.",
+		"data_evento": "25/09/2020",
+		"renda": "10.00",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Variavel #Recarga #TIM "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Luz - DEBITO AUTO",
+		"data_evento": "25/09/2020",
+		"gastos": "215.86",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Moradia #Essencial #Luz #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Assaí atacadista - compra semanal",
+		"data_evento": "28/09/2020",
+		"gastos": "200.47",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação "
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via TED",
+		"data_evento": "29/09/2020",
+		"gastos": "200.00",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Transferencia #TED #Itau #C6Bank"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via TED",
+		"data_evento": "29/09/2020",
+		"renda": "200.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Transferencia #TED #Itau #C6Bank"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Vakinha online",
+		"nota": "AJUDA PARA ENIVALDO E RILÁVIA QUE PERDERAM A CASA EM UM GOLPE Eram do interior e queriam abrir um hostel em Itanhaém, venderam casa e carro pra isso e perderam tudo. Não tem onde morar... Triste...",
+		"data_evento": "29/09/2020",
+		"gastos": "200.00",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Doação #Extra #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Vakinha online",
+		"nota": "AJUDA Pietro criança",
+		"data_evento": "29/09/2020",
+		"gastos": "100.00",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Doação #Extra #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata",
+		"data_evento": "30/09/2020",
+		"gastos": "171.35",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Farmácia Pague Menos SJC Bosque",
+		"nota": "2 Dicloridrato Hidroxizine Xarope para Carlos e Eduardo 18,70 cada, três no total (um foi grátis) 37,41.",
+		"data_evento": "30/09/2020",
+		"gastos": "37.41",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Remedios #Carlos #Eduardo #Variavel "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Pet Shop - casa rações na cidade jardim",
+		"nota": "Vaso + pratinho + suporte para vaso no chão",
+		"data_evento": "01/10/2020",
+		"gastos": "48.80",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Lazer #Jardinagem #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Agua - DEBITO AUTO",
+		"data_evento": "01/10/2020",
+		"gastos": "49.03",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Moradia #Essencial #Fixo"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via TED",
+		"data_evento": "02/10/2020",
+		"gastos": "100.00",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Transferencia #TED #Itau #C6Bank"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via TED",
+		"data_evento": "02/10/2020",
+		"renda": "100.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Transferencia #TED #Itau #C6Bank"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata - 6 Hot Dog + 1 Refri 2 litros",
+		"data_evento": "02/10/2020",
+		"gastos": "20.99",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Lazer #Comida #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Leroy: Registro de chuveiro",
+		"data_evento": "04/10/2020",
+		"gastos": "101.80",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Moradia # Essencial #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Assaí atacadista - compra semanal",
+		"data_evento": "05/10/2020",
+		"gastos": "151.94",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata",
+		"data_evento": "05/10/2020",
+		"gastos": "52.60",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Salario",
+		"data_evento": "07/10/2020",
+		"renda": "11951.61",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Recebimentos #Salario #Nubank "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Transferi para investimento - Nubank",
+		"nota": "Sobra do mês anterior",
+		"data_evento": "07/10/2020",
+		"gastos": "889.37",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Transferencia #Investimento #Variavel #Nubank"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Cartao Roberta (ela pagara esse mes)",
+		"data_evento": "08/10/2020",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Pagamentos #CartaoDeCredito #Roberta #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Sr. Antonio - São Cristovão",
+		"nota": "Inicio em 08/09/2020",
+		"data_evento": "08/10/2020",
+		"gastos": "554.99",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Saude #Convenio #Papai #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Transferi para investimento",
+		"data_evento": "08/10/2020",
+		"gastos": "863.59",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Transferencia #Investimento #Variavel #Clear #FIIs"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Rendimento",
+		"data_evento": "08/10/2020",
+		"renda": "0.65",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Recebimentos #Rendimentos #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Fatura VIVOFIBRA INTERNET",
+		"data_evento": "08/10/2020",
+		"gastos": "134.99",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Lazer #TVPaga #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Transferi para investimento - Nubank",
+		"data_evento": "09/10/2020",
+		"gastos": "5000.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Transferencia #Investimento #Variavel #Nubank"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Combustivel",
+		"data_evento": "09/10/2020",
+		"gastos": "60.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Carro #Combustivel #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Assaí Atacadista",
+		"data_evento": "09/10/2020",
+		"gastos": "392.09",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Moradia #Essencial #Mercado #Fixo #Alimentação "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata",
+		"data_evento": "11/10/2020",
+		"gastos": "45.10",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata - dia das crianças",
+		"data_evento": "11/10/2020",
+		"gastos": "366.39",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Lazer #Presentes #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Cartao NuBank",
+		"data_evento": "13/10/2020",
+		"gastos": "44.79",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Pagamentos #CartaoDeCredito #Nubank #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Transferi para investimento",
+		"data_evento": "13/10/2020",
+		"gastos": "3000.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Transferencia #Investimento #Variavel #Clear"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "5a. parcela do seguro-desemprego 1814,00",
+		"nota": "Peguei em dinheiro na Caixa pois encerrei a conta (virou conta simples) e depositei no Itau. O restante do dinheiro foi para pagar a manutenção do ar condicionado 180,00 e o resto ficou na minha carteira.",
+		"data_evento": "14/10/2020",
+		"renda": "1500.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Recebimentos #Itau #SeguroDesemprego"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via BOLETO",
+		"data_evento": "14/10/2020",
+		"gastos": "1500.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Transferencia #TED #Itau #Nubank"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via BOLETO",
+		"data_evento": "15/10/2020",
+		"renda": "1500.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Transferencia #TED #Itau #Nubank"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Recarga TIM Cicero 11 948825242",
+		"data_evento": "15/10/2020",
+		"gastos": "20.00",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Variavel #Recarga #TIM "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Pansleys House - Disk Marmitex",
+		"data_evento": "15/10/2020",
+		"gastos": "18.00",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Lazer #Comida #Variavel "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Transferi para Roberta - ajuda para MGLU3",
+		"data_evento": "15/10/2020",
+		"gastos": "1100.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Transferencia #Carteira #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "SD Alimentos e Salgados - 100 coxinhas",
+		"data_evento": "15/10/2020",
+		"gastos": "24.90",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Lazer #Comida #Variavel "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Carlos",
+		"data_evento": "15/10/2020",
+		"gastos": "183.74",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Saude #Convenio #Familia #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Eduardo",
+		"data_evento": "15/10/2020",
+		"gastos": "183.74",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Saude #Convenio #Familia #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Roberta",
+		"data_evento": "15/10/2020",
+		"gastos": "232.33",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Saude #Convenio #Familia #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Assaí atacadista - compra semanal",
+		"data_evento": "16/10/2020",
+		"gastos": "205.22",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Farmácia Pague Menos SJC Bosque",
+		"nota": "2 Salsep 360 (21,60 cada) Carlos e Eduardo; 2 Annita (nitazoxanida) 500mg caixa com 6 comprimidos (50,85 cada) Cicero;",
+		"data_evento": "16/10/2020",
+		"gastos": "144.90",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Remedios #Carlos #Eduardo #Cicero# Variavel "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Entrada prestação casa de Itaquera 2500,00",
+		"nota": "Venda da casa de itaquera (Dida) 1000,00 reais vai para investimentos",
+		"data_evento": "18/08/2020",
+		"renda": "1500.00",
+		"instituicao_financeira": "INTER",
+		"tags": "#Recebimentos #Prestação #Itaquera #Inter"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Nova Canaã (sertão)",
+		"data_evento": "19/10/2020",
+		"gastos": "50.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Doação #Extra #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "NOBILIS CONTABILIDADE",
+		"data_evento": "20/10/2020",
+		"data_pagamento": "19/10/2020",
+		"gastos": "140.00",
+		"instituicao_financeira": "INTER",
+		"tags": "#Fixo #Contador "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "DAS - Simples Nacional",
+		"nota": "atrasado do mês de agosto, culpa da outra contabilidade",
+		"data_evento": "20/10/2020",
+		"data_pagamento": "19/10/2020",
+		"gastos": "638.31",
+		"instituicao_financeira": "INTER",
+		"tags": "#Impostos #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Cicero",
+		"data_evento": "20/10/2020",
+		"data_pagamento": "19/10/2020",
+		"gastos": "345.30",
+		"instituicao_financeira": "INTER",
+		"tags": "#Saude #Convenio #Familia #Cicero #Fixo "
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via TED",
+		"data_evento": "20/10/2020",
+		"gastos": "165.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Transferencia #TED #Inter #Nubank"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via TED",
+		"data_evento": "20/10/2020",
+		"renda": "165.00",
+		"instituicao_financeira": "INTER",
+		"tags": "#Transferencia #TED #Inter #Nubank"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Sr. Antonio - São Cristovão",
+		"data_evento": "20/10/2020",
+		"gastos": "539.99",
+		"instituicao_financeira": "INTER",
+		"tags": "#Saude #Convenio #Papai #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Levitar - sorvetes após passeio de bike",
+		"data_evento": "20/10/2020",
+		"gastos": "22.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Lazer #Comida #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Transf. TED CLEAR  > NUBANK ",
+		"data_evento": "21/10/2020",
+		"renda": "500.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Transferencia #TED #Clear #Corretora #Nubank"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via TED",
+		"data_evento": "21/10/2020",
+		"gastos": "200.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Transferencia #TED #Itau #Nubank"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via TED",
+		"data_evento": "21/10/2020",
+		"renda": "200.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Transferencia #TED #Itau #Nubank"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Agua - ITAQUERA",
+		"data_evento": "22/10/2020",
+		"data_pagamento": "20/10/2020",
+		"gastos": "54.41",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Itaquera #Essencial #AjudaAlmir #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Assaí atacadista - compra semanal",
+		"data_evento": "22/10/2020",
+		"gastos": "121.29",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata",
+		"data_evento": "22/10/2020",
+		"gastos": "89.57",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata",
+		"data_evento": "25/10/2020",
+		"gastos": "36.44",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Luz - DEBITO AUTO",
+		"data_evento": "26/10/2020",
+		"gastos": "244.56",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Moradia #Essencial #Luz #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Transf. TED CLEAR  > NUBANK ",
+		"data_evento": "27/10/2020",
+		"renda": "600.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Transferencia #TED #Clear #Corretora #Nubank"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Combustivel",
+		"data_evento": "27/10/2020",
+		"gastos": "60.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Carro #Combustivel #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata",
+		"data_evento": "27/10/2020",
+		"gastos": "160.96",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Rendimento",
+		"data_evento": "28/10/2020",
+		"renda": "0.11",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Recebimentos #Rendimentos #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Sr. Antonio - Santa Casa SJC",
+		"nota": "última coparticipação",
+		"data_evento": "30/10/2020",
+		"data_pagamento": "29/10/2020",
+		"gastos": "112.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Saude #Convenio #Papai #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Pansleys House - Disk Marmitex",
+		"data_evento": "30/10/2020",
+		"gastos": "26.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Lazer #Comida #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Farmácia Farma Leste - Shibata",
+		"nota": "1 pacote com 36 fraldas  babysec XG 29,00 Carlos; desonida 13,45 Carlos;",
+		"data_evento": "30/10/2020",
+		"gastos": "42.45",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Remedios #Cicero #Variavel "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata",
+		"data_evento": "30/10/2020",
+		"gastos": "138.92",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Levitar - sorvetes após passeio de bike",
+		"data_evento": "02/11/2020",
+		"gastos": "18.25",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Lazer #Comida #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata - churrasco",
+		"data_evento": "02/11/2020",
+		"gastos": "90.18",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Moradia #Lazer #Mercado #Variavel #Alimentação "
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via TED",
+		"data_evento": "03/11/2020",
+		"gastos": "50.00",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Transferencia #TED #Itau #C6Bank"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via TED",
+		"data_evento": "03/11/2020",
+		"renda": "50.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Transferencia #TED #Itau #C6Bank"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Agua - DEBITO AUTO",
+		"data_evento": "03/11/2020",
+		"gastos": "49.03",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Moradia #Essencial #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata",
+		"data_evento": "05/11/2020",
+		"gastos": "191.26",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "100 salgadinhos ",
+		"data_evento": "06/11/2020",
+		"gastos": "31.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Lazer #Comida #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Aquamundy",
+		"data_evento": "07/11/2020",
+		"gastos": "120.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Lazer #Roberta #Aquario #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Frango Assado - Cidade Jardim SJC",
+		"data_evento": "07/11/2020",
+		"gastos": "30.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Lazer #Comida #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Leroy: sifao para o tanque",
+		"data_evento": "08/11/2020",
+		"gastos": "19.79",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Lazer #Piscina #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata",
+		"data_evento": "08/11/2020",
+		"gastos": "31.97",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Cartao Roberta (ela pagara esse mes)",
+		"data_evento": "08/11/2020",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Pagamentos #CartaoDeCredito #Roberta #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Salario",
+		"data_evento": "09/11/2020",
+		"renda": "9500.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Recebimentos #Salario #Nubank"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Recarga TIM Cicero 11 948825242",
+		"data_evento": "09/11/2020",
+		"gastos": "15.00",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Variavel #Recarga #TIM "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Sr. Antonio - São Cristovão",
+		"data_evento": "09/11/2020",
+		"gastos": "539.99",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Saude #Convenio #Papai #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Fatura VIVOFIBRA INTERNET",
+		"data_evento": "09/11/2020",
+		"gastos": "134.99",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Lazer #TVPaga #Fixo "
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via TED",
+		"data_evento": "10/11/2020",
+		"gastos": "650.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Transferencia #TED #Itau #Nubank"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via TED",
+		"data_evento": "10/11/2020",
+		"renda": "650.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Transferencia #TED #Itau #Nubank"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Rendimento",
+		"data_evento": "10/11/2020",
+		"renda": "0.66",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Recebimentos #Rendimentos #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Farmácia Farma Leste - Shibata",
+		"nota": "1 pacote fralda babysec (com 60) - carlos",
+		"data_evento": "10/11/2020",
+		"gastos": "58.48",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Remedios #Carlos #Variavel "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata",
+		"data_evento": "10/11/2020",
+		"gastos": "117.25",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Voaa.me - vaquinha para Matheus",
+		"nota": "Vaquinha para Matheus, criança de 5 anos flagrada recolhendo livros do lixo em Caraguatatuba (SP)",
+		"data_evento": "11/11/2020",
+		"gastos": "200.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Doação #Extra #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Transferi para investimento - Nubank",
+		"data_evento": "11/11/2020",
+		"gastos": "4000.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Transferencia #Investimento #Variavel #Nubank"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Cartao NuBank",
+		"nota": "fatura não fechou por baixo valor, ficou para o próximo mês",
+		"data_evento": "13/11/2020",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Pagamentos #CartaoDeCredito #Nubank #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Pansleys House - Disk Marmitex",
+		"data_evento": "13/11/2020",
+		"gastos": "32.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Lazer #Comida #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Mercadinho Mirassol - pães",
+		"data_evento": "15/11/2020",
+		"gastos": "3.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Assaí Atacadista",
+		"data_evento": "15/11/2020",
+		"gastos": "611.80",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Moradia #Essencial #Mercado #Fixo #Alimentação "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata",
+		"data_evento": "15/11/2020",
+		"gastos": "59.06",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Farmácia Pague Menos SJC Bosque",
+		"nota": "Dicloridrato Hidroxizine Xarope para Carlos e Eduardo 18,70 cada; Sundown praia e piscina fps 50 - 43,99",
+		"data_evento": "15/11/2020",
+		"gastos": "62.69",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Remedios #Carlos #Eduardo #Variavel "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Levitar - sorvetes após passeio de bike",
+		"data_evento": "15/11/2020",
+		"gastos": "23.25",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Lazer #Comida #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Voaa.me - vaquinha criança venezuelana",
+		"nota": "Vaquinha para criança venezuelana pedindo comida para policiais na Bahia",
+		"data_evento": "16/11/2020",
+		"gastos": "200.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Doação #Extra #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Carlos",
+		"data_evento": "15/11/2020",
+		"data_pagamento": "16/11/2020",
+		"gastos": "183.74",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Saude #Convenio #Familia #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Eduardo",
+		"data_evento": "15/11/2020",
+		"data_pagamento": "16/11/2020",
+		"gastos": "183.74",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Saude #Convenio #Familia #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Roberta",
+		"data_evento": "15/11/2020",
+		"data_pagamento": "16/11/2020",
+		"gastos": "232.33",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Saude #Convenio #Familia #Fixo "
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via PIX",
+		"data_evento": "16/11/2020",
+		"gastos": "200.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Transferencia #PIX #Nubank #C6Bank"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via PIX",
+		"data_evento": "16/11/2020",
+		"renda": "200.00",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Transferencia #PIX #Nubank #C6Bank"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Pedagio - UBATUBA - IDA",
+		"nota": "Rodovia Governador Carvalho Pinto, KM 114, Caçapava, SP",
+		"data_evento": "17/11/2020",
+		"gastos": "3.70",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Carro #Pedagio #C6Bank #Lazer #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Recarga TIM Cicero 11 948825242",
+		"data_evento": "17/11/2020",
+		"gastos": "20.00",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Variavel #Recarga #TIM "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Bala de coco gelada - UBATUBA",
+		"data_evento": "17/11/2020",
+		"gastos": "40.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Lazer #Comida #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Aquario - UBATUBA",
+		"data_evento": "18/11/2020",
+		"gastos": "199.60",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Lazer #Passeio #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Sorvetes - UBATUBA",
+		"data_evento": "18/11/2020",
+		"gastos": "18.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Lazer #Comida #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Pedagio - UBATUBA - VOLTA",
+		"nota": "Rodovia dos Tamoios, KM 59, Paraibuna, SP. No KM 16 a Taggy do C6Bank falhou",
+		"data_evento": "18/11/2020",
+		"gastos": "7.60",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Carro #Pedagio #C6Bank #Lazer #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Rendimento",
+		"data_evento": "10/11/2020",
+		"renda": "0.70",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Recebimentos #Rendimentos #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "NOBILIS CONTABILIDADE",
+		"data_evento": "20/11/2020",
+		"data_pagamento": "19/11/2020",
+		"gastos": "140.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Fixo #Contador "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "DAS - Simples Nacional",
+		"data_evento": "20/11/2020",
+		"gastos": "747.10",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Impostos #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Cicero",
+		"data_evento": "20/11/2020",
+		"data_pagamento": "16/11/2020",
+		"gastos": "365.30",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Saude #Convenio #Familia #Cicero #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata",
+		"data_evento": "22/11/2020",
+		"gastos": "186.46",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Costela e Barrigada de porco - Cidade Jardim SJC",
+		"data_evento": "22/11/2020",
+		"gastos": "50.60",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Lazer #Comida #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Agua - ITAQUERA",
+		"data_evento": "24/11/2020",
+		"data_pagamento": "20/11/2020",
+		"gastos": "54.41",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Itaquera #Essencial #AjudaAlmir #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Luz - DEBITO AUTO",
+		"data_evento": "24/11/2020",
+		"gastos": "223.93",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Moradia #Essencial #Luz #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata",
+		"data_evento": "27/11/2020",
+		"gastos": "143.87",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Estacionamento - Miami Park - Gastro",
+		"nota": "Gastro. Rua Esperança, 282, Vila Adyana, São José dos Campos",
+		"data_evento": "26/11/2020",
+		"gastos": "10.50",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Carro #Estacionamento #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Farmácia - byo fórmula",
+		"data_evento": "27/11/2020",
+		"gastos": "90.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Remedios #Creme #Carlos #Eduardo #Variavel "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Farmácia Pague Menos SJC Bosque",
+		"nota": "Dicloridrato Hidroxizine Xarope para Carlos e Eduardo 18,70.",
+		"data_evento": "27/11/2020",
+		"gastos": "18.70",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Remedios #Carlos #Eduardo #Variavel "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Pansleys House - Disk Marmitex",
+		"data_evento": "01/12/2020",
+		"gastos": "29.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Lazer #Comida #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Agua - DEBITO AUTO",
+		"data_evento": "01/12/2020",
+		"gastos": "49.03",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Moradia #Essencial #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Salario - Certsys - 8 dias (12.000)",
+		"data_evento": "01/12/2020",
+		"data_pagamento": "24/11/2020",
+		"renda": "3200.00",
+		"instituicao_financeira": "INTER-PJ",
+		"tags": "#Recebimentos #Salario #Nubank "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Leroy: suporte para tv; dobradiças",
+		"data_evento": "01/12/2020",
+		"gastos": "159.80",
+		"instituicao_financeira": "INTER-PJ",
+		"tags": "#Lazer #Piscina #Variavel "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata",
+		"data_evento": "01/12/2020",
+		"gastos": "198.25",
+		"instituicao_financeira": "INTER-PJ",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação "
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via TED",
+		"data_evento": "02/12/2020",
+		"gastos": "20.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Transferencia #TED #Itau #Nubank"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via TED",
+		"data_evento": "02/12/2020",
+		"renda": "20.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Transferencia #TED #Itau #Nubank"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Recarga TIM Cicero 11 948825242",
+		"data_evento": "04/12/2020",
+		"gastos": "20.00",
+		"instituicao_financeira": "C6BANK",
+		"tags": "#Variavel #Recarga #TIM "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Rendimento",
+		"data_evento": "04/12/2020",
+		"renda": "0.18",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Recebimentos #Rendimentos #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata - Pizza",
+		"nota": "1 pizza",
+		"data_evento": "04/12/2020",
+		"gastos": "28.90",
+		"instituicao_financeira": "INTER-PJ",
+		"tags": "#Lazer #Moradia #Mercado #Variavel #Alimentação "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata",
+		"data_evento": "04/12/2020",
+		"gastos": "61.96",
+		"instituicao_financeira": "INTER-PJ",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Cartao Roberta",
+		"data_evento": "08/12/2020",
+		"gastos": "1190.69",
+		"instituicao_financeira": "INTER-PJ",
+		"tags": "#Pagamentos #CartaoDeCredito #Roberta #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Sr. Antonio - São Cristovão",
+		"data_evento": "08/12/2020",
+		"gastos": "539.99",
+		"instituicao_financeira": "INTER-PJ",
+		"tags": "#Saude #Convenio #Papai #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Fatura VIVOFIBRA INTERNET",
+		"data_evento": "08/12/2020",
+		"gastos": "134.99",
+		"instituicao_financeira": "INTER-PJ",
+		"tags": "#Lazer #TVPaga #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Combustivel",
+		"data_evento": "08/12/2020",
+		"gastos": "60.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Carro #Combustivel #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata",
+		"data_evento": "08/12/2020",
+		"gastos": "197.26",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Farmácia Farma Leste - Shibata",
+		"nota": "2 pacotes de fraldas babysec (com 36) - carlos",
+		"data_evento": "08/12/2020",
+		"gastos": "59.98",
+		"instituicao_financeira": "INTER-PJ",
+		"tags": "#Remedios #Carlos #Variavel "
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via PIX",
+		"data_evento": "08/12/2020",
+		"gastos": "300.00",
+		"instituicao_financeira": "INTER-PJ",
+		"tags": "#Transferencia #PIX #Itau #InterPJ "
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via PIX",
+		"data_evento": "08/12/2020",
+		"renda": "300.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Transferencia #PIX #Itau #InterPJ "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Uniodonto",
+		"data_evento": "10/12/2020",
+		"gastos": "102.00",
+		"instituicao_financeira": "INTER-PJ",
+		"tags": "#Saude #Convenio #Familia #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Pansleys House - Disk Marmitex",
+		"data_evento": "11/12/2020",
+		"gastos": "32.00",
+		"instituicao_financeira": "INTER-PJ",
+		"tags": "#Lazer #Comida #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Cartao NuBank",
+		"data_evento": "11/12/2020",
+		"gastos": "2304.97",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Pagamentos #CartaoDeCredito #Nubank #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Assaí Atacadista",
+		"data_evento": "12/12/2020",
+		"gastos": "545.49",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Moradia #Essencial #Mercado #Fixo #Alimentação "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Farmácia Droga Quinze - Cidade Jardim",
+		"nota": "Dicloridrato de hidroxizina",
+		"data_evento": "12/12/2020",
+		"gastos": "20.90",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Remedios #Carlos #Variavel "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Farmácia Droga Quinze - Andrômeda Posto BR",
+		"nota": "Ducolax e Luftal - para colonoscopia",
+		"data_evento": "12/12/2020",
+		"gastos": "24.65",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Remedios #Cicero #Variavel "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Salario - Tinnova - 13 dias (9.500)",
+		"data_evento": "14/12/2020",
+		"renda": "3983.87",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Recebimentos #Salario #Nubank "
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via PIX",
+		"data_evento": "14/12/2020",
+		"gastos": "3100.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Transferencia #PIX #Nubank #Itau"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via PIX",
+		"data_evento": "14/12/2020",
+		"renda": "3100.00",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Transferencia #PIX #Nubank #Itau"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Carlos",
+		"data_evento": "15/12/2020",
+		"data_pagamento": "16/12/2020",
+		"gastos": "187.47",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Saude #Convenio #Familia #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Eduardo",
+		"data_evento": "15/12/2020",
+		"data_pagamento": "16/12/2020",
+		"gastos": "187.47",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Saude #Convenio #Familia #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Roberta",
+		"data_evento": "15/12/2020",
+		"data_pagamento": "16/12/2020",
+		"gastos": "237.06",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Saude #Convenio #Familia #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Entrada prestação casa de Itaquera",
+		"nota": "Venda da casa de itaquera (Dida)",
+		"data_evento": "17/12/2020",
+		"renda": "2500.00",
+		"instituicao_financeira": "INTER",
+		"tags": "#Recebimentos #Prestação #Itaquera #Inter"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Transferencia via PIX",
+		"data_evento": "17/12/2020",
+		"gastos": "2500.00",
+		"instituicao_financeira": "INTER",
+		"tags": "#Transferencia #PIX #Nubank #Inter"
+	},
+	{
+		"status": "ENTRECONTAS",
+		"descricao": "Recebimento via PIX",
+		"data_evento": "17/12/2020",
+		"renda": "2500.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Recebimentos #PIX #Nubank #Inter"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Transferi para investimento - Nubank",
+		"data_evento": "17/12/2020",
+		"gastos": "2500.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Transferencia #Investimento #Variavel #Nubank"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Convenio Cicero",
+		"data_evento": "20/12/2020",
+		"data_pagamento": "18/12/2020",
+		"gastos": "345.30",
+		"instituicao_financeira": "INTER-PJ",
+		"tags": "#Saude #Convenio #Familia #Cicero #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Resgate Leblon FIC FIA - Rico Corretora",
+		"data_evento": "21/12/2020",
+		"renda": "2246.48",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Recebimentos #Investimento #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "NOBILIS CONTABILIDADE",
+		"data_evento": "21/12/2020",
+		"gastos": "140.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Fixo #Contador "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "DAS - Simples Nacional",
+		"data_evento": "21/12/2020",
+		"gastos": "762.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Impostos #Fixo "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Combustivel",
+		"data_evento": "21/12/2020",
+		"gastos": "60.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Carro #Combustivel #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Ri Happy Brinquedos - Vale Sul Shopping - Natal",
+		"data_evento": "21/12/2020",
+		"gastos": "100.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Lazer #Presentes #Variavel #Natal "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Ri Happy Brinquedos - Vale Sul Shopping - Natal",
+		"data_evento": "21/12/2020",
+		"gastos": "419.95",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Lazer #Presentes #Variavel #Natal "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Estacionamento - Vale Sul Shopping - Natal",
+		"data_evento": "21/12/2020",
+		"gastos": "7.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Carro #Estacionamento #Shopping #Variavel #Natal"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata - Natal",
+		"data_evento": "21/12/2020",
+		"gastos": "266.29",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação #Natal"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Luz - DEBITO AUTO",
+		"data_evento": "23/12/2020",
+		"gastos": "225.75",
+		"instituicao_financeira": "ITAU",
+		"tags": "#Moradia #Essencial #Luz #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Agua - ITAQUERA",
+		"data_evento": "24/12/2020",
+		"data_pagamento": "21/12/2020",
+		"gastos": "54.41",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Itaquera #Essencial #AjudaAlmir #Fixo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata",
+		"data_evento": "24/12/2020",
+		"gastos": "185.24",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata",
+		"data_evento": "29/12/2020",
+		"gastos": "149.08",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Farmácia Farma Leste - Shibata",
+		"nota": "2 pacotes de fraldas babysec (com 36) - carlos",
+		"data_evento": "29/12/2020",
+		"gastos": "59.98",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Remedios #Carlos #Variavel "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Rendimento",
+		"data_evento": "29/12/2020",
+		"renda": "0.40",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Recebimentos #Rendimentos #Variavel"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Shibata - Ano Novo",
+		"data_evento": "31/12/2020",
+		"gastos": "103.41",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação "
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Multi Sabor (Verzillo C Alimentos)",
+		"nota": "Combo: 10 mini churros + 100 salgados + 1 Refri (kuat) 2 litros",
+		"data_evento": "31/12/2020",
+		"gastos": "30.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação #AnoNovo"
+	},
+	{
+		"status": "PAGO",
+		"descricao": "Recarga TIM Cicero 11 948825242",
+		"data_evento": "31/12/2020",
+		"gastos": "15.00",
+		"instituicao_financeira": "NUBANK",
+		"tags": "#Variavel #Recarga #TIM "
+	}
+]

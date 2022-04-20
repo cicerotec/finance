@@ -1,0 +1,90 @@
+[
+	{
+	  "tipo": "GRUPO",
+	  "valor": "RENDA",
+	  "ativo": true
+	},
+	{
+	  "tipo": "GRUPO",
+	  "valor": "GASTOS",
+	  "ativo": true
+	},
+	{
+	  "tipo": "GRUPO",
+	  "valor": "CREDITO",
+	  "ativo": true
+	},
+	{
+	  "tipo": "GRUPO",
+	  "valor": "INVESTIMENTO",
+	  "ativo": true
+	},
+	{
+	  "tipo": "GRUPO",
+	  "valor": "ALUGUEL",
+	  "ativo": true
+	},
+	{
+	  "tipo": "GRUPO",
+	  "valor": "TRANSFERENCIA",
+	  "ativo": true
+	},
+
+	{
+	  "tipo": "INSTITUICAO",
+	  "valor": "SODEXO-ALI-IBM",
+	  "ativo": true
+	},
+	{
+	  "tipo": "INSTITUICAO",
+	  "valor": "C6BANK",
+	  "ativo": true
+	},
+	{
+	  "tipo": "INSTITUICAO",
+	  "valor": "INTER",
+	  "ativo": true
+	},
+	{
+	  "tipo": "INSTITUICAO",
+	  "valor": "NUBANK",
+	  "ativo": true
+	},
+	{
+	  "tipo": "INSTITUICAO",
+	  "valor": "ITAU",
+	  "ativo": true
+	},
+	{
+	  "tipo": "INSTITUICAO",
+	  "valor": "SODEXO-REF-IBM",
+	  "ativo": true
+	},
+	{
+	  "tipo": "INSTITUICAO",
+	  "valor": "SANTANDER",
+	  "ativo": true
+	},
+
+	{
+	  "tipo": "STATUS",
+	  "valor": "ENVIADO",
+	  "ativo": true
+	},
+	{
+	  "tipo": "STATUS",
+	  "valor": "RECEBIDO",
+	  "ativo": true
+	},
+	{
+	  "tipo": "STATUS",
+	  "valor": "PREVISTO",
+	  "ativo": true
+	},
+	{
+	  "tipo": "STATUS",
+	  "valor": "PAGO",
+	  "ativo": true
+	}
+]
+
