@@ -1,7 +1,5 @@
 package br.com.finance.controlefinanceiro.core.document;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
-import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import com.fasterxml.jackson.datatype.jsr310.deser.LocalDateTimeDeserializer;
@@ -10,23 +8,28 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.couchbase.core.mapping.Document;
 import org.springframework.data.couchbase.core.mapping.id.GeneratedValue;
 
-import java.time.LocalDate;
+import java.io.Serializable;
 import java.time.LocalDateTime;
 import java.util.List;
 
 import static org.springframework.data.couchbase.core.mapping.id.GenerationStrategy.UNIQUE;
 
 @Document
-public class ControleFinanceiro {
+public class ControleFinanceiro implements Serializable {
+
+    private static final long serialVersionUID = 1L;
 
     @Id
     @GeneratedValue(strategy = UNIQUE)
     private String id;
 
+    @JsonSerialize(using = LocalDateTimeSerializer.class)
     private LocalDateTime data_de_referencia;
 
+    @JsonSerialize(using = LocalDateTimeSerializer.class)
     private LocalDateTime data_do_evento;
 
+    @JsonSerialize(using = LocalDateTimeSerializer.class)
     private LocalDateTime data_do_pagamento;
 
     private String descricao;

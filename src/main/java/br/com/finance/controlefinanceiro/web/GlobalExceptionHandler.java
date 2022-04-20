@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 public class GlobalExceptionHandler {
 
     private final static String NOT_FOUND = "O id informado não foi encontrado!";
-    private final static String INTERNAL_SERVER_ERROR = "Erro interno do servidor!";
+    private final static String INTERNAL_SERVER_ERROR = "Erro interno do servidor! \n";
 
     @ExceptionHandler(value = {
             NotFoundException.class,
@@ -24,7 +24,7 @@ public class GlobalExceptionHandler {
 
     @ExceptionHandler(value = Exception.class)
     public ResponseEntity exception(Exception exception) {
-        return new ResponseEntity(INTERNAL_SERVER_ERROR, HttpStatus.INTERNAL_SERVER_ERROR);
+        return new ResponseEntity(INTERNAL_SERVER_ERROR + exception.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
     }
 
 }
