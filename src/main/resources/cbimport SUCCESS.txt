@@ -288,5 +288,8 @@ SELECT a.*
 FROM testes a
 WHERE DATE_PART_MILLIS(a.data_de_referencia, 'year') = 2022
     AND DATE_PART_MILLIS(a.data_de_referencia, 'month') = 4
-	AND meta().id = '88bbc724-ea6e-41af-b3d4-4f58e9b27b2b'	
+	AND meta().id = 'a10531bb-dc16-4eb0-a21b-21d841edb8ad'	
 
+SELECT a.*
+FROM testes a
+WHERE meta().id = 'a10531bb-dc16-4eb0-a21b-21d841edb8ad'

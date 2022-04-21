@@ -2,6 +2,7 @@ package br.com.finance.controlefinanceiro.web;
 
 import br.com.finance.controlefinanceiro.core.document.ControleFinanceiro;
 import br.com.finance.controlefinanceiro.service.ControleFinanceiroService;
+import br.com.finance.controlefinanceiro.util.ParamsToDocument;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
@@ -13,6 +14,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Map;
 
 @CrossOrigin(origins = "http://localhost:4200")
 @RestController
@@ -24,6 +26,9 @@ public class ControleFinanceiroController {
 
     @Autowired
     private ControleFinanceiroService service;
+
+    @Autowired
+    private ParamsToDocument paramsToDocument;
 
     @GetMapping("/{id}")
     public ResponseEntity<ControleFinanceiro> getControleFinanceiroById(@PathVariable String id) throws JsonProcessingException {
@@ -57,6 +62,18 @@ public class ControleFinanceiroController {
             @PathVariable Integer mes) throws JsonProcessingException {
         logger.info("Request: GET todos, ano[" + ano + "] mes[" + mes + "]");
         List<ControleFinanceiro> response = service.buscarTodosAnoMes(ano, mes);
+        logger.info("Response: " + objectWriter.writeValueAsString(response));
+        return new ResponseEntity<>(response, HttpStatus.OK);
+    }
+
+    @GetMapping
+    public ResponseEntity<List<ControleFinanceiro>> getControleFinanceiroByParam(
+            @RequestParam Map<String, String> params) throws JsonProcessingException {
+
+        ControleFinanceiro document = paramsToDocument.transform(params, ControleFinanceiro.class);
+
+        logger.info("Request: GET params " + objectWriter.writeValueAsString(document));
+        List<ControleFinanceiro> response = service.buscarPorParametros(document);
         logger.info("Response: " + objectWriter.writeValueAsString(response));
         return new ResponseEntity<>(response, HttpStatus.OK);
     }

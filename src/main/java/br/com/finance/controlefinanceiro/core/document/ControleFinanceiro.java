@@ -1,10 +1,14 @@
 package br.com.finance.controlefinanceiro.core.document;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import com.fasterxml.jackson.datatype.jsr310.deser.LocalDateTimeDeserializer;
 import com.fasterxml.jackson.datatype.jsr310.ser.LocalDateTimeSerializer;
 import org.springframework.data.annotation.Id;
+import org.springframework.data.annotation.Transient;
 import org.springframework.data.couchbase.core.mapping.Document;
 import org.springframework.data.couchbase.core.mapping.id.GeneratedValue;
 
@@ -21,31 +25,67 @@ public class ControleFinanceiro implements Serializable {
 
     @Id
     @GeneratedValue(strategy = UNIQUE)
+    @JsonProperty("id")
     private String id;
 
     @JsonSerialize(using = LocalDateTimeSerializer.class)
-    private LocalDateTime data_de_referencia;
+    @JsonDeserialize(using = LocalDateTimeDeserializer.class)
+    @JsonProperty("data_de_referencia")
+    private LocalDateTime dataReferencia;
+
+    @Transient
+    @JsonInclude(JsonInclude.Include.NON_NULL)
+    @JsonSerialize(using = LocalDateTimeSerializer.class)
+    @JsonDeserialize(using = LocalDateTimeDeserializer.class)
+    @JsonProperty("data_de_referencia_final")
+    private LocalDateTime dataReferenciaFinal;
 
     @JsonSerialize(using = LocalDateTimeSerializer.class)
-    private LocalDateTime data_do_evento;
+    @JsonDeserialize(using = LocalDateTimeDeserializer.class)
+    @JsonProperty("data_do_evento")
+    private LocalDateTime dataEvento;
+
+    @Transient
+    @JsonInclude(JsonInclude.Include.NON_NULL)
+    @JsonSerialize(using = LocalDateTimeSerializer.class)
+    @JsonDeserialize(using = LocalDateTimeDeserializer.class)
+    @JsonProperty("data_do_evento_final")
+    private LocalDateTime dataEventoFinal;
 
     @JsonSerialize(using = LocalDateTimeSerializer.class)
-    private LocalDateTime data_do_pagamento;
+    @JsonDeserialize(using = LocalDateTimeDeserializer.class)
+    @JsonProperty("data_do_pagamento")
+    private LocalDateTime dataPagamento;
 
+    @Transient
+    @JsonInclude(JsonInclude.Include.NON_NULL)
+    @JsonSerialize(using = LocalDateTimeSerializer.class)
+    @JsonDeserialize(using = LocalDateTimeDeserializer.class)
+    @JsonProperty("data_do_pagamento_final")
+    private LocalDateTime dataPagamentoFinal;
+
+    @JsonProperty("descricao")
     private String descricao;
 
+    @JsonProperty("nota")
     private String nota;
 
+    @JsonProperty("renda")
     private Double renda;
 
+    @JsonProperty("gastos")
     private Double gastos;
 
+    @JsonProperty("grupo")
     private List<String> grupo;
 
-    private String instituicao_financeira;
+    @JsonProperty("instituicao_financeira")
+    private String instituicaoFinanceira;
 
+    @JsonProperty("status")
     private String status;
 
+    @JsonProperty("tags")
     private String tags;
 
     public String getId() {
@@ -56,28 +96,52 @@ public class ControleFinanceiro implements Serializable {
         this.id = id;
     }
 
-    public LocalDateTime getData_de_referencia() {
-        return data_de_referencia;
+    public LocalDateTime getDataReferencia() {
+        return dataReferencia;
     }
 
-    public void setData_de_referencia(LocalDateTime data_de_referencia) {
-        this.data_de_referencia = data_de_referencia;
+    public void setDataReferencia(LocalDateTime dataReferencia) {
+        this.dataReferencia = dataReferencia;
     }
 
-    public LocalDateTime getData_do_evento() {
-        return data_do_evento;
+    public LocalDateTime getDataReferenciaFinal() {
+        return dataReferenciaFinal;
     }
 
-    public void setData_do_evento(LocalDateTime data_do_evento) {
-        this.data_do_evento = data_do_evento;
+    public void setDataReferenciaFinal(LocalDateTime dataReferenciaFinal) {
+        this.dataReferenciaFinal = dataReferenciaFinal;
     }
 
-    public LocalDateTime getData_do_pagamento() {
-        return data_do_pagamento;
+    public LocalDateTime getDataEvento() {
+        return dataEvento;
     }
 
-    public void setData_do_pagamento(LocalDateTime data_do_pagamento) {
-        this.data_do_pagamento = data_do_pagamento;
+    public void setDataEvento(LocalDateTime dataEvento) {
+        this.dataEvento = dataEvento;
+    }
+
+    public LocalDateTime getDataEventoFinal() {
+        return dataEventoFinal;
+    }
+
+    public void setDataEventoFinal(LocalDateTime dataEventoFinal) {
+        this.dataEventoFinal = dataEventoFinal;
+    }
+
+    public LocalDateTime getDataPagamento() {
+        return dataPagamento;
+    }
+
+    public void setDataPagamento(LocalDateTime dataPagamento) {
+        this.dataPagamento = dataPagamento;
+    }
+
+    public LocalDateTime getDataPagamentoFinal() {
+        return dataPagamentoFinal;
+    }
+
+    public void setDataPagamentoFinal(LocalDateTime dataPagamentoFinal) {
+        this.dataPagamentoFinal = dataPagamentoFinal;
     }
 
     public String getDescricao() {
@@ -120,12 +184,12 @@ public class ControleFinanceiro implements Serializable {
         this.grupo = grupo;
     }
 
-    public String getInstituicao_financeira() {
-        return instituicao_financeira;
+    public String getInstituicaoFinanceira() {
+        return instituicaoFinanceira;
     }
 
-    public void setInstituicao_financeira(String instituicao_financeira) {
-        this.instituicao_financeira = instituicao_financeira;
+    public void setInstituicaoFinanceira(String instituicaoFinanceira) {
+        this.instituicaoFinanceira = instituicaoFinanceira;
     }
 
     public String getStatus() {

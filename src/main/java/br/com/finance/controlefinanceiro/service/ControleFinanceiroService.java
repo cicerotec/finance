@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.awt.print.Pageable;
+import java.time.LocalDateTime;
 import java.util.List;
 
 @Service
@@ -28,6 +29,10 @@ public class ControleFinanceiroService {
 
     public List<ControleFinanceiro> buscarTodosAnoMes(Integer ano, Integer mes) {
         return business.buscarTodosAnoMes(ano, mes);
+    }
+
+    public List<ControleFinanceiro> buscarPorParametros(ControleFinanceiro document) {
+        return business.buscarPorParametros(document);
     }
 
     public ControleFinanceiro adicionar(ControleFinanceiro controleFinanceiro) {

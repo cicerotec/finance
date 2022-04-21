@@ -7,9 +7,7 @@ import br.com.finance.controlefinanceiro.util.NotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 
 @Component
 public class ControleFinanceiroBusiness {
@@ -34,6 +32,35 @@ public class ControleFinanceiroBusiness {
 
     public List<ControleFinanceiro> buscarTodosAnoMes(Integer ano, Integer mes) {
         return nativeQueryRepository.findAllAnoMes(ano, mes);
+    }
+
+    public List<ControleFinanceiro> buscarPorParametros(ControleFinanceiro document) {
+        List<ControleFinanceiro> result = new ArrayList<>();
+        //Data de referencia
+        if (Objects.nonNull(document.getDataReferencia()) && Objects.nonNull(document.getDataReferenciaFinal())) {
+            result = Optional.ofNullable(
+                    repository.findByDataReferenciaBetween(
+                            document.getDataReferencia(),
+                            document.getDataReferenciaFinal()))
+                    .orElseThrow(NotFoundException::new);
+        }
+        //Data do evento
+        if (Objects.nonNull(document.getDataEvento()) && Objects.nonNull(document.getDataEventoFinal())) {
+            result = Optional.ofNullable(
+                            repository.findByDataEventoBetween(
+                                    document.getDataEvento(),
+                                    document.getDataEventoFinal()))
+                    .orElseThrow(NotFoundException::new);
+        }
+        //Data do pagamento
+        if (Objects.nonNull(document.getDataPagamento()) && Objects.nonNull(document.getDataPagamentoFinal())) {
+            result = Optional.ofNullable(
+                            repository.findByDataPagamentoBetween(
+                                    document.getDataPagamento(),
+                                    document.getDataPagamentoFinal()))
+                    .orElseThrow(NotFoundException::new);
+        }
+        return result;
     }
 
     public ControleFinanceiro adicionar(ControleFinanceiro controleFinanceiro) {
