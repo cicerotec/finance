@@ -38,28 +38,27 @@ public class ControleFinanceiroBusiness {
         List<ControleFinanceiro> result = new ArrayList<>();
         //Data de referencia
         if (Objects.nonNull(document.getDataReferencia()) && Objects.nonNull(document.getDataReferenciaFinal())) {
-            result = Optional.ofNullable(
-                    repository.findByDataReferenciaBetween(
-                            document.getDataReferencia(),
-                            document.getDataReferenciaFinal()))
-                    .orElseThrow(NotFoundException::new);
+            result = repository.findByDataReferenciaBetween(
+                    document.getDataReferencia(),
+                    document.getDataReferenciaFinal());
         }
         //Data do evento
         if (Objects.nonNull(document.getDataEvento()) && Objects.nonNull(document.getDataEventoFinal())) {
-            result = Optional.ofNullable(
-                            repository.findByDataEventoBetween(
-                                    document.getDataEvento(),
-                                    document.getDataEventoFinal()))
-                    .orElseThrow(NotFoundException::new);
+            result = repository.findByDataEventoBetween(
+                    document.getDataEvento(),
+                    document.getDataEventoFinal());
         }
         //Data do pagamento
         if (Objects.nonNull(document.getDataPagamento()) && Objects.nonNull(document.getDataPagamentoFinal())) {
-            result = Optional.ofNullable(
-                            repository.findByDataPagamentoBetween(
-                                    document.getDataPagamento(),
-                                    document.getDataPagamentoFinal()))
-                    .orElseThrow(NotFoundException::new);
+            result = repository.findByDataPagamentoBetween(
+                    document.getDataPagamento(),
+                    document.getDataPagamentoFinal());
         }
+
+        if (result.isEmpty()) {
+            throw new NotFoundException();
+        }
+
         return result;
     }
 

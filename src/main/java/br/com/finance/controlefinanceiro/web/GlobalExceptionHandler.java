@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 @ControllerAdvice
 public class GlobalExceptionHandler {
 
-    private final static String NOT_FOUND = "O id informado não foi encontrado!";
+    private final static String NOT_FOUND = "Nenhum registro encontrado!";
     private final static String INTERNAL_SERVER_ERROR = "Erro interno do servidor! \n";
 
     @ExceptionHandler(value = {
