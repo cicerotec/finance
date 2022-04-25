@@ -13,6 +13,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 @CrossOrigin(origins = "http://localhost:4200")
 @RestController
@@ -40,6 +41,16 @@ public class ConteudoController {
         List<Conteudo> response = service.buscarPorTipo(upperTipo);
         logger.info("Response: " + objectWriter.writeValueAsString(response));
         return new ResponseEntity<>(response, HttpStatus.OK);
+    }
+
+    @GetMapping("/tipo/{tipo}/valor")
+    public ResponseEntity<List<String>> getConteudoByTipoResultValor(@PathVariable String tipo) throws JsonProcessingException {
+        String upperTipo = tipo.toUpperCase();
+        logger.info("Request: GET tipo[" + upperTipo + "]");
+        List<Conteudo> response = service.buscarPorTipo(upperTipo);
+        List<String> strings = response.stream().map(Conteudo::getValor).sorted().collect(Collectors.toList());
+        logger.info("Response: " + objectWriter.writeValueAsString(strings));
+        return new ResponseEntity<>(strings, HttpStatus.OK);
     }
 
     @GetMapping("/todos")

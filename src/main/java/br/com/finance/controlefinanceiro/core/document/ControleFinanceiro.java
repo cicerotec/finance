@@ -1,6 +1,5 @@
 package br.com.finance.controlefinanceiro.core.document;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
@@ -76,8 +75,8 @@ public class ControleFinanceiro implements Serializable {
     @JsonProperty("gastos")
     private Double gastos;
 
-    @JsonProperty("grupo")
-    private List<String> grupo;
+    @JsonProperty("grupos")
+    private List<String> grupos;
 
     @JsonProperty("instituicao_financeira")
     private String instituicaoFinanceira;
@@ -86,7 +85,7 @@ public class ControleFinanceiro implements Serializable {
     private String status;
 
     @JsonProperty("tags")
-    private String tags;
+    private List<String> tags;
 
     public String getId() {
         return id;
@@ -176,12 +175,12 @@ public class ControleFinanceiro implements Serializable {
         this.gastos = gastos;
     }
 
-    public List<String> getGrupo() {
-        return grupo;
+    public List<String> getGrupos() {
+        return grupos;
     }
 
-    public void setGrupo(List<String> grupo) {
-        this.grupo = grupo;
+    public void setGrupos(List<String> grupos) {
+        this.grupos = grupos;
     }
 
     public String getInstituicaoFinanceira() {
@@ -200,11 +199,11 @@ public class ControleFinanceiro implements Serializable {
         this.status = status;
     }
 
-    public String getTags() {
+    public List<String> getTags() {
         return tags;
     }
 
-    public void setTags(String tags) {
+    public void setTags(List<String> tags) {
         this.tags = tags;
     }
 }
