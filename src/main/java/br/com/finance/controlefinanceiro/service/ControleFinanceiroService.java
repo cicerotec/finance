@@ -23,14 +23,6 @@ public class ControleFinanceiroService {
         return business.buscarTodos();
     }
 
-    public List<ControleFinanceiro> buscarRendaGastosAnoMes(Integer ano, Integer mes) {
-        return business.buscarRendaGastosAnoMes(ano, mes);
-    }
-
-    public List<ControleFinanceiro> buscarTodosAnoMes(Integer ano, Integer mes) {
-        return business.buscarTodosAnoMes(ano, mes);
-    }
-
     public List<ControleFinanceiro> buscarPorParametros(ControleFinanceiro document) {
         return business.buscarPorParametros(document);
     }
