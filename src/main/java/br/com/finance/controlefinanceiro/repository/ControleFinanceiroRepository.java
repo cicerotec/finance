@@ -19,10 +19,16 @@ public interface ControleFinanceiroRepository extends CrudRepository<ControleFin
     @Query("#{#n1ql.selectEntity}")
     List<ControleFinanceiro> findAll();
 
-    List<ControleFinanceiro> findByDataReferenciaBetween(LocalDateTime dataReferenciaInicial, LocalDateTime dataReferenciaFinal);
+    List<ControleFinanceiro> findByDataReferenciaBetween(
+            LocalDateTime dataReferenciaInicial, LocalDateTime dataReferenciaFinal);
 
-    List<ControleFinanceiro> findByDataEventoBetween(LocalDateTime dataEventoInicial, LocalDateTime dataEventoFinal);
+    List<ControleFinanceiro> findByDataEventoBetween(
+            LocalDateTime dataEventoInicial, LocalDateTime dataEventoFinal);
 
-    List<ControleFinanceiro> findByDataPagamentoBetween(LocalDateTime dataPagamentoInicial, LocalDateTime dataPagamentoFinal);
+    List<ControleFinanceiro> findByDataPagamentoBetween(
+            LocalDateTime dataPagamentoInicial, LocalDateTime dataPagamentoFinal);
+
+    List<ControleFinanceiro> findByDataReferenciaBetweenAndStatusNotContainsAndGruposNotIn(
+            LocalDateTime dataReferenciaInicial, LocalDateTime dataReferenciaFinal, String status, List<String> grupos);
 
 }

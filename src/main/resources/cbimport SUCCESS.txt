@@ -278,10 +278,20 @@ WHERE ANY grupos IN grupo SATISFIES grupos IN ['RENDA','GASTOS'] END
     AND DATE_PART_MILLIS(a.data_de_referencia, 'year') = 2022
     AND DATE_PART_MILLIS(a.data_de_referencia, 'month') = 4;
 	
+
+--SALDO DE TODAS AS INSTITUIÇÕES
+SELECT SUM(NVL(a.renda,0)) - SUM(NVL(a.gastos,0)) AS saldo,
+       a.instituicaoFinanceira
+FROM testes a
+WHERE EVERY grupo IN grupos SATISFIES grupo NOT IN ['CREDITO'] END
+    AND a.status NOT IN ['PREVISTO']
+    AND a.dataReferencia BETWEEN STR_TO_MILLIS('2022-03-01T00:00:00') AND STR_TO_MILLIS('2022-03-31T23:59:59')
+GROUP BY a.instituicaoFinanceira
+ORDER BY a.instituicaoFinanceira;
+
 	
 --DELETE ALL
 delete FROM testes a;
-
 
 
 SELECT a.*
@@ -293,3 +303,5 @@ WHERE DATE_PART_MILLIS(a.data_de_referencia, 'year') = 2022
 SELECT a.*
 FROM testes a
 WHERE meta().id = 'a10531bb-dc16-4eb0-a21b-21d841edb8ad'
+
+

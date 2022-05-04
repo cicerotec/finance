@@ -14,6 +14,7 @@ import org.springframework.data.couchbase.core.mapping.id.GeneratedValue;
 import java.io.Serializable;
 import java.time.LocalDateTime;
 import java.util.List;
+import java.util.Objects;
 
 import static org.springframework.data.couchbase.core.mapping.id.GenerationStrategy.UNIQUE;
 
@@ -160,7 +161,7 @@ public class ControleFinanceiro implements Serializable {
     }
 
     public Double getRenda() {
-        return renda;
+        return (Objects.nonNull(renda) ? renda : 0.0);
     }
 
     public void setRenda(Double renda) {
@@ -168,7 +169,7 @@ public class ControleFinanceiro implements Serializable {
     }
 
     public Double getGastos() {
-        return gastos;
+        return (Objects.nonNull(gastos) ? gastos : 0.0);
     }
 
     public void setGastos(Double gastos) {

@@ -2,6 +2,7 @@ package br.com.finance.controlefinanceiro.service;
 
 import br.com.finance.controlefinanceiro.core.business.ControleFinanceiroBusiness;
 import br.com.finance.controlefinanceiro.core.document.ControleFinanceiro;
+import br.com.finance.controlefinanceiro.core.document.Saldo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -21,6 +22,10 @@ public class ControleFinanceiroService {
 
     public List<ControleFinanceiro> buscarTodos() {
         return business.buscarTodos();
+    }
+
+    public List<Saldo> buscarSaldo(ControleFinanceiro document) {
+        return business.buscarSaldo(document);
     }
 
     public List<ControleFinanceiro> buscarPorParametros(ControleFinanceiro document) {

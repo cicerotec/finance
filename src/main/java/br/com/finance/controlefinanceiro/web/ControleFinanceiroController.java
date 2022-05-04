@@ -1,6 +1,7 @@
 package br.com.finance.controlefinanceiro.web;
 
 import br.com.finance.controlefinanceiro.core.document.ControleFinanceiro;
+import br.com.finance.controlefinanceiro.core.document.Saldo;
 import br.com.finance.controlefinanceiro.service.ControleFinanceiroService;
 import br.com.finance.controlefinanceiro.util.ParamsToDocument;
 import com.fasterxml.jackson.core.JsonProcessingException;
@@ -38,9 +39,16 @@ public class ControleFinanceiroController {
     @GetMapping
     public ResponseEntity<List<ControleFinanceiro>> getControleFinanceiroByParam(
             @RequestParam Map<String, String> params) throws JsonProcessingException {
-
         ControleFinanceiro document = paramsToDocument.transform(params, ControleFinanceiro.class);
         List<ControleFinanceiro> response = service.buscarPorParametros(document);
+        return new ResponseEntity<>(response, HttpStatus.OK);
+    }
+
+    @GetMapping("/saldos")
+    public ResponseEntity<List<Saldo>> getControleFinanceiroSaldoByParam(
+            @RequestParam Map<String, String> params) throws JsonProcessingException {
+        ControleFinanceiro document = paramsToDocument.transform(params, ControleFinanceiro.class);
+        List<Saldo> response = service.buscarSaldo(document);
         return new ResponseEntity<>(response, HttpStatus.OK);
     }
 

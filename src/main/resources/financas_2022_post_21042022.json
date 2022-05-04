@@ -1,1533 +1,1411 @@
-[
-  {
-    "data_de_referencia": "2022-03-15T00:00:00",
-    "data_do_evento": "2022-03-15T00:00:00",
-    "data_do_pagamento": "2022-03-15T00:00:00",
-    "descricao": "Shibata - clique e retire",
-    "gastos": 165.54,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "SODEXO-ALI-IBM",
-    "status": "PAGO",
-    "tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação"
-  },
-  {
-    "data_de_referencia": "2022-04-08T00:00:00",
-    "data_do_evento": "2022-04-04T00:00:00",
-    "data_do_pagamento": "2022-04-04T00:00:00",
-    "descricao": "Fatura VIVOFIBRA NETFLIX",
-    "gastos": 39.9,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "status": "PREVISTO",
-    "tags": "#Essencial #Streaming #Fixo"
-  },
-  {
-    "data_de_referencia": "2022-04-20T00:00:00",
-    "data_do_evento": "2022-04-15T00:00:00",
-    "data_do_pagamento": "2022-04-15T00:00:00",
-    "descricao": "Convenio Cicero",
-    "gastos": 342.83,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "status": "PREVISTO",
-    "tags": "#Essencial #Saude #Convenio #Familia #Cicero #Fixo"
-  },
-  {
-    "data_de_referencia": "2022-03-24T00:00:00",
-    "data_do_evento": "2022-03-24T00:00:00",
-    "data_do_pagamento": "2022-03-24T00:00:00",
-    "descricao": "Mercadinho Piratininga - Cassiopéia prox Andromeda SJC",
-    "gastos": 31.05,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "SODEXO-ALI-IBM",
-    "status": "PAGO",
-    "tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação"
-  },
-  {
-    "data_de_referencia": "2022-03-11T00:00:00",
-    "data_do_evento": "2022-02-26T00:00:00",
-    "data_do_pagamento": "2022-03-11T00:00:00",
-    "descricao": "Amazonprimebr",
-    "gastos": 9.9,
-    "grupo": [
-      "CREDITO"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "status": "PAGO",
-    "tags": "#Streaming #Fixo "
-  },
-  {
-    "data_de_referencia": "2022-04-30T00:00:00",
-    "data_do_evento": "2022-04-30T00:00:00",
-    "descricao": "Recarga TIM Cicero 11 948825242",
-    "gastos": 20,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "status": "PREVISTO",
-    "tags": "#Variavel #Recarga #TIM "
-  },
-  {
-    "data_de_referencia": "2022-03-30T00:00:00",
-    "data_do_evento": "2022-03-30T00:00:00",
-    "descricao": "Recarga Sodexo Refeição IBM",
-    "grupo": [
-      "RENDA"
-    ],
-    "instituicao_financeira": "SODEXO-REF-IBM",
-    "renda": 700,
-    "status": "PREVISTO",
-    "tags": "#Recebimentos #Alimentação #Fixo"
-  },
-  {
-    "data_de_referencia": "2022-04-08T00:00:00",
-    "data_do_evento": "2022-04-04T00:00:00",
-    "data_do_pagamento": "2022-04-04T00:00:00",
-    "descricao": "Fatura VIVOFIBRA INTERNET",
-    "gastos": 117.09,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "status": "PREVISTO",
-    "tags": "#Essencial #Internet #Fixo"
-  },
-  {
-    "data_de_referencia": "2022-04-15T00:00:00",
-    "data_do_evento": "2022-04-15T00:00:00",
-    "descricao": "Recebimento via PIX",
-    "grupo": [
-      "TRANSFERENCIA"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "renda": 5058.2,
-    "status": "PREVISTO"
-  },
-  {
-    "data_de_referencia": "2022-03-08T00:00:00",
-    "data_do_evento": "2022-02-20T00:00:00",
-    "data_do_pagamento": "2022-03-08T00:00:00",
-    "descricao": "PAG*Farmacon-CT",
-    "gastos": 79.8,
-    "grupo": [
-      "CREDITO"
-    ],
-    "instituicao_financeira": "ITAU",
-    "status": "PAGO",
-    "tags": "#Variavel #Carlos #Eduardo #Remedio"
-  },
-  {
-    "data_de_referencia": "2022-03-04T00:00:00",
-    "data_do_evento": "2022-03-04T00:00:00",
-    "data_do_pagamento": "2022-03-04T00:00:00",
-    "descricao": "Multi Sabor SJC - Cidade Jardim - 100 salgadinhos",
-    "gastos": 42,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "status": "PAGO",
-    "tags": "#Lazer #Comida #Variavel"
-  },
-  {
-    "data_de_referencia": "2022-03-01T00:00:00",
-    "data_do_evento": "2022-03-01T00:00:00",
-    "descricao": "Entrada mes anterior",
-    "grupo": [
-      "TRANSFERENCIA"
-    ],
-    "instituicao_financeira": "SODEXO-ALI-IBM",
-    "renda": 394.49,
-    "status": "RECEBIDO"
-  },
-  {
-    "data_de_referencia": "2022-03-15T00:00:00",
-    "data_do_evento": "2022-03-15T00:00:00",
-    "descricao": "Entrada prestação casa de Itaquera - dificuldades no pagamento",
-    "grupo": [
-      "INVESTIMENTO"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "nota": "Venda da casa de itaquera (Dida). Conversei com Marciana (esposa do devedor) e eles estão com dificuldade no pagamento por causa da pandemia e problemas pessoais.",
-    "renda": 2500,
-    "status": "PREVISTO",
-    "tags": "#Recebimentos #Prestação #Itaquera #Inter #Variavel"
-  },
-  {
-    "data_de_referencia": "2022-04-12T00:00:00",
-    "data_do_evento": "2022-03-29T00:00:00",
-    "descricao": "AZUL AUTO - SEGUROS - R$ 1.574,01 - 6x - 4-6",
-    "gastos": 262.33,
-    "grupo": [
-      "GASTOS",
-      "CREDITO"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "status": "PREVISTO",
-    "tags": "#Carro #Seguro #Variavel"
-  },
-  {
-    "data_de_referencia": "2022-03-01T00:00:00",
-    "data_do_evento": "2022-03-01T00:00:00",
-    "descricao": "Entrada mes anterior",
-    "grupo": [
-      "TRANSFERENCIA"
-    ],
-    "instituicao_financeira": "INTER",
-    "renda": 30,
-    "status": "RECEBIDO"
-  },
-  {
-    "data_de_referencia": "2022-03-20T00:00:00",
-    "data_do_evento": "2022-03-15T00:00:00",
-    "data_do_pagamento": "2022-03-15T00:00:00",
-    "descricao": "Convenio Cicero",
-    "gastos": 342.83,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "status": "PAGO",
-    "tags": "#Essencial #Saude #Convenio #Familia #Cicero #Fixo"
-  },
-  {
-    "data_de_referencia": "2022-03-08T00:00:00",
-    "data_do_evento": "2022-02-08T00:00:00",
-    "data_do_pagamento": "2022-03-08T00:00:00",
-    "descricao": "PAG*Farmaconde",
-    "gastos": 49.12,
-    "grupo": [
-      "CREDITO"
-    ],
-    "instituicao_financeira": "ITAU",
-    "status": "PAGO",
-    "tags": "#Variavel #Carlos #Eduardo #Remedio"
-  },
-  {
-    "data_de_referencia": "2022-03-09T00:00:00",
-    "data_do_evento": "2022-03-09T00:00:00",
-    "data_do_pagamento": "2022-03-09T00:00:00",
-    "descricao": "Facillita Passadoria - passar roupas - PIX (12)982423502",
-    "gastos": 138,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "ITAU",
-    "status": "PAGO",
-    "tags": "#Essencial #Roupas #Passar #Roberta #Variavel"
-  },
-  {
-    "data_de_referencia": "2022-04-08T00:00:00",
-    "data_do_evento": "2022-04-08T00:00:00",
-    "data_do_pagamento": "2022-04-08T00:00:00",
-    "descricao": "Shibata - clique e retire",
-    "gastos": 89.33,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "SODEXO-REF-IBM",
-    "status": "PREVISTO",
-    "tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação"
-  },
-  {
-    "data_de_referencia": "2022-03-14T00:00:00",
-    "data_do_evento": "2022-03-14T00:00:00",
-    "descricao": "Transferencia via PIX",
-    "gastos": 10,
-    "grupo": [
-      "TRANSFERENCIA"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "status": "ENVIADO"
-  },
-  {
-    "data_de_referencia": "2022-04-10T00:00:00",
-    "data_do_evento": "2022-04-04T00:00:00",
-    "data_do_pagamento": "2022-04-04T00:00:00",
-    "descricao": "Colégio Evoluti SJC",
-    "gastos": 637,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "status": "PREVISTO",
-    "tags": "#Essencial #Escola #Eduardo #Fixo"
-  },
-  {
-    "data_de_referencia": "2022-03-22T00:00:00",
-    "data_do_evento": "2022-03-22T00:00:00",
-    "data_do_pagamento": "2022-03-22T00:00:00",
-    "descricao": "Agua - ITAQUERA - SERÁ PAGO PELA JOICE (CASA ALUGADA)",
-    "gastos": 0,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "status": "PAGO",
-    "tags": "#Itaquera #Essencial #AjudaAlmir #Fixo"
-  },
-  {
-    "data_de_referencia": "2022-04-08T00:00:00",
-    "data_do_evento": "2022-04-08T00:00:00",
-    "descricao": "PAG*Farmacon-CT",
-    "gastos": 35.37,
-    "grupo": [
-      "GASTOS",
-      "CREDITO"
-    ],
-    "instituicao_financeira": "ITAU",
-    "status": "PREVISTO",
-    "tags": "#Variavel #Carlos #Eduardo #Remedio"
-  },
-  {
-    "data_de_referencia": "2022-04-08T00:00:00",
-    "data_do_evento": "2022-04-08T00:00:00",
-    "descricao": "PAG*Farmacon-CT",
-    "gastos": 79.8,
-    "grupo": [
-      "GASTOS",
-      "CREDITO"
-    ],
-    "instituicao_financeira": "ITAU",
-    "status": "PREVISTO",
-    "tags": "#Variavel #Carlos #Eduardo #Remedio"
-  },
-  {
-    "data_de_referencia": "2022-04-30T00:00:00",
-    "data_do_evento": "2022-04-30T00:00:00",
-    "descricao": "Recebimento via PIX",
-    "grupo": [
-      "TRANSFERENCIA"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "renda": 2563.78,
-    "status": "PREVISTO"
-  },
-  {
-    "data_de_referencia": "2022-04-12T00:00:00",
-    "data_do_evento": "2022-03-20T00:00:00",
-    "descricao": "Google Play - Roblox",
-    "gastos": 109.9,
-    "grupo": [
-      "GASTOS",
-      "CREDITO"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "status": "PREVISTO",
-    "tags": "#Lazer #Eduardo #Variavel"
-  },
-  {
-    "data_de_referencia": "2022-03-15T00:00:00",
-    "data_do_evento": "2022-03-15T00:00:00",
-    "data_do_pagamento": "2022-03-15T00:00:00",
-    "descricao": "Shibata",
-    "gastos": 98.46,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "SODEXO-ALI-IBM",
-    "status": "PAGO",
-    "tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação"
-  },
-  {
-    "data_de_referencia": "2022-03-10T00:00:00",
-    "data_do_evento": "2022-03-04T00:00:00",
-    "data_do_pagamento": "2022-03-04T00:00:00",
-    "descricao": "Colégio Evoluti SJC",
-    "gastos": 637,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "status": "PAGO",
-    "tags": "#Essencial #Escola #Eduardo #Fixo"
-  },
-  {
-    "data_de_referencia": "2022-04-12T00:00:00",
-    "data_do_evento": "2022-03-06T00:00:00",
-    "descricao": "Carrefour SJC Aquarius - Whisky Chivas",
-    "gastos": 129.9,
-    "grupo": [
-      "GASTOS",
-      "CREDITO"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "status": "PREVISTO",
-    "tags": "#Cicero #Lazer #Comida #Variavel"
-  },
-  {
-    "data_de_referencia": "2022-04-15T00:00:00",
-    "data_do_evento": "2022-04-15T00:00:00",
-    "data_do_pagamento": "2022-04-15T00:00:00",
-    "descricao": "Shibata",
-    "gastos": 98.46,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "SODEXO-ALI-IBM",
-    "status": "PREVISTO",
-    "tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação"
-  },
-  {
-    "data_de_referencia": "2022-04-17T00:00:00",
-    "data_do_evento": "2022-04-17T00:00:00",
-    "data_do_pagamento": "2022-04-17T00:00:00",
-    "descricao": "Shibata",
-    "gastos": 41.57,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "SODEXO-REF-IBM",
-    "status": "PREVISTO",
-    "tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação"
-  },
-  {
-    "data_de_referencia": "2022-03-13T00:00:00",
-    "data_do_evento": "2022-03-13T00:00:00",
-    "data_do_pagamento": "2022-03-13T00:00:00",
-    "descricao": "Vale-Sul Shopping - Estacionamento",
-    "gastos": 9,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "status": "PAGO",
-    "tags": "#Carro #Estacionamento #Variavel"
-  },
-  {
-    "data_de_referencia": "2022-04-12T00:00:00",
-    "data_do_evento": "2022-03-26T00:00:00",
-    "descricao": "Amazonprimebr",
-    "gastos": 9.9,
-    "grupo": [
-      "GASTOS",
-      "CREDITO"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "status": "PREVISTO",
-    "tags": "#Streaming #Fixo "
-  },
-  {
-    "data_de_referencia": "2022-03-08T00:00:00",
-    "data_do_evento": "2021-11-11T00:00:00",
-    "data_do_pagamento": "2022-03-08T00:00:00",
-    "descricao": "INSTITUTO MIX SJC 01-10 EDUCACAO. CURSO DE CONFEITARIA 04-10",
-    "gastos": 223.38,
-    "grupo": [
-      "CREDITO"
-    ],
-    "instituicao_financeira": "ITAU",
-    "status": "PAGO",
-    "tags": "#Roberta #Cursos #Variavel"
-  },
-  {
-    "data_de_referencia": "2022-04-15T00:00:00",
-    "data_do_evento": "2022-04-15T00:00:00",
-    "data_do_pagamento": "2022-04-15T00:00:00",
-    "descricao": "Convenio Eduardo",
-    "gastos": 182.43,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "status": "PREVISTO",
-    "tags": "#Essencial #Saude #Convenio #Familia #Fixo"
-  },
-  {
-    "data_de_referencia": "2022-03-30T00:00:00",
-    "data_do_evento": "2022-03-30T00:00:00",
-    "descricao": "Recarga TIM Cicero 11 948825242",
-    "gastos": 20,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "status": "PAGO",
-    "tags": "#Variavel #Recarga #TIM "
-  },
-  {
-    "data_de_referencia": "2022-03-30T00:00:00",
-    "data_do_evento": "2022-03-30T00:00:00",
-    "descricao": "Recarga Sodexo Alimentação IBM",
-    "grupo": [
-      "RENDA"
-    ],
-    "instituicao_financeira": "SODEXO-ALI-IBM",
-    "renda": 330,
-    "status": "PREVISTO",
-    "tags": "#Recebimentos #Alimentação #Fixo"
-  },
-  {
-    "data_de_referencia": "2022-03-15T00:00:00",
-    "data_do_evento": "2022-03-15T00:00:00",
-    "data_do_pagamento": "2022-03-15T00:00:00",
-    "descricao": "Convenio Carlos",
-    "gastos": 182.43,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "status": "PAGO",
-    "tags": "#Essencial #Saude #Convenio #Familia #Fixo"
-  },
-  {
-    "data_de_referencia": "2022-03-11T00:00:00",
-    "data_do_evento": "2022-02-25T00:00:00",
-    "data_do_pagamento": "2022-03-11T00:00:00",
-    "descricao": "Google YouTube Premium",
-    "gastos": 31.9,
-    "grupo": [
-      "CREDITO"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "status": "PAGO",
-    "tags": "#Streaming #Fixo "
-  },
-  {
-    "data_de_referencia": "2022-03-01T00:00:00",
-    "data_do_evento": "2022-03-01T00:00:00",
-    "descricao": "Transferencia via PIX",
-    "gastos": 350,
-    "grupo": [
-      "TRANSFERENCIA"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "status": "RECEBIDO"
-  },
-  {
-    "data_de_referencia": "2022-03-23T00:00:00",
-    "data_do_evento": "2022-03-23T00:00:00",
-    "data_do_pagamento": "2022-03-23T00:00:00",
-    "descricao": "Shibata",
-    "gastos": 158.63,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "SODEXO-REF-IBM",
-    "status": "PAGO",
-    "tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação"
-  },
-  {
-    "data_de_referencia": "2022-03-04T00:00:00",
-    "data_do_evento": "2022-03-04T00:00:00",
-    "descricao": "Transferencia via PIX - Roberta (aluguel)",
-    "gastos": 500,
-    "grupo": [
-      "ALUGUEL"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "status": "ENVIADO",
-    "tags": "#Roberta #Aluguel #Itaquera #Variavel"
-  },
-  {
-    "data_de_referencia": "2022-03-04T00:00:00",
-    "data_do_evento": "2022-03-04T00:00:00",
-    "descricao": "Aluguel de Itaquera - Joice",
-    "grupo": [
-      "ALUGUEL"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "renda": 500,
-    "status": "RECEBIDO",
-    "tags": "#Recebimentos #Aluguel #Itaquera #Variavel"
-  },
-  {
-    "data_de_referencia": "2022-03-30T00:00:00",
-    "data_do_evento": "2022-03-30T00:00:00",
-    "descricao": "Transferencia via PIX",
-    "gastos": 2563.78,
-    "grupo": [
-      "TRANSFERENCIA"
-    ],
-    "instituicao_financeira": "SANTANDER",
-    "status": "PREVISTO"
-  },
-  {
-    "data_de_referencia": "2022-03-30T00:00:00",
-    "data_do_evento": "2022-03-30T00:00:00",
-    "descricao": "Recebimento via PIX",
-    "grupo": [
-      "TRANSFERENCIA"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "renda": 2563.78,
-    "status": "PREVISTO"
-  },
-  {
-    "data_de_referencia": "2022-03-02T00:00:00",
-    "data_do_evento": "2022-03-02T00:00:00",
-    "data_do_pagamento": "2022-03-02T00:00:00",
-    "descricao": "Agua - DEBITO AUTO",
-    "gastos": 54.26,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "ITAU",
-    "status": "PAGO",
-    "tags": "#Moradia #Essencial #Agua #Fixo"
-  },
-  {
-    "data_de_referencia": "2022-04-30T00:00:00",
-    "data_do_evento": "2022-04-30T00:00:00",
-    "descricao": "Recarga Sodexo Alimentação IBM",
-    "grupo": [
-      "RENDA"
-    ],
-    "instituicao_financeira": "SODEXO-ALI-IBM",
-    "renda": 330,
-    "status": "PREVISTO",
-    "tags": "#Recebimentos #Alimentação #Fixo"
-  },
-  {
-    "data_de_referencia": "2022-04-09T00:00:00",
-    "data_do_evento": "2022-04-09T00:00:00",
-    "data_do_pagamento": "2022-04-09T00:00:00",
-    "descricao": "Facillita Passadoria - passar roupas - PIX (12)982423502",
-    "gastos": 138,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "ITAU",
-    "status": "PREVISTO",
-    "tags": "#Essencial #Roupas #Passar #Roberta #Variavel"
-  },
-  {
-    "data_de_referencia": "2022-04-12T00:00:00",
-    "data_do_evento": "2022-03-10T00:00:00",
-    "descricao": "Discovery+",
-    "gastos": 16.24,
-    "grupo": [
-      "GASTOS",
-      "CREDITO"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "status": "PREVISTO",
-    "tags": "#Streaming #Fixo "
-  },
-  {
-    "data_de_referencia": "2022-04-15T00:00:00",
-    "data_do_evento": "2022-04-15T00:00:00",
-    "data_do_pagamento": "2022-04-15T00:00:00",
-    "descricao": "Convenio Roberta",
-    "gastos": 230.66,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "status": "PREVISTO",
-    "tags": "#Essencial #Saude #Convenio #Familia #Fixo"
-  },
-  {
-    "data_de_referencia": "2022-04-22T00:00:00",
-    "data_do_evento": "2022-04-22T00:00:00",
-    "data_do_pagamento": "2022-04-22T00:00:00",
-    "descricao": "Luz - DEBITO AUTO",
-    "gastos": 344.29,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "ITAU",
-    "status": "PREVISTO",
-    "tags": "#Moradia #Essencial #Luz #Fixo"
-  },
-  {
-    "data_de_referencia": "2022-03-01T00:00:00",
-    "data_do_evento": "2022-03-01T00:00:00",
-    "data_do_pagamento": "2022-03-01T00:00:00",
-    "descricao": "Mesada Eduardo",
-    "gastos": 50,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "status": "PAGO",
-    "tags": "#Mesada #Eduardo #Fixo"
-  },
-  {
-    "data_de_referencia": "2022-04-12T00:00:00",
-    "data_do_evento": "2022-03-07T00:00:00",
-    "descricao": "Farma Direta",
-    "gastos": 34.19,
-    "grupo": [
-      "GASTOS",
-      "CREDITO"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "status": "PREVISTO",
-    "tags": "#Variavel #Carlos #Eduardo #Remedios"
-  },
-  {
-    "data_de_referencia": "2022-03-15T00:00:00",
-    "data_do_evento": "2022-03-14T00:00:00",
-    "data_do_pagamento": "2022-03-14T00:00:00",
-    "descricao": "Salario - IBM",
-    "grupo": [
-      "RENDA"
-    ],
-    "instituicao_financeira": "SANTANDER",
-    "renda": 5058.2,
-    "status": "PAGO",
-    "tags": "#Recebimentos #Salario #Fixo"
-  },
-  {
-    "data_de_referencia": "2022-03-01T00:00:00",
-    "data_do_evento": "2022-03-01T00:00:00",
-    "descricao": "Entrada mes anterior",
-    "grupo": [
-      "TRANSFERENCIA"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "renda": 3220.14,
-    "status": "RECEBIDO"
-  },
-  {
-    "data_de_referencia": "2022-03-01T00:00:00",
-    "data_do_evento": "2022-03-01T00:00:00",
-    "descricao": "Entrada mes anterior",
-    "grupo": [
-      "TRANSFERENCIA"
-    ],
-    "instituicao_financeira": "C6BANK",
-    "renda": 9.52,
-    "status": "RECEBIDO"
-  },
-  {
-    "data_de_referencia": "2022-03-15T00:00:00",
-    "data_do_evento": "2022-03-15T00:00:00",
-    "descricao": "Recebimento via PIX",
-    "grupo": [
-      "TRANSFERENCIA"
-    ],
-    "instituicao_financeira": "ITAU",
-    "renda": 170,
-    "status": "RECEBIDO"
-  },
-  {
-    "data_de_referencia": "2022-03-01T00:00:00",
-    "data_do_evento": "2022-03-01T00:00:00",
-    "descricao": "Entrada mes anterior",
-    "grupo": [
-      "TRANSFERENCIA"
-    ],
-    "instituicao_financeira": "SANTANDER",
-    "renda": 0,
-    "status": "RECEBIDO"
-  },
-  {
-    "data_de_referencia": "2022-03-04T00:00:00",
-    "data_do_evento": "2022-03-04T00:00:00",
-    "descricao": "Transferencia via PIX - Almir",
-    "gastos": 2000,
-    "grupo": [
-      "INVESTIMENTO"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "status": "ENVIADO",
-    "tags": "#Resgate #Nubank #Variavel #AjudaAlmir"
-  },
-  {
-    "data_de_referencia": "2022-03-20T00:00:00",
-    "data_do_evento": "2022-03-20T00:00:00",
-    "data_do_pagamento": "2022-03-20T00:00:00",
-    "descricao": "Shibata",
-    "gastos": 191.8,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "SODEXO-REF-IBM",
-    "status": "PAGO",
-    "tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação"
-  },
-  {
-    "data_de_referencia": "2022-04-12T00:00:00",
-    "data_do_evento": "2022-03-25T00:00:00",
-    "descricao": "Console XBox Series S - Americanas online",
-    "gastos": 2113.2,
-    "grupo": [
-      "GASTOS",
-      "CREDITO"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "status": "PREVISTO",
-    "tags": "#Cicero #Lazer #Variavel"
-  },
-  {
-    "data_de_referencia": "2022-04-08T00:00:00",
-    "data_do_evento": "2022-04-08T00:00:00",
-    "descricao": "PAG*Farmacon-CT",
-    "gastos": 36.1,
-    "grupo": [
-      "GASTOS",
-      "CREDITO"
-    ],
-    "instituicao_financeira": "ITAU",
-    "status": "PREVISTO",
-    "tags": "#Variavel #Carlos #Eduardo #Remedio"
-  },
-  {
-    "data_de_referencia": "2022-03-20T00:00:00",
-    "data_do_evento": "2022-03-20T00:00:00",
-    "data_do_pagamento": "2022-03-20T00:00:00",
-    "descricao": "Shibata - brinquedo camaleão",
-    "gastos": 109.9,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "status": "PAGO",
-    "tags": "#Mercado #Variavel #Lazer #Carlos"
-  },
-  {
-    "data_de_referencia": "2022-04-15T00:00:00",
-    "data_do_evento": "2022-04-15T00:00:00",
-    "data_do_pagamento": "2022-04-15T00:00:00",
-    "descricao": "Shibata - clique e retire",
-    "gastos": 165.54,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "SODEXO-ALI-IBM",
-    "status": "PREVISTO",
-    "tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação"
-  },
-  {
-    "data_de_referencia": "2022-04-15T00:00:00",
-    "data_do_evento": "2022-04-15T00:00:00",
-    "descricao": "Transferencia via PIX",
-    "gastos": 5058.2,
-    "grupo": [
-      "TRANSFERENCIA"
-    ],
-    "instituicao_financeira": "SANTANDER",
-    "status": "PREVISTO"
-  },
-  {
-    "data_de_referencia": "2022-04-08T00:00:00",
-    "data_do_evento": "2022-04-08T00:00:00",
-    "descricao": "INSTITUTO MIX SJC 01-10 EDUCACAO. CURSO DE CONFEITARIA 04-10",
-    "gastos": 223.38,
-    "grupo": [
-      "GASTOS",
-      "CREDITO"
-    ],
-    "instituicao_financeira": "ITAU",
-    "status": "PREVISTO",
-    "tags": "#Roberta #Cursos #Variavel"
-  },
-  {
-    "data_de_referencia": "2022-04-12T00:00:00",
-    "data_do_evento": "2022-03-25T00:00:00",
-    "descricao": "Google YouTube Premium",
-    "gastos": 31.9,
-    "grupo": [
-      "GASTOS",
-      "CREDITO"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "status": "PREVISTO",
-    "tags": "#Streaming #Fixo "
-  },
-  {
-    "data_de_referencia": "2022-03-05T00:00:00",
-    "data_do_evento": "2022-03-05T00:00:00",
-    "data_do_pagamento": "2022-03-05T00:00:00",
-    "descricao": "Shibata",
-    "gastos": 203.92,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "nota": "Buzz Lightyear para o Carlos = 114,00",
-    "status": "PAGO",
-    "tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação #Lazer #Carlos"
-  },
-  {
-    "data_de_referencia": "2022-03-06T00:00:00",
-    "data_do_evento": "2022-03-06T00:00:00",
-    "data_do_pagamento": "2022-03-06T00:00:00",
-    "descricao": "Assaí Atacadista - compra para fazer bolo",
-    "gastos": 83.28,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "SODEXO-ALI-IBM",
-    "status": "PAGO",
-    "tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação"
-  },
-  {
-    "data_de_referencia": "2022-03-26T00:00:00",
-    "data_do_evento": "2022-03-26T00:00:00",
-    "data_do_pagamento": "2022-03-26T00:00:00",
-    "descricao": "Assaí Atacadista",
-    "gastos": 1049.8,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "status": "PAGO",
-    "tags": "#Moradia #Essencial #Mercado #Fixo #Alimentação"
-  },
-  {
-    "data_de_referencia": "2022-03-30T00:00:00",
-    "data_do_evento": "2022-03-30T00:00:00",
-    "descricao": "Padaria Edna Magali - PRONVAL Periodico IBM",
-    "gastos": 15,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "status": "PAGO",
-    "tags": "#Lazer #Comida #Variavel"
-  },
-  {
-    "data_de_referencia": "2022-04-12T00:00:00",
-    "data_do_evento": "2022-03-06T00:00:00",
-    "descricao": "Leroy SJC",
-    "gastos": 97.88,
-    "grupo": [
-      "GASTOS",
-      "CREDITO"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "nota": "Canos e conexões para fazer suporte para vasos e correção da caixa d'água",
-    "status": "PREVISTO",
-    "tags": "#Cicero #Lazer #Plantas #Moradia #Variavel"
-  },
-  {
-    "data_de_referencia": "2022-03-11T00:00:00",
-    "data_do_evento": "2022-02-28T00:00:00",
-    "data_do_pagamento": "2022-03-11T00:00:00",
-    "descricao": "AZUL AUTO - SEGUROS - R$ 1.574,01 - 6x - 4-6",
-    "gastos": 262.33,
-    "grupo": [
-      "CREDITO"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "status": "PAGO",
-    "tags": "#Carro #Seguro #Variavel"
-  },
-  {
-    "data_de_referencia": "2022-03-30T00:00:00",
-    "data_do_evento": "2022-03-30T00:00:00",
-    "descricao": "Estacionamento - PRONVAL Periodico IBM",
-    "gastos": 5,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "status": "PAGO",
-    "tags": "#Carro #Estacionamento #Variavel"
-  },
-  {
-    "data_de_referencia": "2022-03-15T00:00:00",
-    "data_do_evento": "2022-03-15T00:00:00",
-    "descricao": "Recebimento via PIX",
-    "grupo": [
-      "TRANSFERENCIA"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "renda": 5058.2,
-    "status": "RECEBIDO"
-  },
-  {
-    "data_de_referencia": "2022-04-01T00:00:00",
-    "data_do_evento": "2022-04-01T00:00:00",
-    "data_do_pagamento": "2022-04-01T00:00:00",
-    "descricao": "Mesada Eduardo",
-    "gastos": 50,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "status": "PREVISTO",
-    "tags": "#Mesada #Eduardo #Fixo"
-  },
-  {
-    "data_de_referencia": "2022-04-15T00:00:00",
-    "data_do_evento": "2022-04-14T00:00:00",
-    "data_do_pagamento": "2022-04-14T00:00:00",
-    "descricao": "Salario - IBM",
-    "grupo": [
-      "RENDA"
-    ],
-    "instituicao_financeira": "SANTANDER",
-    "renda": 5058.2,
-    "status": "PREVISTO",
-    "tags": "#Recebimentos #Salario #Fixo"
-  },
-  {
-    "data_de_referencia": "2022-03-11T00:00:00",
-    "data_do_evento": "2022-03-01T00:00:00",
-    "data_do_pagamento": "2022-03-11T00:00:00",
-    "descricao": "Microsoft Game Pass Ultimate",
-    "gastos": 44.99,
-    "grupo": [
-      "CREDITO"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "nota": "Primeiro mês = 5,00; Depois = 44,99;",
-    "status": "PAGO",
-    "tags": "#Lazer #Variavel"
-  },
-  {
-    "data_de_referencia": "2022-03-30T00:00:00",
-    "data_do_evento": "2022-03-30T00:00:00",
-    "descricao": "Rendimento",
-    "grupo": [
-      "INVESTIMENTO"
-    ],
-    "instituicao_financeira": "ITAU",
-    "renda": 0.03,
-    "status": "PREVISTO",
-    "tags": "#Recebimentos #Rendimentos #Variavel"
-  },
-  {
-    "data_de_referencia": "2022-03-01T00:00:00",
-    "data_do_evento": "2022-03-01T00:00:00",
-    "descricao": "Entrada mes anterior",
-    "grupo": [
-      "TRANSFERENCIA"
-    ],
-    "instituicao_financeira": "ITAU",
-    "renda": 80.07,
-    "status": "RECEBIDO"
-  },
-  {
-    "data_de_referencia": "2022-04-26T00:00:00",
-    "data_do_evento": "2022-04-26T00:00:00",
-    "data_do_pagamento": "2022-04-26T00:00:00",
-    "descricao": "Assaí Atacadista",
-    "gastos": 1049.8,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "status": "PREVISTO",
-    "tags": "#Moradia #Essencial #Mercado #Fixo #Alimentação"
-  },
-  {
-    "data_de_referencia": "2022-03-19T00:00:00",
-    "data_do_evento": "2022-03-19T00:00:00",
-    "descricao": "Transferencia via PIX - Roberta (aluguel garagem)",
-    "gastos": 150,
-    "grupo": [
-      "ALUGUEL"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "status": "ENVIADO",
-    "tags": "#Roberta #Aluguel #Itaquera #Variavel"
-  },
-  {
-    "data_de_referencia": "2022-03-08T00:00:00",
-    "data_do_evento": "2022-03-08T00:00:00",
-    "data_do_pagamento": "2022-03-08T00:00:00",
-    "descricao": "Cartão Roberta",
-    "gastos": 423.77,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "status": "PAGO",
-    "tags": "#CartaoDeCredito #Roberta"
-  },
-  {
-    "data_de_referencia": "2022-03-01T00:00:00",
-    "data_do_evento": "2022-03-01T00:00:00",
-    "descricao": "Entrada mes anterior",
-    "grupo": [
-      "TRANSFERENCIA"
-    ],
-    "instituicao_financeira": "SODEXO-REF-IBM",
-    "renda": 844.42,
-    "status": "RECEBIDO"
-  },
-  {
-    "data_de_referencia": "2022-04-30T00:00:00",
-    "data_do_evento": "2022-04-30T00:00:00",
-    "descricao": "Transferencia via PIX",
-    "gastos": 2563.78,
-    "grupo": [
-      "TRANSFERENCIA"
-    ],
-    "instituicao_financeira": "SANTANDER",
-    "status": "PREVISTO"
-  },
-  {
-    "data_de_referencia": "2022-04-15T00:00:00",
-    "data_do_evento": "2022-04-15T00:00:00",
-    "data_do_pagamento": "2022-04-15T00:00:00",
-    "descricao": "Convenio Carlos",
-    "gastos": 182.43,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "status": "PREVISTO",
-    "tags": "#Essencial #Saude #Convenio #Familia #Fixo"
-  },
-  {
-    "data_de_referencia": "2022-04-03T00:00:00",
-    "data_do_evento": "2022-04-01T00:00:00",
-    "data_do_pagamento": "2022-04-01T00:00:00",
-    "descricao": "Psicologa - Kelley Nascimento (para Roberta) PIX (TEL) 31993029435",
-    "gastos": 400,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "status": "PREVISTO",
-    "tags": "#Psicologa #Fixo #Roberta"
-  },
-  {
-    "data_de_referencia": "2022-03-22T00:00:00",
-    "data_do_evento": "2022-03-22T00:00:00",
-    "data_do_pagamento": "2022-03-22T00:00:00",
-    "descricao": "Luz - DEBITO AUTO",
-    "gastos": 344.29,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "ITAU",
-    "status": "PAGO",
-    "tags": "#Moradia #Essencial #Luz #Fixo"
-  },
-  {
-    "data_de_referencia": "2022-04-23T00:00:00",
-    "data_do_evento": "2022-04-23T00:00:00",
-    "data_do_pagamento": "2022-04-23T00:00:00",
-    "descricao": "Shibata",
-    "gastos": 158.63,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "SODEXO-REF-IBM",
-    "status": "PREVISTO",
-    "tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação"
-  },
-  {
-    "data_de_referencia": "2022-03-04T00:00:00",
-    "data_do_evento": "2022-03-04T00:00:00",
-    "descricao": "Rendimento",
-    "grupo": [
-      "INVESTIMENTO"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "renda": 15.06,
-    "status": "RECEBIDO",
-    "tags": "#Recebimentos #Rendimentos #Variavel"
-  },
-  {
-    "data_de_referencia": "2022-03-30T00:00:00",
-    "data_do_evento": "2022-03-30T00:00:00",
-    "descricao": "Salario - IBM",
-    "grupo": [
-      "RENDA"
-    ],
-    "instituicao_financeira": "SANTANDER",
-    "renda": 2563.78,
-    "status": "PREVISTO",
-    "tags": "#Recebimentos #Salario #Fixo"
-  },
-  {
-    "data_de_referencia": "2022-03-08T00:00:00",
-    "data_do_evento": "2022-02-17T00:00:00",
-    "data_do_pagamento": "2022-03-08T00:00:00",
-    "descricao": "PAG*Farmacon-CT",
-    "gastos": 35.37,
-    "grupo": [
-      "CREDITO"
-    ],
-    "instituicao_financeira": "ITAU",
-    "status": "PAGO",
-    "tags": "#Variavel #Carlos #Eduardo #Remedio"
-  },
-  {
-    "data_de_referencia": "2022-03-15T00:00:00",
-    "data_do_evento": "2022-03-15T00:00:00",
-    "descricao": "Transferencia via PIX",
-    "gastos": 5058.2,
-    "grupo": [
-      "TRANSFERENCIA"
-    ],
-    "instituicao_financeira": "SANTANDER",
-    "status": "ENVIADO"
-  },
-  {
-    "data_de_referencia": "2022-03-20T00:00:00",
-    "data_do_evento": "2022-03-20T00:00:00",
-    "data_do_pagamento": "2022-03-20T00:00:00",
-    "descricao": "Perua dos ovos - 30 ovos",
-    "gastos": 18,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "status": "PAGO",
-    "tags": "#Moradia #Essencial #Variavel #Alimentação"
-  },
-  {
-    "data_de_referencia": "2022-03-25T00:00:00",
-    "data_do_evento": "2022-03-25T00:00:00",
-    "data_do_pagamento": "2022-03-25T00:00:00",
-    "descricao": "iFood - Pizzaria Villas Boas - 1 pizza gigante 16 pedaços",
-    "gastos": 80,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "status": "PAGO",
-    "tags": "#Lazer #Comida #Variavel"
-  },
-  {
-    "data_de_referencia": "2022-04-30T00:00:00",
-    "data_do_evento": "2022-04-30T00:00:00",
-    "descricao": "Recarga Sodexo Refeição IBM",
-    "grupo": [
-      "RENDA"
-    ],
-    "instituicao_financeira": "SODEXO-REF-IBM",
-    "renda": 700,
-    "status": "PREVISTO",
-    "tags": "#Recebimentos #Alimentação #Fixo"
-  },
-  {
-    "data_de_referencia": "2022-04-12T00:00:00",
-    "data_do_evento": "2022-04-01T00:00:00",
-    "descricao": "Microsoft Game Pass Ultimate",
-    "gastos": 44.99,
-    "grupo": [
-      "GASTOS",
-      "CREDITO"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "nota": "Primeiro mês = 5,00; Depois = 44,99;",
-    "status": "PREVISTO",
-    "tags": "#Lazer #Variavel"
-  },
-  {
-    "data_de_referencia": "2022-03-08T00:00:00",
-    "data_do_evento": "2022-03-04T00:00:00",
-    "data_do_pagamento": "2022-03-04T00:00:00",
-    "descricao": "Fatura VIVOFIBRA NETFLIX",
-    "gastos": 39.9,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "status": "PAGO",
-    "tags": "#Essencial #Streaming #Fixo"
-  },
-  {
-    "data_de_referencia": "2022-04-08T00:00:00",
-    "data_do_evento": "2022-04-08T00:00:00",
-    "descricao": "PAG*Farmaconde",
-    "gastos": 49.12,
-    "grupo": [
-      "GASTOS",
-      "CREDITO"
-    ],
-    "instituicao_financeira": "ITAU",
-    "status": "PREVISTO",
-    "tags": "#Variavel #Carlos #Eduardo #Remedio"
-  },
-  {
-    "data_de_referencia": "2022-03-14T00:00:00",
-    "data_do_evento": "2022-03-14T00:00:00",
-    "descricao": "Recebimento via PIX",
-    "grupo": [
-      "TRANSFERENCIA"
-    ],
-    "instituicao_financeira": "C6BANK",
-    "renda": 10,
-    "status": "RECEBIDO"
-  },
-  {
-    "data_de_referencia": "2022-03-08T00:00:00",
-    "data_do_evento": "2022-03-02T00:00:00",
-    "data_do_pagamento": "2022-03-02T00:00:00",
-    "descricao": "Convenio Sr. Antonio - São Cristovão",
-    "gastos": 495.76,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "status": "PAGO",
-    "tags": "#Essencial #Saude #Convenio #Papai #Fixo"
-  },
-  {
-    "data_de_referencia": "2022-04-12T00:00:00",
-    "data_do_evento": "2022-03-13T00:00:00",
-    "descricao": "McDonald's - Vale Sul Shopping",
-    "gastos": 130,
-    "grupo": [
-      "GASTOS",
-      "CREDITO"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "status": "PREVISTO",
-    "tags": "#Lazer #Comida #Variavel"
-  },
-  {
-    "data_de_referencia": "2022-03-08T00:00:00",
-    "data_do_evento": "2022-02-07T00:00:00",
-    "data_do_pagamento": "2022-03-08T00:00:00",
-    "descricao": "PAG*Farmacon-CT",
-    "gastos": 36.1,
-    "grupo": [
-      "CREDITO"
-    ],
-    "instituicao_financeira": "ITAU",
-    "status": "PAGO",
-    "tags": "#Variavel #Carlos #Eduardo #Remedio"
-  },
-  {
-    "data_de_referencia": "2022-03-19T00:00:00",
-    "data_do_evento": "2022-03-19T00:00:00",
-    "descricao": "Aluguel de garagem Itaquera - Arthur",
-    "grupo": [
-      "ALUGUEL"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "renda": 150,
-    "status": "RECEBIDO",
-    "tags": "#Recebimentos #Aluguel #Itaquera #Variavel"
-  },
-  {
-    "data_de_referencia": "2022-04-30T00:00:00",
-    "data_do_evento": "2022-04-30T00:00:00",
-    "descricao": "Salario - IBM",
-    "grupo": [
-      "RENDA"
-    ],
-    "instituicao_financeira": "SANTANDER",
-    "renda": 2563.78,
-    "status": "PREVISTO",
-    "tags": "#Recebimentos #Salario #Fixo"
-  },
-  {
-    "data_de_referencia": "2022-03-08T00:00:00",
-    "data_do_evento": "2022-03-08T00:00:00",
-    "data_do_pagamento": "2022-03-08T00:00:00",
-    "descricao": "Shibata - clique e retire",
-    "gastos": 89.33,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "SODEXO-REF-IBM",
-    "status": "PAGO",
-    "tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação"
-  },
-  {
-    "data_de_referencia": "2022-03-11T00:00:00",
-    "data_do_evento": "2022-03-11T00:00:00",
-    "data_do_pagamento": "2022-03-11T00:00:00",
-    "descricao": "Cartão Nubank",
-    "gastos": 365.36,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "status": "PAGO",
-    "tags": "#CartaoDeCredito #Cicero"
-  },
-  {
-    "data_de_referencia": "2022-03-29T00:00:00",
-    "data_do_evento": "2022-03-29T00:00:00",
-    "descricao": "Kabum - Controle sem fio XBox Carbon Black (Series S/X)",
-    "gastos": 426.48,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "nota": "Controle sem fio XBox Carbon Black (Series S/X) = R$ 413,91. Frete = R$ 12,57.",
-    "status": "PAGO",
-    "tags": "#Cicero #Lazer #Variavel"
-  },
-  {
-    "data_de_referencia": "2022-03-04T00:00:00",
-    "data_do_evento": "2022-03-04T00:00:00",
-    "descricao": "Resgate reserva de oportunidade",
-    "grupo": [
-      "INVESTIMENTO"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "renda": 2000,
-    "status": "RECEBIDO",
-    "tags": "#Resgate #Nubank #Variavel"
-  },
-  {
-    "data_de_referencia": "2022-03-15T00:00:00",
-    "data_do_evento": "2022-03-15T00:00:00",
-    "data_do_pagamento": "2022-03-15T00:00:00",
-    "descricao": "Convenio Eduardo",
-    "gastos": 182.43,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "status": "PAGO",
-    "tags": "#Essencial #Saude #Convenio #Familia #Fixo"
-  },
-  {
-    "data_de_referencia": "2022-03-17T00:00:00",
-    "data_do_evento": "2022-03-17T00:00:00",
-    "data_do_pagamento": "2022-03-17T00:00:00",
-    "descricao": "Shibata",
-    "gastos": 41.57,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "SODEXO-REF-IBM",
-    "status": "PAGO",
-    "tags": "#Moradia #Essencial #Mercado #Variavel #Alimentação"
-  },
-  {
-    "data_de_referencia": "2022-04-08T00:00:00",
-    "data_do_evento": "2022-04-02T00:00:00",
-    "data_do_pagamento": "2022-04-02T00:00:00",
-    "descricao": "Convenio Sr. Antonio - São Cristovão",
-    "gastos": 495.76,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "status": "PREVISTO",
-    "tags": "#Essencial #Saude #Convenio #Papai #Fixo"
-  },
-  {
-    "data_de_referencia": "2022-03-15T00:00:00",
-    "data_do_evento": "2022-03-15T00:00:00",
-    "descricao": "Transferencia via PIX",
-    "gastos": 170,
-    "grupo": [
-      "TRANSFERENCIA"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "status": "ENVIADO"
-  },
-  {
-    "data_de_referencia": "2022-03-03T00:00:00",
-    "data_do_evento": "2022-03-01T00:00:00",
-    "data_do_pagamento": "2022-03-01T00:00:00",
-    "descricao": "Psicologa - Kelley Nascimento (para Roberta) PIX (TEL) 31993029435",
-    "gastos": 400,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "status": "PAGO",
-    "tags": "#Psicologa #Fixo #Roberta"
-  },
-  {
-    "data_de_referencia": "2022-03-01T00:00:00",
-    "data_do_evento": "2022-03-01T00:00:00",
-    "descricao": "Recebimento via PIX",
-    "grupo": [
-      "TRANSFERENCIA"
-    ],
-    "instituicao_financeira": "ITAU",
-    "renda": 350,
-    "status": "ENVIADO"
-  },
-  {
-    "data_de_referencia": "2022-03-11T00:00:00",
-    "data_do_evento": "2022-02-10T00:00:00",
-    "data_do_pagamento": "2022-03-11T00:00:00",
-    "descricao": "Discovery+",
-    "gastos": 16.24,
-    "grupo": [
-      "CREDITO"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "status": "PAGO",
-    "tags": "#Streaming #Fixo "
-  },
-  {
-    "data_de_referencia": "2022-04-14T00:00:00",
-    "data_do_evento": "2022-04-14T00:00:00",
-    "data_do_pagamento": "2022-04-14T00:00:00",
-    "descricao": "Recarga TIM Cicero 11 948825242",
-    "gastos": 15,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "C6BANK",
-    "status": "PREVISTO",
-    "tags": "#Variavel #Recarga #TIM"
-  },
-  {
-    "data_de_referencia": "2022-04-02T00:00:00",
-    "data_do_evento": "2022-04-02T00:00:00",
-    "data_do_pagamento": "2022-04-02T00:00:00",
-    "descricao": "Agua - DEBITO AUTO",
-    "gastos": 54.26,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "ITAU",
-    "status": "PREVISTO",
-    "tags": "#Moradia #Essencial #Agua #Fixo"
-  },
-  {
-    "data_de_referencia": "2022-03-14T00:00:00",
-    "data_do_evento": "2022-03-14T00:00:00",
-    "data_do_pagamento": "2022-03-14T00:00:00",
-    "descricao": "Recarga TIM Cicero 11 948825242",
-    "gastos": 15,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "C6BANK",
-    "status": "PAGO",
-    "tags": "#Variavel #Recarga #TIM"
-  },
-  {
-    "data_de_referencia": "2022-03-15T00:00:00",
-    "data_do_evento": "2022-03-15T00:00:00",
-    "data_do_pagamento": "2022-03-15T00:00:00",
-    "descricao": "Convenio Roberta",
-    "gastos": 230.66,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "status": "PAGO",
-    "tags": "#Essencial #Saude #Convenio #Familia #Fixo"
-  },
-  {
-    "data_de_referencia": "2022-03-20T00:00:00",
-    "data_do_evento": "2022-03-20T00:00:00",
-    "data_do_pagamento": "2022-03-20T00:00:00",
-    "descricao": "Mercadolivre - Meu Canto Shop - Abridor De Latas Manivela",
-    "gastos": 46.37,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "nota": "Mimo Style - Abridor De Latas. Manivela Profissional Inox Sem Rebarbas = 36,87. Frete = 9,50.",
-    "status": "PAGO",
-    "tags": "#Moradia #Cozinha #Cicero #Variavel"
-  },
-  {
-    "data_de_referencia": "2022-03-08T00:00:00",
-    "data_do_evento": "2022-03-04T00:00:00",
-    "data_do_pagamento": "2022-03-04T00:00:00",
-    "descricao": "Fatura VIVOFIBRA INTERNET",
-    "gastos": 117.09,
-    "grupo": [
-      "GASTOS"
-    ],
-    "instituicao_financeira": "NUBANK",
-    "status": "PAGO",
-    "tags": "#Essencial #Internet #Fixo"
-  }
+[{
+        "data_de_referencia": "2022-03-15T00:00:00",
+        "data_do_evento": "2022-03-15T00:00:00",
+        "data_do_pagamento": "2022-03-15T00:00:00",
+        "descricao": "Shibata - clique e retire",
+        "gastos": 165.54,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "SODEXO-ALI-IBM",
+        "status": "PAGO",
+        "tags": ["Moradia", "Essencial", "Mercado", "Variavel", "Alimentação"]
+    }, {
+        "data_de_referencia": "2022-04-08T00:00:00",
+        "data_do_evento": "2022-04-04T00:00:00",
+        "data_do_pagamento": "2022-04-04T00:00:00",
+        "descricao": "Fatura VIVOFIBRA NETFLIX",
+        "gastos": 39.9,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "status": "PREVISTO",
+        "tags": ["Essencial", "Streaming", "Fixo"]
+    }, {
+        "data_de_referencia": "2022-04-20T00:00:00",
+        "data_do_evento": "2022-04-15T00:00:00",
+        "data_do_pagamento": "2022-04-15T00:00:00",
+        "descricao": "Convenio Cicero",
+        "gastos": 342.83,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "status": "PREVISTO",
+        "tags": ["Essencial", "Saude", "Convenio", "Familia", "Cicero", "Fixo"]
+    }, {
+        "data_de_referencia": "2022-03-24T00:00:00",
+        "data_do_evento": "2022-03-24T00:00:00",
+        "data_do_pagamento": "2022-03-24T00:00:00",
+        "descricao": "Mercadinho Piratininga - Cassiopéia prox Andromeda SJC",
+        "gastos": 31.05,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "SODEXO-ALI-IBM",
+        "status": "PAGO",
+        "tags": ["Moradia", "Essencial", "Mercado", "Variavel", "Alimentação"]
+    }, {
+        "data_de_referencia": "2022-03-11T00:00:00",
+        "data_do_evento": "2022-02-26T00:00:00",
+        "data_do_pagamento": "2022-03-11T00:00:00",
+        "descricao": "Amazonprimebr",
+        "gastos": 9.9,
+        "grupos": [
+            "CREDITO"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "status": "PAGO",
+        "tags": ["Streaming", "Fixo "]
+    }, {
+        "data_de_referencia": "2022-04-30T00:00:00",
+        "data_do_evento": "2022-04-30T00:00:00",
+        "descricao": "Recarga TIM Cicero 11 948825242",
+        "gastos": 20,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "status": "PREVISTO",
+        "tags": ["Variavel", "Recarga", "TIM "]
+    }, {
+        "data_de_referencia": "2022-03-30T00:00:00",
+        "data_do_evento": "2022-03-30T00:00:00",
+        "descricao": "Recarga Sodexo Refeição IBM",
+        "grupos": [
+            "RENDA"
+        ],
+        "instituicao_financeira": "SODEXO-REF-IBM",
+        "renda": 700,
+        "status": "PREVISTO",
+        "tags": ["Recebimentos", "Alimentação", "Fixo"]
+    }, {
+        "data_de_referencia": "2022-04-08T00:00:00",
+        "data_do_evento": "2022-04-04T00:00:00",
+        "data_do_pagamento": "2022-04-04T00:00:00",
+        "descricao": "Fatura VIVOFIBRA INTERNET",
+        "gastos": 117.09,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "status": "PREVISTO",
+        "tags": ["Essencial", "Internet", "Fixo"]
+    }, {
+        "data_de_referencia": "2022-04-15T00:00:00",
+        "data_do_evento": "2022-04-15T00:00:00",
+        "descricao": "Recebimento via PIX",
+        "grupos": [
+            "TRANSFERENCIA"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "renda": 5058.2,
+        "status": "PREVISTO"
+    }, {
+        "data_de_referencia": "2022-03-08T00:00:00",
+        "data_do_evento": "2022-02-20T00:00:00",
+        "data_do_pagamento": "2022-03-08T00:00:00",
+        "descricao": "PAG*Farmacon-CT",
+        "gastos": 79.8,
+        "grupos": [
+            "CREDITO"
+        ],
+        "instituicao_financeira": "ITAU",
+        "status": "PAGO",
+        "tags": ["Variavel", "Carlos", "Eduardo", "Remedio"]
+    }, {
+        "data_de_referencia": "2022-03-04T00:00:00",
+        "data_do_evento": "2022-03-04T00:00:00",
+        "data_do_pagamento": "2022-03-04T00:00:00",
+        "descricao": "Multi Sabor SJC - Cidade Jardim - 100 salgadinhos",
+        "gastos": 42,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "status": "PAGO",
+        "tags": ["Lazer", "Comida", "Variavel"]
+    }, {
+        "data_de_referencia": "2022-03-01T00:00:00",
+        "data_do_evento": "2022-03-01T00:00:00",
+        "descricao": "Entrada mes anterior",
+        "grupos": [
+            "TRANSFERENCIA"
+        ],
+        "instituicao_financeira": "SODEXO-ALI-IBM",
+        "renda": 394.49,
+        "status": "RECEBIDO"
+    }, {
+        "data_de_referencia": "2022-03-15T00:00:00",
+        "data_do_evento": "2022-03-15T00:00:00",
+        "descricao": "Entrada prestação casa de Itaquera - dificuldades no pagamento",
+        "grupos": [
+            "INVESTIMENTO"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "nota": "Venda da casa de itaquera (Dida). Conversei com Marciana (esposa do devedor) e eles estão com dificuldade no pagamento por causa da pandemia e problemas pessoais.",
+        "renda": 2500,
+        "status": "PREVISTO",
+        "tags": ["Recebimentos", "Prestação", "Itaquera", "Inter", "Variavel"]
+    }, {
+        "data_de_referencia": "2022-04-12T00:00:00",
+        "data_do_evento": "2022-03-29T00:00:00",
+        "descricao": "AZUL AUTO - SEGUROS - R$ 1.574,01 - 6x - 4-6",
+        "gastos": 262.33,
+        "grupos": [
+            "GASTOS",
+            "CREDITO"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "status": "PREVISTO",
+        "tags": ["Carro", "Seguro", "Variavel"]
+    }, {
+        "data_de_referencia": "2022-03-01T00:00:00",
+        "data_do_evento": "2022-03-01T00:00:00",
+        "descricao": "Entrada mes anterior",
+        "grupos": [
+            "TRANSFERENCIA"
+        ],
+        "instituicao_financeira": "INTER",
+        "renda": 30,
+        "status": "RECEBIDO"
+    }, {
+        "data_de_referencia": "2022-03-20T00:00:00",
+        "data_do_evento": "2022-03-15T00:00:00",
+        "data_do_pagamento": "2022-03-15T00:00:00",
+        "descricao": "Convenio Cicero",
+        "gastos": 342.83,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "status": "PAGO",
+        "tags": ["Essencial", "Saude", "Convenio", "Familia", "Cicero", "Fixo"]
+    }, {
+        "data_de_referencia": "2022-03-08T00:00:00",
+        "data_do_evento": "2022-02-08T00:00:00",
+        "data_do_pagamento": "2022-03-08T00:00:00",
+        "descricao": "PAG*Farmaconde",
+        "gastos": 49.12,
+        "grupos": [
+            "CREDITO"
+        ],
+        "instituicao_financeira": "ITAU",
+        "status": "PAGO",
+        "tags": ["Variavel", "Carlos", "Eduardo", "Remedio"]
+    }, {
+        "data_de_referencia": "2022-03-09T00:00:00",
+        "data_do_evento": "2022-03-09T00:00:00",
+        "data_do_pagamento": "2022-03-09T00:00:00",
+        "descricao": "Facillita Passadoria - passar roupas - PIX (12)982423502",
+        "gastos": 138,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "ITAU",
+        "status": "PAGO",
+        "tags": ["Essencial", "Roupas", "Passar", "Roberta", "Variavel"]
+    }, {
+        "data_de_referencia": "2022-04-08T00:00:00",
+        "data_do_evento": "2022-04-08T00:00:00",
+        "data_do_pagamento": "2022-04-08T00:00:00",
+        "descricao": "Shibata - clique e retire",
+        "gastos": 89.33,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "SODEXO-REF-IBM",
+        "status": "PREVISTO",
+        "tags": ["Moradia", "Essencial", "Mercado", "Variavel", "Alimentação"]
+    }, {
+        "data_de_referencia": "2022-03-14T00:00:00",
+        "data_do_evento": "2022-03-14T00:00:00",
+        "descricao": "Transferencia via PIX",
+        "gastos": 10,
+        "grupos": [
+            "TRANSFERENCIA"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "status": "ENVIADO"
+    }, {
+        "data_de_referencia": "2022-04-10T00:00:00",
+        "data_do_evento": "2022-04-04T00:00:00",
+        "data_do_pagamento": "2022-04-04T00:00:00",
+        "descricao": "Colégio Evoluti SJC",
+        "gastos": 637,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "status": "PREVISTO",
+        "tags": ["Essencial", "Escola", "Eduardo", "Fixo"]
+    }, {
+        "data_de_referencia": "2022-03-22T00:00:00",
+        "data_do_evento": "2022-03-22T00:00:00",
+        "data_do_pagamento": "2022-03-22T00:00:00",
+        "descricao": "Agua - ITAQUERA - SERÁ PAGO PELA JOICE (CASA ALUGADA)",
+        "gastos": 0,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "status": "PAGO",
+        "tags": ["Itaquera", "Essencial", "AjudaAlmir", "Fixo"]
+    }, {
+        "data_de_referencia": "2022-04-08T00:00:00",
+        "data_do_evento": "2022-04-08T00:00:00",
+        "descricao": "PAG*Farmacon-CT",
+        "gastos": 35.37,
+        "grupos": [
+            "GASTOS",
+            "CREDITO"
+        ],
+        "instituicao_financeira": "ITAU",
+        "status": "PREVISTO",
+        "tags": ["Variavel", "Carlos", "Eduardo", "Remedio"]
+    }, {
+        "data_de_referencia": "2022-04-08T00:00:00",
+        "data_do_evento": "2022-04-08T00:00:00",
+        "descricao": "PAG*Farmacon-CT",
+        "gastos": 79.8,
+        "grupos": [
+            "GASTOS",
+            "CREDITO"
+        ],
+        "instituicao_financeira": "ITAU",
+        "status": "PREVISTO",
+        "tags": ["Variavel", "Carlos", "Eduardo", "Remedio"]
+    }, {
+        "data_de_referencia": "2022-04-30T00:00:00",
+        "data_do_evento": "2022-04-30T00:00:00",
+        "descricao": "Recebimento via PIX",
+        "grupos": [
+            "TRANSFERENCIA"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "renda": 2563.78,
+        "status": "PREVISTO"
+    }, {
+        "data_de_referencia": "2022-04-12T00:00:00",
+        "data_do_evento": "2022-03-20T00:00:00",
+        "descricao": "Google Play - Roblox",
+        "gastos": 109.9,
+        "grupos": [
+            "GASTOS",
+            "CREDITO"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "status": "PREVISTO",
+        "tags": ["Lazer", "Eduardo", "Variavel"]
+    }, {
+        "data_de_referencia": "2022-03-15T00:00:00",
+        "data_do_evento": "2022-03-15T00:00:00",
+        "data_do_pagamento": "2022-03-15T00:00:00",
+        "descricao": "Shibata",
+        "gastos": 98.46,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "SODEXO-ALI-IBM",
+        "status": "PAGO",
+        "tags": ["Moradia", "Essencial", "Mercado", "Variavel", "Alimentação"]
+    }, {
+        "data_de_referencia": "2022-03-10T00:00:00",
+        "data_do_evento": "2022-03-04T00:00:00",
+        "data_do_pagamento": "2022-03-04T00:00:00",
+        "descricao": "Colégio Evoluti SJC",
+        "gastos": 637,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "status": "PAGO",
+        "tags": ["Essencial", "Escola", "Eduardo", "Fixo"]
+    }, {
+        "data_de_referencia": "2022-04-12T00:00:00",
+        "data_do_evento": "2022-03-06T00:00:00",
+        "descricao": "Carrefour SJC Aquarius - Whisky Chivas",
+        "gastos": 129.9,
+        "grupos": [
+            "GASTOS",
+            "CREDITO"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "status": "PREVISTO",
+        "tags": ["Cicero", "Lazer", "Comida", "Variavel"]
+    }, {
+        "data_de_referencia": "2022-04-15T00:00:00",
+        "data_do_evento": "2022-04-15T00:00:00",
+        "data_do_pagamento": "2022-04-15T00:00:00",
+        "descricao": "Shibata",
+        "gastos": 98.46,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "SODEXO-ALI-IBM",
+        "status": "PREVISTO",
+        "tags": ["Moradia", "Essencial", "Mercado", "Variavel", "Alimentação"]
+    }, {
+        "data_de_referencia": "2022-04-17T00:00:00",
+        "data_do_evento": "2022-04-17T00:00:00",
+        "data_do_pagamento": "2022-04-17T00:00:00",
+        "descricao": "Shibata",
+        "gastos": 41.57,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "SODEXO-REF-IBM",
+        "status": "PREVISTO",
+        "tags": ["Moradia", "Essencial", "Mercado", "Variavel", "Alimentação"]
+    }, {
+        "data_de_referencia": "2022-03-13T00:00:00",
+        "data_do_evento": "2022-03-13T00:00:00",
+        "data_do_pagamento": "2022-03-13T00:00:00",
+        "descricao": "Vale-Sul Shopping - Estacionamento",
+        "gastos": 9,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "status": "PAGO",
+        "tags": ["Carro", "Estacionamento", "Variavel"]
+    }, {
+        "data_de_referencia": "2022-04-12T00:00:00",
+        "data_do_evento": "2022-03-26T00:00:00",
+        "descricao": "Amazonprimebr",
+        "gastos": 9.9,
+        "grupos": [
+            "GASTOS",
+            "CREDITO"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "status": "PREVISTO",
+        "tags": ["Streaming", "Fixo "]
+    }, {
+        "data_de_referencia": "2022-03-08T00:00:00",
+        "data_do_evento": "2021-11-11T00:00:00",
+        "data_do_pagamento": "2022-03-08T00:00:00",
+        "descricao": "INSTITUTO MIX SJC 01-10 EDUCACAO. CURSO DE CONFEITARIA 04-10",
+        "gastos": 223.38,
+        "grupos": [
+            "CREDITO"
+        ],
+        "instituicao_financeira": "ITAU",
+        "status": "PAGO",
+        "tags": ["Roberta", "Cursos", "Variavel"]
+    }, {
+        "data_de_referencia": "2022-04-15T00:00:00",
+        "data_do_evento": "2022-04-15T00:00:00",
+        "data_do_pagamento": "2022-04-15T00:00:00",
+        "descricao": "Convenio Eduardo",
+        "gastos": 182.43,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "status": "PREVISTO",
+        "tags": ["Essencial", "Saude", "Convenio", "Familia", "Fixo"]
+    }, {
+        "data_de_referencia": "2022-03-30T00:00:00",
+        "data_do_evento": "2022-03-30T00:00:00",
+        "descricao": "Recarga TIM Cicero 11 948825242",
+        "gastos": 20,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "status": "PAGO",
+        "tags": ["Variavel", "Recarga", "TIM "]
+    }, {
+        "data_de_referencia": "2022-03-30T00:00:00",
+        "data_do_evento": "2022-03-30T00:00:00",
+        "descricao": "Recarga Sodexo Alimentação IBM",
+        "grupos": [
+            "RENDA"
+        ],
+        "instituicao_financeira": "SODEXO-ALI-IBM",
+        "renda": 330,
+        "status": "PREVISTO",
+        "tags": ["Recebimentos", "Alimentação", "Fixo"]
+    }, {
+        "data_de_referencia": "2022-03-15T00:00:00",
+        "data_do_evento": "2022-03-15T00:00:00",
+        "data_do_pagamento": "2022-03-15T00:00:00",
+        "descricao": "Convenio Carlos",
+        "gastos": 182.43,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "status": "PAGO",
+        "tags": ["Essencial", "Saude", "Convenio", "Familia", "Fixo"]
+    }, {
+        "data_de_referencia": "2022-03-11T00:00:00",
+        "data_do_evento": "2022-02-25T00:00:00",
+        "data_do_pagamento": "2022-03-11T00:00:00",
+        "descricao": "Google YouTube Premium",
+        "gastos": 31.9,
+        "grupos": [
+            "CREDITO"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "status": "PAGO",
+        "tags": ["Streaming", "Fixo "]
+    }, {
+        "data_de_referencia": "2022-03-01T00:00:00",
+        "data_do_evento": "2022-03-01T00:00:00",
+        "descricao": "Transferencia via PIX",
+        "gastos": 350,
+        "grupos": [
+            "TRANSFERENCIA"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "status": "RECEBIDO"
+    }, {
+        "data_de_referencia": "2022-03-23T00:00:00",
+        "data_do_evento": "2022-03-23T00:00:00",
+        "data_do_pagamento": "2022-03-23T00:00:00",
+        "descricao": "Shibata",
+        "gastos": 158.63,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "SODEXO-REF-IBM",
+        "status": "PAGO",
+        "tags": ["Moradia", "Essencial", "Mercado", "Variavel", "Alimentação"]
+    }, {
+        "data_de_referencia": "2022-03-04T00:00:00",
+        "data_do_evento": "2022-03-04T00:00:00",
+        "descricao": "Transferencia via PIX - Roberta (aluguel)",
+        "gastos": 500,
+        "grupos": [
+            "ALUGUEL"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "status": "ENVIADO",
+        "tags": ["Roberta", "Aluguel", "Itaquera", "Variavel"]
+    }, {
+        "data_de_referencia": "2022-03-04T00:00:00",
+        "data_do_evento": "2022-03-04T00:00:00",
+        "descricao": "Aluguel de Itaquera - Joice",
+        "grupos": [
+            "ALUGUEL"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "renda": 500,
+        "status": "RECEBIDO",
+        "tags": ["Recebimentos", "Aluguel", "Itaquera", "Variavel"]
+    }, {
+        "data_de_referencia": "2022-03-30T00:00:00",
+        "data_do_evento": "2022-03-30T00:00:00",
+        "descricao": "Transferencia via PIX",
+        "gastos": 2563.78,
+        "grupos": [
+            "TRANSFERENCIA"
+        ],
+        "instituicao_financeira": "SANTANDER",
+        "status": "PREVISTO"
+    }, {
+        "data_de_referencia": "2022-03-30T00:00:00",
+        "data_do_evento": "2022-03-30T00:00:00",
+        "descricao": "Recebimento via PIX",
+        "grupos": [
+            "TRANSFERENCIA"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "renda": 2563.78,
+        "status": "PREVISTO"
+    }, {
+        "data_de_referencia": "2022-03-02T00:00:00",
+        "data_do_evento": "2022-03-02T00:00:00",
+        "data_do_pagamento": "2022-03-02T00:00:00",
+        "descricao": "Agua - DEBITO AUTO",
+        "gastos": 54.26,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "ITAU",
+        "status": "PAGO",
+        "tags": ["Moradia", "Essencial", "Agua", "Fixo"]
+    }, {
+        "data_de_referencia": "2022-04-30T00:00:00",
+        "data_do_evento": "2022-04-30T00:00:00",
+        "descricao": "Recarga Sodexo Alimentação IBM",
+        "grupos": [
+            "RENDA"
+        ],
+        "instituicao_financeira": "SODEXO-ALI-IBM",
+        "renda": 330,
+        "status": "PREVISTO",
+        "tags": ["Recebimentos", "Alimentação", "Fixo"]
+    }, {
+        "data_de_referencia": "2022-04-09T00:00:00",
+        "data_do_evento": "2022-04-09T00:00:00",
+        "data_do_pagamento": "2022-04-09T00:00:00",
+        "descricao": "Facillita Passadoria - passar roupas - PIX (12)982423502",
+        "gastos": 138,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "ITAU",
+        "status": "PREVISTO",
+        "tags": ["Essencial", "Roupas", "Passar", "Roberta", "Variavel"]
+    }, {
+        "data_de_referencia": "2022-04-12T00:00:00",
+        "data_do_evento": "2022-03-10T00:00:00",
+        "descricao": "Discovery+",
+        "gastos": 16.24,
+        "grupos": [
+            "GASTOS",
+            "CREDITO"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "status": "PREVISTO",
+        "tags": ["Streaming", "Fixo "]
+    }, {
+        "data_de_referencia": "2022-04-15T00:00:00",
+        "data_do_evento": "2022-04-15T00:00:00",
+        "data_do_pagamento": "2022-04-15T00:00:00",
+        "descricao": "Convenio Roberta",
+        "gastos": 230.66,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "status": "PREVISTO",
+        "tags": ["Essencial", "Saude", "Convenio", "Familia", "Fixo"]
+    }, {
+        "data_de_referencia": "2022-04-22T00:00:00",
+        "data_do_evento": "2022-04-22T00:00:00",
+        "data_do_pagamento": "2022-04-22T00:00:00",
+        "descricao": "Luz - DEBITO AUTO",
+        "gastos": 344.29,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "ITAU",
+        "status": "PREVISTO",
+        "tags": ["Moradia", "Essencial", "Luz", "Fixo"]
+    }, {
+        "data_de_referencia": "2022-03-01T00:00:00",
+        "data_do_evento": "2022-03-01T00:00:00",
+        "data_do_pagamento": "2022-03-01T00:00:00",
+        "descricao": "Mesada Eduardo",
+        "gastos": 50,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "status": "PAGO",
+        "tags": ["Mesada", "Eduardo", "Fixo"]
+    }, {
+        "data_de_referencia": "2022-04-12T00:00:00",
+        "data_do_evento": "2022-03-07T00:00:00",
+        "descricao": "Farma Direta",
+        "gastos": 34.19,
+        "grupos": [
+            "GASTOS",
+            "CREDITO"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "status": "PREVISTO",
+        "tags": ["Variavel", "Carlos", "Eduardo", "Remedios"]
+    }, {
+        "data_de_referencia": "2022-03-15T00:00:00",
+        "data_do_evento": "2022-03-14T00:00:00",
+        "data_do_pagamento": "2022-03-14T00:00:00",
+        "descricao": "Salario - IBM",
+        "grupos": [
+            "RENDA"
+        ],
+        "instituicao_financeira": "SANTANDER",
+        "renda": 5058.2,
+        "status": "PAGO",
+        "tags": ["Recebimentos", "Salario", "Fixo"]
+    }, {
+        "data_de_referencia": "2022-03-01T00:00:00",
+        "data_do_evento": "2022-03-01T00:00:00",
+        "descricao": "Entrada mes anterior",
+        "grupos": [
+            "TRANSFERENCIA"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "renda": 3220.14,
+        "status": "RECEBIDO"
+    }, {
+        "data_de_referencia": "2022-03-01T00:00:00",
+        "data_do_evento": "2022-03-01T00:00:00",
+        "descricao": "Entrada mes anterior",
+        "grupos": [
+            "TRANSFERENCIA"
+        ],
+        "instituicao_financeira": "C6BANK",
+        "renda": 9.52,
+        "status": "RECEBIDO"
+    }, {
+        "data_de_referencia": "2022-03-15T00:00:00",
+        "data_do_evento": "2022-03-15T00:00:00",
+        "descricao": "Recebimento via PIX",
+        "grupos": [
+            "TRANSFERENCIA"
+        ],
+        "instituicao_financeira": "ITAU",
+        "renda": 170,
+        "status": "RECEBIDO"
+    }, {
+        "data_de_referencia": "2022-03-01T00:00:00",
+        "data_do_evento": "2022-03-01T00:00:00",
+        "descricao": "Entrada mes anterior",
+        "grupos": [
+            "TRANSFERENCIA"
+        ],
+        "instituicao_financeira": "SANTANDER",
+        "renda": 0,
+        "status": "RECEBIDO"
+    }, {
+        "data_de_referencia": "2022-03-04T00:00:00",
+        "data_do_evento": "2022-03-04T00:00:00",
+        "descricao": "Transferencia via PIX - Almir",
+        "gastos": 2000,
+        "grupos": [
+            "INVESTIMENTO"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "status": "ENVIADO",
+        "tags": ["Resgate", "Nubank", "Variavel", "AjudaAlmir"]
+    }, {
+        "data_de_referencia": "2022-03-20T00:00:00",
+        "data_do_evento": "2022-03-20T00:00:00",
+        "data_do_pagamento": "2022-03-20T00:00:00",
+        "descricao": "Shibata",
+        "gastos": 191.8,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "SODEXO-REF-IBM",
+        "status": "PAGO",
+        "tags": ["Moradia", "Essencial", "Mercado", "Variavel", "Alimentação"]
+    }, {
+        "data_de_referencia": "2022-04-12T00:00:00",
+        "data_do_evento": "2022-03-25T00:00:00",
+        "descricao": "Console XBox Series S - Americanas online",
+        "gastos": 2113.2,
+        "grupos": [
+            "GASTOS",
+            "CREDITO"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "status": "PREVISTO",
+        "tags": ["Cicero", "Lazer", "Variavel"]
+    }, {
+        "data_de_referencia": "2022-04-08T00:00:00",
+        "data_do_evento": "2022-04-08T00:00:00",
+        "descricao": "PAG*Farmacon-CT",
+        "gastos": 36.1,
+        "grupos": [
+            "GASTOS",
+            "CREDITO"
+        ],
+        "instituicao_financeira": "ITAU",
+        "status": "PREVISTO",
+        "tags": ["Variavel", "Carlos", "Eduardo", "Remedio"]
+    }, {
+        "data_de_referencia": "2022-03-20T00:00:00",
+        "data_do_evento": "2022-03-20T00:00:00",
+        "data_do_pagamento": "2022-03-20T00:00:00",
+        "descricao": "Shibata - brinquedo camaleão",
+        "gastos": 109.9,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "status": "PAGO",
+        "tags": ["Mercado", "Variavel", "Lazer", "Carlos"]
+    }, {
+        "data_de_referencia": "2022-04-15T00:00:00",
+        "data_do_evento": "2022-04-15T00:00:00",
+        "data_do_pagamento": "2022-04-15T00:00:00",
+        "descricao": "Shibata - clique e retire",
+        "gastos": 165.54,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "SODEXO-ALI-IBM",
+        "status": "PREVISTO",
+        "tags": ["Moradia", "Essencial", "Mercado", "Variavel", "Alimentação"]
+    }, {
+        "data_de_referencia": "2022-04-15T00:00:00",
+        "data_do_evento": "2022-04-15T00:00:00",
+        "descricao": "Transferencia via PIX",
+        "gastos": 5058.2,
+        "grupos": [
+            "TRANSFERENCIA"
+        ],
+        "instituicao_financeira": "SANTANDER",
+        "status": "PREVISTO"
+    }, {
+        "data_de_referencia": "2022-04-08T00:00:00",
+        "data_do_evento": "2022-04-08T00:00:00",
+        "descricao": "INSTITUTO MIX SJC 01-10 EDUCACAO. CURSO DE CONFEITARIA 04-10",
+        "gastos": 223.38,
+        "grupos": [
+            "GASTOS",
+            "CREDITO"
+        ],
+        "instituicao_financeira": "ITAU",
+        "status": "PREVISTO",
+        "tags": ["Roberta", "Cursos", "Variavel"]
+    }, {
+        "data_de_referencia": "2022-04-12T00:00:00",
+        "data_do_evento": "2022-03-25T00:00:00",
+        "descricao": "Google YouTube Premium",
+        "gastos": 31.9,
+        "grupos": [
+            "GASTOS",
+            "CREDITO"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "status": "PREVISTO",
+        "tags": ["Streaming", "Fixo "]
+    }, {
+        "data_de_referencia": "2022-03-05T00:00:00",
+        "data_do_evento": "2022-03-05T00:00:00",
+        "data_do_pagamento": "2022-03-05T00:00:00",
+        "descricao": "Shibata",
+        "gastos": 203.92,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "nota": "Buzz Lightyear para o Carlos = 114,00",
+        "status": "PAGO",
+        "tags": ["Moradia", "Essencial", "Mercado", "Variavel", "Alimentação", "Lazer", "Carlos"]
+    }, {
+        "data_de_referencia": "2022-03-06T00:00:00",
+        "data_do_evento": "2022-03-06T00:00:00",
+        "data_do_pagamento": "2022-03-06T00:00:00",
+        "descricao": "Assaí Atacadista - compra para fazer bolo",
+        "gastos": 83.28,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "SODEXO-ALI-IBM",
+        "status": "PAGO",
+        "tags": ["Moradia", "Essencial", "Mercado", "Variavel", "Alimentação"]
+    }, {
+        "data_de_referencia": "2022-03-26T00:00:00",
+        "data_do_evento": "2022-03-26T00:00:00",
+        "data_do_pagamento": "2022-03-26T00:00:00",
+        "descricao": "Assaí Atacadista",
+        "gastos": 1049.8,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "status": "PAGO",
+        "tags": ["Moradia", "Essencial", "Mercado", "Fixo", "Alimentação"]
+    }, {
+        "data_de_referencia": "2022-03-30T00:00:00",
+        "data_do_evento": "2022-03-30T00:00:00",
+        "descricao": "Padaria Edna Magali - PRONVAL Periodico IBM",
+        "gastos": 15,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "status": "PAGO",
+        "tags": ["Lazer", "Comida", "Variavel"]
+    }, {
+        "data_de_referencia": "2022-04-12T00:00:00",
+        "data_do_evento": "2022-03-06T00:00:00",
+        "descricao": "Leroy SJC",
+        "gastos": 97.88,
+        "grupos": [
+            "GASTOS",
+            "CREDITO"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "nota": "Canos e conexões para fazer suporte para vasos e correção da caixa d'água",
+        "status": "PREVISTO",
+        "tags": ["Cicero", "Lazer", "Plantas", "Moradia", "Variavel"]
+    }, {
+        "data_de_referencia": "2022-03-11T00:00:00",
+        "data_do_evento": "2022-02-28T00:00:00",
+        "data_do_pagamento": "2022-03-11T00:00:00",
+        "descricao": "AZUL AUTO - SEGUROS - R$ 1.574,01 - 6x - 4-6",
+        "gastos": 262.33,
+        "grupos": [
+            "CREDITO"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "status": "PAGO",
+        "tags": ["Carro", "Seguro", "Variavel"]
+    }, {
+        "data_de_referencia": "2022-03-30T00:00:00",
+        "data_do_evento": "2022-03-30T00:00:00",
+        "descricao": "Estacionamento - PRONVAL Periodico IBM",
+        "gastos": 5,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "status": "PAGO",
+        "tags": ["Carro", "Estacionamento", "Variavel"]
+    }, {
+        "data_de_referencia": "2022-03-15T00:00:00",
+        "data_do_evento": "2022-03-15T00:00:00",
+        "descricao": "Recebimento via PIX",
+        "grupos": [
+            "TRANSFERENCIA"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "renda": 5058.2,
+        "status": "RECEBIDO"
+    }, {
+        "data_de_referencia": "2022-04-01T00:00:00",
+        "data_do_evento": "2022-04-01T00:00:00",
+        "data_do_pagamento": "2022-04-01T00:00:00",
+        "descricao": "Mesada Eduardo",
+        "gastos": 50,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "status": "PREVISTO",
+        "tags": ["Mesada", "Eduardo", "Fixo"]
+    }, {
+        "data_de_referencia": "2022-04-15T00:00:00",
+        "data_do_evento": "2022-04-14T00:00:00",
+        "data_do_pagamento": "2022-04-14T00:00:00",
+        "descricao": "Salario - IBM",
+        "grupos": [
+            "RENDA"
+        ],
+        "instituicao_financeira": "SANTANDER",
+        "renda": 5058.2,
+        "status": "PREVISTO",
+        "tags": ["Recebimentos", "Salario", "Fixo"]
+    }, {
+        "data_de_referencia": "2022-03-11T00:00:00",
+        "data_do_evento": "2022-03-01T00:00:00",
+        "data_do_pagamento": "2022-03-11T00:00:00",
+        "descricao": "Microsoft Game Pass Ultimate",
+        "gastos": 44.99,
+        "grupos": [
+            "CREDITO"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "nota": "Primeiro mês = 5,00; Depois = 44,99;",
+        "status": "PAGO",
+        "tags": ["Lazer", "Variavel"]
+    }, {
+        "data_de_referencia": "2022-03-30T00:00:00",
+        "data_do_evento": "2022-03-30T00:00:00",
+        "descricao": "Rendimento",
+        "grupos": [
+            "INVESTIMENTO"
+        ],
+        "instituicao_financeira": "ITAU",
+        "renda": 0.03,
+        "status": "PREVISTO",
+        "tags": ["Recebimentos", "Rendimentos", "Variavel"]
+    }, {
+        "data_de_referencia": "2022-03-01T00:00:00",
+        "data_do_evento": "2022-03-01T00:00:00",
+        "descricao": "Entrada mes anterior",
+        "grupos": [
+            "TRANSFERENCIA"
+        ],
+        "instituicao_financeira": "ITAU",
+        "renda": 80.07,
+        "status": "RECEBIDO"
+    }, {
+        "data_de_referencia": "2022-04-26T00:00:00",
+        "data_do_evento": "2022-04-26T00:00:00",
+        "data_do_pagamento": "2022-04-26T00:00:00",
+        "descricao": "Assaí Atacadista",
+        "gastos": 1049.8,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "status": "PREVISTO",
+        "tags": ["Moradia", "Essencial", "Mercado", "Fixo", "Alimentação"]
+    }, {
+        "data_de_referencia": "2022-03-19T00:00:00",
+        "data_do_evento": "2022-03-19T00:00:00",
+        "descricao": "Transferencia via PIX - Roberta (aluguel garagem)",
+        "gastos": 150,
+        "grupos": [
+            "ALUGUEL"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "status": "ENVIADO",
+        "tags": ["Roberta", "Aluguel", "Itaquera", "Variavel"]
+    }, {
+        "data_de_referencia": "2022-03-08T00:00:00",
+        "data_do_evento": "2022-03-08T00:00:00",
+        "data_do_pagamento": "2022-03-08T00:00:00",
+        "descricao": "Cartão Roberta",
+        "gastos": 423.77,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "status": "PAGO",
+        "tags": ["CartaoDeCredito", "Roberta"]
+    }, {
+        "data_de_referencia": "2022-03-01T00:00:00",
+        "data_do_evento": "2022-03-01T00:00:00",
+        "descricao": "Entrada mes anterior",
+        "grupos": [
+            "TRANSFERENCIA"
+        ],
+        "instituicao_financeira": "SODEXO-REF-IBM",
+        "renda": 844.42,
+        "status": "RECEBIDO"
+    }, {
+        "data_de_referencia": "2022-04-30T00:00:00",
+        "data_do_evento": "2022-04-30T00:00:00",
+        "descricao": "Transferencia via PIX",
+        "gastos": 2563.78,
+        "grupos": [
+            "TRANSFERENCIA"
+        ],
+        "instituicao_financeira": "SANTANDER",
+        "status": "PREVISTO"
+    }, {
+        "data_de_referencia": "2022-04-15T00:00:00",
+        "data_do_evento": "2022-04-15T00:00:00",
+        "data_do_pagamento": "2022-04-15T00:00:00",
+        "descricao": "Convenio Carlos",
+        "gastos": 182.43,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "status": "PREVISTO",
+        "tags": ["Essencial", "Saude", "Convenio", "Familia", "Fixo"]
+    }, {
+        "data_de_referencia": "2022-04-03T00:00:00",
+        "data_do_evento": "2022-04-01T00:00:00",
+        "data_do_pagamento": "2022-04-01T00:00:00",
+        "descricao": "Psicologa - Kelley Nascimento (para Roberta) PIX (TEL) 31993029435",
+        "gastos": 400,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "status": "PREVISTO",
+        "tags": ["Psicologa", "Fixo", "Roberta"]
+    }, {
+        "data_de_referencia": "2022-03-22T00:00:00",
+        "data_do_evento": "2022-03-22T00:00:00",
+        "data_do_pagamento": "2022-03-22T00:00:00",
+        "descricao": "Luz - DEBITO AUTO",
+        "gastos": 344.29,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "ITAU",
+        "status": "PAGO",
+        "tags": ["Moradia", "Essencial", "Luz", "Fixo"]
+    }, {
+        "data_de_referencia": "2022-04-23T00:00:00",
+        "data_do_evento": "2022-04-23T00:00:00",
+        "data_do_pagamento": "2022-04-23T00:00:00",
+        "descricao": "Shibata",
+        "gastos": 158.63,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "SODEXO-REF-IBM",
+        "status": "PREVISTO",
+        "tags": ["Moradia", "Essencial", "Mercado", "Variavel", "Alimentação"]
+    }, {
+        "data_de_referencia": "2022-03-04T00:00:00",
+        "data_do_evento": "2022-03-04T00:00:00",
+        "descricao": "Rendimento",
+        "grupos": [
+            "INVESTIMENTO"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "renda": 15.06,
+        "status": "RECEBIDO",
+        "tags": ["Recebimentos", "Rendimentos", "Variavel"]
+    }, {
+        "data_de_referencia": "2022-03-30T00:00:00",
+        "data_do_evento": "2022-03-30T00:00:00",
+        "descricao": "Salario - IBM",
+        "grupos": [
+            "RENDA"
+        ],
+        "instituicao_financeira": "SANTANDER",
+        "renda": 2563.78,
+        "status": "PREVISTO",
+        "tags": ["Recebimentos", "Salario", "Fixo"]
+    }, {
+        "data_de_referencia": "2022-03-08T00:00:00",
+        "data_do_evento": "2022-02-17T00:00:00",
+        "data_do_pagamento": "2022-03-08T00:00:00",
+        "descricao": "PAG*Farmacon-CT",
+        "gastos": 35.37,
+        "grupos": [
+            "CREDITO"
+        ],
+        "instituicao_financeira": "ITAU",
+        "status": "PAGO",
+        "tags": ["Variavel", "Carlos", "Eduardo", "Remedio"]
+    }, {
+        "data_de_referencia": "2022-03-15T00:00:00",
+        "data_do_evento": "2022-03-15T00:00:00",
+        "descricao": "Transferencia via PIX",
+        "gastos": 5058.2,
+        "grupos": [
+            "TRANSFERENCIA"
+        ],
+        "instituicao_financeira": "SANTANDER",
+        "status": "ENVIADO"
+    }, {
+        "data_de_referencia": "2022-03-20T00:00:00",
+        "data_do_evento": "2022-03-20T00:00:00",
+        "data_do_pagamento": "2022-03-20T00:00:00",
+        "descricao": "Perua dos ovos - 30 ovos",
+        "gastos": 18,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "status": "PAGO",
+        "tags": ["Moradia", "Essencial", "Variavel", "Alimentação"]
+    }, {
+        "data_de_referencia": "2022-03-25T00:00:00",
+        "data_do_evento": "2022-03-25T00:00:00",
+        "data_do_pagamento": "2022-03-25T00:00:00",
+        "descricao": "iFood - Pizzaria Villas Boas - 1 pizza gigante 16 pedaços",
+        "gastos": 80,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "status": "PAGO",
+        "tags": ["Lazer", "Comida", "Variavel"]
+    }, {
+        "data_de_referencia": "2022-04-30T00:00:00",
+        "data_do_evento": "2022-04-30T00:00:00",
+        "descricao": "Recarga Sodexo Refeição IBM",
+        "grupos": [
+            "RENDA"
+        ],
+        "instituicao_financeira": "SODEXO-REF-IBM",
+        "renda": 700,
+        "status": "PREVISTO",
+        "tags": ["Recebimentos", "Alimentação", "Fixo"]
+    }, {
+        "data_de_referencia": "2022-04-12T00:00:00",
+        "data_do_evento": "2022-04-01T00:00:00",
+        "descricao": "Microsoft Game Pass Ultimate",
+        "gastos": 44.99,
+        "grupos": [
+            "GASTOS",
+            "CREDITO"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "nota": "Primeiro mês = 5,00; Depois = 44,99;",
+        "status": "PREVISTO",
+        "tags": ["Lazer", "Variavel"]
+    }, {
+        "data_de_referencia": "2022-03-08T00:00:00",
+        "data_do_evento": "2022-03-04T00:00:00",
+        "data_do_pagamento": "2022-03-04T00:00:00",
+        "descricao": "Fatura VIVOFIBRA NETFLIX",
+        "gastos": 39.9,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "status": "PAGO",
+        "tags": ["Essencial", "Streaming", "Fixo"]
+    }, {
+        "data_de_referencia": "2022-04-08T00:00:00",
+        "data_do_evento": "2022-04-08T00:00:00",
+        "descricao": "PAG*Farmaconde",
+        "gastos": 49.12,
+        "grupos": [
+            "GASTOS",
+            "CREDITO"
+        ],
+        "instituicao_financeira": "ITAU",
+        "status": "PREVISTO",
+        "tags": ["Variavel", "Carlos", "Eduardo", "Remedio"]
+    }, {
+        "data_de_referencia": "2022-03-14T00:00:00",
+        "data_do_evento": "2022-03-14T00:00:00",
+        "descricao": "Recebimento via PIX",
+        "grupos": [
+            "TRANSFERENCIA"
+        ],
+        "instituicao_financeira": "C6BANK",
+        "renda": 10,
+        "status": "RECEBIDO"
+    }, {
+        "data_de_referencia": "2022-03-08T00:00:00",
+        "data_do_evento": "2022-03-02T00:00:00",
+        "data_do_pagamento": "2022-03-02T00:00:00",
+        "descricao": "Convenio Sr. Antonio - São Cristovão",
+        "gastos": 495.76,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "status": "PAGO",
+        "tags": ["Essencial", "Saude", "Convenio", "Papai", "Fixo"]
+    }, {
+        "data_de_referencia": "2022-04-12T00:00:00",
+        "data_do_evento": "2022-03-13T00:00:00",
+        "descricao": "McDonald's - Vale Sul Shopping",
+        "gastos": 130,
+        "grupos": [
+            "GASTOS",
+            "CREDITO"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "status": "PREVISTO",
+        "tags": ["Lazer", "Comida", "Variavel"]
+    }, {
+        "data_de_referencia": "2022-03-08T00:00:00",
+        "data_do_evento": "2022-02-07T00:00:00",
+        "data_do_pagamento": "2022-03-08T00:00:00",
+        "descricao": "PAG*Farmacon-CT",
+        "gastos": 36.1,
+        "grupos": [
+            "CREDITO"
+        ],
+        "instituicao_financeira": "ITAU",
+        "status": "PAGO",
+        "tags": ["Variavel", "Carlos", "Eduardo", "Remedio"]
+    }, {
+        "data_de_referencia": "2022-03-19T00:00:00",
+        "data_do_evento": "2022-03-19T00:00:00",
+        "descricao": "Aluguel de garagem Itaquera - Arthur",
+        "grupos": [
+            "ALUGUEL"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "renda": 150,
+        "status": "RECEBIDO",
+        "tags": ["Recebimentos", "Aluguel", "Itaquera", "Variavel"]
+    }, {
+        "data_de_referencia": "2022-04-30T00:00:00",
+        "data_do_evento": "2022-04-30T00:00:00",
+        "descricao": "Salario - IBM",
+        "grupos": [
+            "RENDA"
+        ],
+        "instituicao_financeira": "SANTANDER",
+        "renda": 2563.78,
+        "status": "PREVISTO",
+        "tags": ["Recebimentos", "Salario", "Fixo"]
+    }, {
+        "data_de_referencia": "2022-03-08T00:00:00",
+        "data_do_evento": "2022-03-08T00:00:00",
+        "data_do_pagamento": "2022-03-08T00:00:00",
+        "descricao": "Shibata - clique e retire",
+        "gastos": 89.33,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "SODEXO-REF-IBM",
+        "status": "PAGO",
+        "tags": ["Moradia", "Essencial", "Mercado", "Variavel", "Alimentação"]
+    }, {
+        "data_de_referencia": "2022-03-11T00:00:00",
+        "data_do_evento": "2022-03-11T00:00:00",
+        "data_do_pagamento": "2022-03-11T00:00:00",
+        "descricao": "Cartão Nubank",
+        "gastos": 365.36,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "status": "PAGO",
+        "tags": ["CartaoDeCredito", "Cicero"]
+    }, {
+        "data_de_referencia": "2022-03-29T00:00:00",
+        "data_do_evento": "2022-03-29T00:00:00",
+        "descricao": "Kabum - Controle sem fio XBox Carbon Black (Series S/X)",
+        "gastos": 426.48,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "nota": "Controle sem fio XBox Carbon Black (Series S/X) = R$ 413,91. Frete = R$ 12,57.",
+        "status": "PAGO",
+        "tags": ["Cicero", "Lazer", "Variavel"]
+    }, {
+        "data_de_referencia": "2022-03-04T00:00:00",
+        "data_do_evento": "2022-03-04T00:00:00",
+        "descricao": "Resgate reserva de oportunidade",
+        "grupos": [
+            "INVESTIMENTO"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "renda": 2000,
+        "status": "RECEBIDO",
+        "tags": ["Resgate", "Nubank", "Variavel"]
+    }, {
+        "data_de_referencia": "2022-03-15T00:00:00",
+        "data_do_evento": "2022-03-15T00:00:00",
+        "data_do_pagamento": "2022-03-15T00:00:00",
+        "descricao": "Convenio Eduardo",
+        "gastos": 182.43,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "status": "PAGO",
+        "tags": ["Essencial", "Saude", "Convenio", "Familia", "Fixo"]
+    }, {
+        "data_de_referencia": "2022-03-17T00:00:00",
+        "data_do_evento": "2022-03-17T00:00:00",
+        "data_do_pagamento": "2022-03-17T00:00:00",
+        "descricao": "Shibata",
+        "gastos": 41.57,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "SODEXO-REF-IBM",
+        "status": "PAGO",
+        "tags": ["Moradia", "Essencial", "Mercado", "Variavel", "Alimentação"]
+    }, {
+        "data_de_referencia": "2022-04-08T00:00:00",
+        "data_do_evento": "2022-04-02T00:00:00",
+        "data_do_pagamento": "2022-04-02T00:00:00",
+        "descricao": "Convenio Sr. Antonio - São Cristovão",
+        "gastos": 495.76,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "status": "PREVISTO",
+        "tags": ["Essencial", "Saude", "Convenio", "Papai", "Fixo"]
+    }, {
+        "data_de_referencia": "2022-03-15T00:00:00",
+        "data_do_evento": "2022-03-15T00:00:00",
+        "descricao": "Transferencia via PIX",
+        "gastos": 170,
+        "grupos": [
+            "TRANSFERENCIA"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "status": "ENVIADO"
+    }, {
+        "data_de_referencia": "2022-03-03T00:00:00",
+        "data_do_evento": "2022-03-01T00:00:00",
+        "data_do_pagamento": "2022-03-01T00:00:00",
+        "descricao": "Psicologa - Kelley Nascimento (para Roberta) PIX (TEL) 31993029435",
+        "gastos": 400,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "status": "PAGO",
+        "tags": ["Psicologa", "Fixo", "Roberta"]
+    }, {
+        "data_de_referencia": "2022-03-01T00:00:00",
+        "data_do_evento": "2022-03-01T00:00:00",
+        "descricao": "Recebimento via PIX",
+        "grupos": [
+            "TRANSFERENCIA"
+        ],
+        "instituicao_financeira": "ITAU",
+        "renda": 350,
+        "status": "ENVIADO"
+    }, {
+        "data_de_referencia": "2022-03-11T00:00:00",
+        "data_do_evento": "2022-02-10T00:00:00",
+        "data_do_pagamento": "2022-03-11T00:00:00",
+        "descricao": "Discovery+",
+        "gastos": 16.24,
+        "grupos": [
+            "CREDITO"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "status": "PAGO",
+        "tags": ["Streaming", "Fixo "]
+    }, {
+        "data_de_referencia": "2022-04-14T00:00:00",
+        "data_do_evento": "2022-04-14T00:00:00",
+        "data_do_pagamento": "2022-04-14T00:00:00",
+        "descricao": "Recarga TIM Cicero 11 948825242",
+        "gastos": 15,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "C6BANK",
+        "status": "PREVISTO",
+        "tags": ["Variavel", "Recarga", "TIM"]
+    }, {
+        "data_de_referencia": "2022-04-02T00:00:00",
+        "data_do_evento": "2022-04-02T00:00:00",
+        "data_do_pagamento": "2022-04-02T00:00:00",
+        "descricao": "Agua - DEBITO AUTO",
+        "gastos": 54.26,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "ITAU",
+        "status": "PREVISTO",
+        "tags": ["Moradia", "Essencial", "Agua", "Fixo"]
+    }, {
+        "data_de_referencia": "2022-03-14T00:00:00",
+        "data_do_evento": "2022-03-14T00:00:00",
+        "data_do_pagamento": "2022-03-14T00:00:00",
+        "descricao": "Recarga TIM Cicero 11 948825242",
+        "gastos": 15,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "C6BANK",
+        "status": "PAGO",
+        "tags": ["Variavel", "Recarga", "TIM"]
+    }, {
+        "data_de_referencia": "2022-03-15T00:00:00",
+        "data_do_evento": "2022-03-15T00:00:00",
+        "data_do_pagamento": "2022-03-15T00:00:00",
+        "descricao": "Convenio Roberta",
+        "gastos": 230.66,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "status": "PAGO",
+        "tags": ["Essencial", "Saude", "Convenio", "Familia", "Fixo"]
+    }, {
+        "data_de_referencia": "2022-03-20T00:00:00",
+        "data_do_evento": "2022-03-20T00:00:00",
+        "data_do_pagamento": "2022-03-20T00:00:00",
+        "descricao": "Mercadolivre - Meu Canto Shop - Abridor De Latas Manivela",
+        "gastos": 46.37,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "nota": "Mimo Style - Abridor De Latas. Manivela Profissional Inox Sem Rebarbas = 36,87. Frete = 9,50.",
+        "status": "PAGO",
+        "tags": ["Moradia", "Cozinha", "Cicero", "Variavel"]
+    }, {
+        "data_de_referencia": "2022-03-08T00:00:00",
+        "data_do_evento": "2022-03-04T00:00:00",
+        "data_do_pagamento": "2022-03-04T00:00:00",
+        "descricao": "Fatura VIVOFIBRA INTERNET",
+        "gastos": 117.09,
+        "grupos": [
+            "GASTOS"
+        ],
+        "instituicao_financeira": "NUBANK",
+        "status": "PAGO",
+        "tags": ["Essencial", "Internet", "Fixo"]
+    }
 ]
