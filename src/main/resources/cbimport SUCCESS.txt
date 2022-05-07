@@ -289,6 +289,20 @@ WHERE EVERY grupo IN grupos SATISFIES grupo NOT IN ['CREDITO'] END
 GROUP BY a.instituicaoFinanceira
 ORDER BY a.instituicaoFinanceira;
 
+
+--BUSCA POR PARAMETROS
+SELECT a.*
+FROM testes a
+WHERE ANY grupo IN grupos SATISFIES grupo IN ['GASTOS'] END
+    AND ANY tag IN tags SATISFIES tag IN ['Essencial'] END
+    AND a.status IN ['PAGO']
+    AND a.dataReferencia BETWEEN STR_TO_MILLIS('2022-03-01T00:00:00') AND STR_TO_MILLIS('2022-03-31T23:59:59')
+    AND a.dataPagamento BETWEEN STR_TO_MILLIS('2022-03-01T00:00:00') AND STR_TO_MILLIS('2022-03-31T23:59:59')
+    AND a.dataEvento BETWEEN STR_TO_MILLIS('2022-03-01T00:00:00') AND STR_TO_MILLIS('2022-03-31T23:59:59')
+    AND a.instituicaoFinanceira = 'NUBANK'
+    AND a.descricao LIKE '%Convenio%'
+	AND a.nota LIKE '%Convenio%';
+	
 	
 --DELETE ALL
 delete FROM testes a;
