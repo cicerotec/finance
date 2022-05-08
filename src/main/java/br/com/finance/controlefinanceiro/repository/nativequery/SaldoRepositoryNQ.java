@@ -1,4 +1,4 @@
-package br.com.finance.controlefinanceiro.repository;
+package br.com.finance.controlefinanceiro.repository.nativequery;
 
 import br.com.finance.controlefinanceiro.core.document.Saldo;
 import org.springframework.data.couchbase.repository.Query;
@@ -11,7 +11,7 @@ import java.util.List;
 
 @Repository
 @Scope("gastos")
-public interface SaldoNativeQueryRepository extends CrudRepository<Saldo, String> {
+public interface SaldoRepositoryNQ extends CrudRepository<Saldo, String> {
 
     @Query("SELECT " +
             " a.instituicaoFinanceira as __id, " +

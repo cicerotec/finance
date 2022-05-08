@@ -7,7 +7,6 @@ import org.springframework.data.couchbase.repository.Scope;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import java.time.LocalDateTime;
 import java.util.List;
 
 
@@ -18,17 +17,5 @@ public interface ControleFinanceiroRepository extends CrudRepository<ControleFin
 
     @Query("#{#n1ql.selectEntity}")
     List<ControleFinanceiro> findAll();
-
-    List<ControleFinanceiro> findByDataReferenciaBetween(
-            LocalDateTime dataReferenciaInicial, LocalDateTime dataReferenciaFinal);
-
-    List<ControleFinanceiro> findByDataEventoBetween(
-            LocalDateTime dataEventoInicial, LocalDateTime dataEventoFinal);
-
-    List<ControleFinanceiro> findByDataPagamentoBetween(
-            LocalDateTime dataPagamentoInicial, LocalDateTime dataPagamentoFinal);
-
-    List<ControleFinanceiro> findByDataReferenciaBetweenAndStatusNotContainsAndGruposNotIn(
-            LocalDateTime dataReferenciaInicial, LocalDateTime dataReferenciaFinal, String status, List<String> grupos);
 
 }

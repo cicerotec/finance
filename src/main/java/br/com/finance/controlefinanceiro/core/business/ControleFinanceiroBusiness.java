@@ -3,12 +3,17 @@ package br.com.finance.controlefinanceiro.core.business;
 import br.com.finance.controlefinanceiro.core.document.ControleFinanceiro;
 import br.com.finance.controlefinanceiro.core.document.Saldo;
 import br.com.finance.controlefinanceiro.repository.ControleFinanceiroRepository;
-import br.com.finance.controlefinanceiro.repository.SaldoNativeQueryRepository;
+import br.com.finance.controlefinanceiro.repository.nativequery.ControleFinanceiroRepositoryNQ;
+import br.com.finance.controlefinanceiro.repository.nativequery.SaldoRepositoryNQ;
+import br.com.finance.controlefinanceiro.util.DataTimeFormatUtil;
 import br.com.finance.controlefinanceiro.util.NotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import java.time.format.DateTimeFormatter;
 import java.util.*;
+
+import static br.com.finance.controlefinanceiro.util.Constants.*;
 
 @Component
 public class ControleFinanceiroBusiness {
@@ -17,7 +22,13 @@ public class ControleFinanceiroBusiness {
     private ControleFinanceiroRepository repoControleFinanceiro;
 
     @Autowired
-    private SaldoNativeQueryRepository repoSaldo;
+    private SaldoRepositoryNQ repoSaldoNQ;
+
+    @Autowired
+    private ControleFinanceiroRepositoryNQ repoControleFinanceiroNQ;
+
+    @Autowired
+    DataTimeFormatUtil dataTimeFormatUtil;
 
     public ControleFinanceiro buscarPorId(String id) {
         return Optional.ofNullable(repoControleFinanceiro.findById(id)).get().orElseThrow(NotFoundException::new);
@@ -31,7 +42,7 @@ public class ControleFinanceiroBusiness {
         List<Saldo> result = new ArrayList<>();
         //buscar saldo por data de referencia
         if (Objects.nonNull(document.getDataReferencia()) && Objects.nonNull(document.getDataReferenciaFinal())) {
-            result = repoSaldo.findSaldo(
+            result = repoSaldoNQ.findSaldo(
                     document.getDataReferencia(),
                     document.getDataReferenciaFinal());
         }
@@ -45,23 +56,60 @@ public class ControleFinanceiroBusiness {
 
     public List<ControleFinanceiro> buscarPorParametros(ControleFinanceiro document) {
         List<ControleFinanceiro> result = new ArrayList<>();
-        //Data de referencia
+        String statements = "";
+        //grupos
+        if (Objects.nonNull(document.getGrupos())) {
+            statements = statements + BUSCA_GRUPOS.concat(AND)
+                    .replace("$$",document.getGrupos().toString());
+        }
+        //tags
+        if (Objects.nonNull(document.getTags())) {
+            statements = statements + BUSCA_TAGS.concat(AND)
+                    .replace("$$",document.getTags().toString());
+        }
+        //status
+        if (Objects.nonNull(document.getStatus())) {
+            statements = statements + BUSCA_STATUS.concat(AND)
+                    .replace("$$",document.getGrupos().toString());
+        }
+        //data_referencia
         if (Objects.nonNull(document.getDataReferencia()) && Objects.nonNull(document.getDataReferenciaFinal())) {
-            result = repoControleFinanceiro.findByDataReferenciaBetween(
-                    document.getDataReferencia(),
-                    document.getDataReferenciaFinal());
+            statements = statements + BUSCA_DATA_REFERENCIA.concat(AND)
+                    .replace("$$",document.getDataReferencia().format(dataTimeFormatUtil.getFormatter()))
+                    .replace("&&",document.getDataReferenciaFinal().format(dataTimeFormatUtil.getFormatter()));
         }
-        //Data do evento
-        if (Objects.nonNull(document.getDataEvento()) && Objects.nonNull(document.getDataEventoFinal())) {
-            result = repoControleFinanceiro.findByDataEventoBetween(
-                    document.getDataEvento(),
-                    document.getDataEventoFinal());
-        }
-        //Data do pagamento
+        //data_pagamento
         if (Objects.nonNull(document.getDataPagamento()) && Objects.nonNull(document.getDataPagamentoFinal())) {
-            result = repoControleFinanceiro.findByDataPagamentoBetween(
-                    document.getDataPagamento(),
-                    document.getDataPagamentoFinal());
+            statements = statements + BUSCA_DATA_PAGAMENTO.concat(AND)
+                    .replace("$$",document.getDataPagamento().toString())
+                    .replace("&&",document.getDataPagamentoFinal().toString());
+        }
+        //data_evento
+        if (Objects.nonNull(document.getDataEvento()) && Objects.nonNull(document.getDataEventoFinal())) {
+            statements = statements + BUSCA_DATA_EVENTO.concat(AND)
+                    .replace("$$",document.getDataEvento().toString())
+                    .replace("&&",document.getDataEventoFinal().toString());
+        }
+        //instituicao_financeira
+        if (Objects.nonNull(document.getInstituicaoFinanceira())) {
+            statements = statements + BUSCA_INSTITUICAO_FINANCEIRA.concat(AND)
+                    .replace("$$",document.getInstituicaoFinanceira());
+        }
+        //descricao
+        if (Objects.nonNull(document.getDescricao())) {
+            statements = statements + BUSCA_DESCRICAO.concat(AND)
+                    .replace("$$",document.getDescricao());
+        }
+        //nota
+        if (Objects.nonNull(document.getNota())) {
+            statements = statements + BUSCA_NOTA.concat(AND)
+                    .replace("$$",document.getNota());
+        }
+
+        if(!statements.isBlank()) {
+            statements = WHERE.concat(statements);
+            statements = statements.substring(0, statements.length() - AND.length());
+            result = repoControleFinanceiroNQ.findControleFinanceiroByStatements(statements);
         }
 
         if (result.isEmpty()) {

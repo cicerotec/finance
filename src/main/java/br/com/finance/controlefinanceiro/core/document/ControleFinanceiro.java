@@ -1,5 +1,6 @@
 package br.com.finance.controlefinanceiro.core.document;
 
+import com.fasterxml.jackson.annotation.JsonAlias;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
@@ -26,6 +27,7 @@ public class ControleFinanceiro implements Serializable {
     @Id
     @GeneratedValue(strategy = UNIQUE)
     @JsonProperty("id")
+    @JsonAlias({"__id"})
     private String id;
 
     @JsonSerialize(using = LocalDateTimeSerializer.class)
@@ -80,6 +82,7 @@ public class ControleFinanceiro implements Serializable {
     private List<String> grupos;
 
     @JsonProperty("instituicao_financeira")
+    @JsonAlias({"instituicaoFinanceira"})
     private String instituicaoFinanceira;
 
     @JsonProperty("status")
