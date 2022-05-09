@@ -6,8 +6,6 @@ import br.com.finance.controlefinanceiro.core.document.Saldo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.awt.print.Pageable;
-import java.time.LocalDateTime;
 import java.util.List;
 
 @Service

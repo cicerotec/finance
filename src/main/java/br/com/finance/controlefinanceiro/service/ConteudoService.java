@@ -1,9 +1,7 @@
 package br.com.finance.controlefinanceiro.service;
 
 import br.com.finance.controlefinanceiro.core.business.ConteudoBusiness;
-import br.com.finance.controlefinanceiro.core.business.ControleFinanceiroBusiness;
 import br.com.finance.controlefinanceiro.core.document.Conteudo;
-import br.com.finance.controlefinanceiro.core.document.ControleFinanceiro;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

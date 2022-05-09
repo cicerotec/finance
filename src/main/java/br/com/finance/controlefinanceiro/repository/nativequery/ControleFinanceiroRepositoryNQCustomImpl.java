@@ -1,19 +1,14 @@
 package br.com.finance.controlefinanceiro.repository.nativequery;
 
-import com.couchbase.client.java.Bucket;
-import com.couchbase.client.java.Cluster;
-import com.couchbase.client.java.Collection;
-import com.couchbase.client.java.Scope;
-import com.couchbase.client.java.query.QueryResult;
-
 import br.com.finance.controlefinanceiro.core.document.ControleFinanceiro;
+import com.couchbase.client.java.Cluster;
+import com.couchbase.client.java.query.QueryResult;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.couchbase.core.CouchbaseOperations;
 import org.springframework.data.couchbase.repository.config.RepositoryOperationsMapping;
 
 import java.util.List;
-import java.util.Map;
 
 import static br.com.finance.controlefinanceiro.util.Constants.ALIAS_CONTROLE_FINANCEIRO_COMMONS;
 
