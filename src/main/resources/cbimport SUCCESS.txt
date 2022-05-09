@@ -300,22 +300,38 @@ WHERE ANY grupo IN grupos SATISFIES grupo IN ['GASTOS'] END
     AND a.dataPagamento BETWEEN STR_TO_MILLIS('2022-03-01T00:00:00') AND STR_TO_MILLIS('2022-03-31T23:59:59')
     AND a.dataEvento BETWEEN STR_TO_MILLIS('2022-03-01T00:00:00') AND STR_TO_MILLIS('2022-03-31T23:59:59')
     AND a.instituicaoFinanceira = 'NUBANK'
-    AND a.descricao LIKE '%Convenio%'
-	AND a.nota LIKE '%Convenio%';
+    AND default:diacritics_upper(a.descricao) LIKE default:diacritics_upper('%ConvÊnio%')
+	AND default:diacritics_upper(a.nota) LIKE default:diacritics_upper('%Convenio%');
 	
-	
+
 --DELETE ALL
 delete FROM testes a;
 
+	
+--FUNÇÃO REMOVE ACENTOS
+CREATE FUNCTION default:diacritics_upper(vString) { 
+	REGEX_REPLACE( 
+		REGEX_REPLACE( 
+			REGEX_REPLACE( 
+				REGEX_REPLACE( 
+					REGEX_REPLACE( 
+						REGEX_REPLACE( 
+							REGEX_REPLACE( 
+								REGEX_REPLACE( 
+									REGEX_REPLACE( 
+										REGEX_REPLACE( UPPER(vString),"[ÀÁÂÃÄÅ]","A" ),
+									"[ÉÈÊË]", "E"),
+								"[ÍÌÎÏ]" , "I"),
+							"[ÓÒÔÕÖ]","O" ),
+						"[ÚÙÛÜ]","U"),
+					"[Ç]","C"),
+				"[ŸÝ]","Y" ),
+			"[Ñ]","N"),
+		"[Š]","S"),
+	"[Ž]","Z")
+};
 
-SELECT a.*
-FROM testes a
-WHERE DATE_PART_MILLIS(a.data_de_referencia, 'year') = 2022
-    AND DATE_PART_MILLIS(a.data_de_referencia, 'month') = 4
-	AND meta().id = 'a10531bb-dc16-4eb0-a21b-21d841edb8ad'	
 
-SELECT a.*
-FROM testes a
-WHERE meta().id = 'a10531bb-dc16-4eb0-a21b-21d841edb8ad'
 
+	
 

@@ -13,7 +13,7 @@ public class Constants {
                     " renda," +
                     " gastos," +
                     " grupos," +
-                    " instituicaoFinanceira," +
+                    " instituicaoFinanceira as instituicao_financeira," +
                     " status," +
                     " tags";
 
@@ -35,10 +35,8 @@ public class Constants {
 
     public static final String BUSCA_INSTITUICAO_FINANCEIRA = "instituicaoFinanceira = '$$'";
 
-    public static final String BUSCA_DESCRICAO = "UPPER(descricao) LIKE UPPER('%$$%')";
+    public static final String BUSCA_DESCRICAO = "default:diacritics_upper(descricao) LIKE default:diacritics_upper('%$$%')";
 
-    public static final String BUSCA_NOTA = "UPPER(nota) LIKE UPPER('%$$%')";
-
-    public String STATEMENTS = "";
+    public static final String BUSCA_NOTA = "default:diacritics_upper(nota) LIKE default:diacritics_upper('%$$%')";
 
 }

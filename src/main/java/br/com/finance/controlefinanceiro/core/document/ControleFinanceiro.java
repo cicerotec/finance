@@ -82,7 +82,6 @@ public class ControleFinanceiro implements Serializable {
     private List<String> grupos;
 
     @JsonProperty("instituicao_financeira")
-    @JsonAlias({"instituicaoFinanceira"})
     private String instituicaoFinanceira;
 
     @JsonProperty("status")
