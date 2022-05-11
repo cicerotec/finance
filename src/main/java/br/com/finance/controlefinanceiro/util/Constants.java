@@ -21,9 +21,9 @@ public class Constants {
 
     public static final String AND = " AND ";
 
-    public static final String BUSCA_GRUPOS = "ANY grupo IN grupos SATISFIES grupo IN ['$$'] END";
+    public static final String BUSCA_GRUPOS = "ANY grupo IN grupos SATISFIES grupo IN $$ END";
 
-    public static final String BUSCA_TAGS = "ANY tag IN tags SATISFIES tag IN ['$$'] END";
+    public static final String BUSCA_TAGS = "ANY tag IN tags SATISFIES tag IN $$ END";
 
     public static final String BUSCA_STATUS = "status IN ['$$']";
 

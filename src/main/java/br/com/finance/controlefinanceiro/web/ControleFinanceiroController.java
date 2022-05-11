@@ -10,6 +10,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 
@@ -38,7 +39,8 @@ public class ControleFinanceiroController {
 
     @GetMapping
     public ResponseEntity<List<ControleFinanceiro>> getControleFinanceiroByParam(
-            @RequestParam Map<String, String> params) throws JsonProcessingException {
+            @RequestParam Map<String, Object> params) throws JsonProcessingException {
+        params.put("tags", Arrays.asList(String.valueOf(params.get("tags")).split(",")));
         ControleFinanceiro document = paramsToDocument.transform(params, ControleFinanceiro.class);
         List<ControleFinanceiro> response = service.buscarPorParametros(document);
         return new ResponseEntity<>(response, HttpStatus.OK);
@@ -46,7 +48,7 @@ public class ControleFinanceiroController {
 
     @GetMapping("/saldos")
     public ResponseEntity<List<Saldo>> getControleFinanceiroSaldoByParam(
-            @RequestParam Map<String, String> params) throws JsonProcessingException {
+            @RequestParam Map<String, Object> params) throws JsonProcessingException {
         ControleFinanceiro document = paramsToDocument.transform(params, ControleFinanceiro.class);
         List<Saldo> response = service.buscarSaldo(document);
         return new ResponseEntity<>(response, HttpStatus.OK);

@@ -9,7 +9,7 @@ import java.util.Map;
 
 @Component
 public class ParamsToDocument {
-    public <T> T transform(Map<String, String> params, Class<T> clazz) throws JsonProcessingException {
+    public <T> T transform(Map<String, Object> params, Class<T> clazz) throws JsonProcessingException {
         ObjectMapper mapper = new ObjectMapper();
         mapper.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
 

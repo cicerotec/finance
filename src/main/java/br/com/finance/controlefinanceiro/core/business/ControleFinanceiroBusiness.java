@@ -58,13 +58,13 @@ public class ControleFinanceiroBusiness {
         String statements = "";
         //grupos
         if (Objects.nonNull(document.getGrupos())) {
-            statements = statements + BUSCA_GRUPOS.concat(AND)
-                    .replace("$$",document.getGrupos().toString());
+            statements = statements + BUSCA_GRUPOS.concat(AND).replace("$$",document.getGrupos().toString());
+            statements = statements.replace("[","['").replaceAll(",","','").replace("]","']");
         }
         //tags
         if (Objects.nonNull(document.getTags())) {
-            statements = statements + BUSCA_TAGS.concat(AND)
-                    .replace("$$",document.getTags().toString());
+            statements = statements + BUSCA_TAGS.concat(AND).replace("$$",document.getTags().toString());
+            statements = statements.replace("[","['").replaceAll(",","','").replace("]","']");
         }
         //status
         if (Objects.nonNull(document.getStatus())) {
