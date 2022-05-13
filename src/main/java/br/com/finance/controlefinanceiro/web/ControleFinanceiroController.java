@@ -8,6 +8,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Arrays;
@@ -40,7 +41,6 @@ public class ControleFinanceiroController {
     @GetMapping
     public ResponseEntity<List<ControleFinanceiro>> getControleFinanceiroByParam(
             @RequestParam Map<String, Object> params) throws JsonProcessingException {
-        params.put("tags", Arrays.asList(String.valueOf(params.get("tags")).split(",")));
         ControleFinanceiro document = paramsToDocument.transform(params, ControleFinanceiro.class);
         List<ControleFinanceiro> response = service.buscarPorParametros(document);
         return new ResponseEntity<>(response, HttpStatus.OK);

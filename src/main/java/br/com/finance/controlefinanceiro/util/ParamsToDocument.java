@@ -1,5 +1,6 @@
 package br.com.finance.controlefinanceiro.util;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -12,6 +13,8 @@ public class ParamsToDocument {
     public <T> T transform(Map<String, Object> params, Class<T> clazz) throws JsonProcessingException {
         ObjectMapper mapper = new ObjectMapper();
         mapper.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
+        mapper.setSerializationInclusion(JsonInclude.Include.NON_NULL);
+        mapper.setSerializationInclusion(JsonInclude.Include.NON_EMPTY);
 
         String json = mapper.writeValueAsString(params);
         T transformed = mapper.readValue(json, clazz);
