@@ -303,6 +303,9 @@ WHERE ANY grupo IN grupos SATISFIES grupo IN ['GASTOS'] END
     AND default:diacritics_upper(a.descricao) LIKE default:diacritics_upper('%ConvÊnio%')
 	AND default:diacritics_upper(a.nota) LIKE default:diacritics_upper('%Convenio%');
 	
+--BUSCA CONTEUDOS
+SELECT a.* FROM conteudo a WHERE a.tipo = "GRUPO";
+
 
 --DELETE ALL
 delete FROM testes a;
