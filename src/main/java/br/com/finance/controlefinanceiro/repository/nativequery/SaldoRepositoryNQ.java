@@ -7,6 +7,7 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 import java.time.LocalDateTime;
+import java.time.OffsetDateTime;
 import java.util.List;
 
 @Repository
@@ -25,7 +26,7 @@ public interface SaldoRepositoryNQ extends CrudRepository<Saldo, String> {
             " GROUP BY a.instituicaoFinanceira" +
             " ORDER BY a.instituicaoFinanceira")
     List<Saldo> findSaldo(
-            LocalDateTime dataReferenciaInicial,
-            LocalDateTime dataReferenciaFinal);
+            OffsetDateTime dataReferenciaInicial,
+            OffsetDateTime dataReferenciaFinal);
 
 }

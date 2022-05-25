@@ -1,12 +1,16 @@
 package br.com.finance.controlefinanceiro.core.document;
 
+import br.com.finance.controlefinanceiro.util.OffsetDateTimeOptionalZoneDeserializer;
 import com.fasterxml.jackson.annotation.JsonAlias;
+import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import com.fasterxml.jackson.datatype.jsr310.deser.LocalDateTimeDeserializer;
+import com.fasterxml.jackson.datatype.jsr310.deser.key.OffsetDateTimeKeyDeserializer;
 import com.fasterxml.jackson.datatype.jsr310.ser.LocalDateTimeSerializer;
+import com.fasterxml.jackson.datatype.jsr310.ser.OffsetDateTimeSerializer;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.annotation.Transient;
 import org.springframework.data.couchbase.core.mapping.Document;
@@ -14,6 +18,7 @@ import org.springframework.data.couchbase.core.mapping.id.GeneratedValue;
 
 import java.io.Serializable;
 import java.time.LocalDateTime;
+import java.time.OffsetDateTime;
 import java.util.List;
 import java.util.Objects;
 
@@ -30,41 +35,35 @@ public class ControleFinanceiro implements Serializable {
     @JsonAlias({"__id"})
     private String id;
 
-    @JsonSerialize(using = LocalDateTimeSerializer.class)
-    @JsonDeserialize(using = LocalDateTimeDeserializer.class)
     @JsonProperty("data_de_referencia")
-    private LocalDateTime dataReferencia;
+    @JsonDeserialize(using = OffsetDateTimeOptionalZoneDeserializer.class)
+    private OffsetDateTime dataReferencia;
 
     @Transient
     @JsonInclude(JsonInclude.Include.NON_NULL)
-    @JsonSerialize(using = LocalDateTimeSerializer.class)
-    @JsonDeserialize(using = LocalDateTimeDeserializer.class)
+    @JsonDeserialize(using = OffsetDateTimeOptionalZoneDeserializer.class)
     @JsonProperty("data_de_referencia_final")
-    private LocalDateTime dataReferenciaFinal;
+    private OffsetDateTime  dataReferenciaFinal;
 
-    @JsonSerialize(using = LocalDateTimeSerializer.class)
-    @JsonDeserialize(using = LocalDateTimeDeserializer.class)
     @JsonProperty("data_do_evento")
-    private LocalDateTime dataEvento;
+    @JsonDeserialize(using = OffsetDateTimeOptionalZoneDeserializer.class)
+    private OffsetDateTime  dataEvento;
 
     @Transient
     @JsonInclude(JsonInclude.Include.NON_NULL)
-    @JsonSerialize(using = LocalDateTimeSerializer.class)
-    @JsonDeserialize(using = LocalDateTimeDeserializer.class)
+    @JsonDeserialize(using = OffsetDateTimeOptionalZoneDeserializer.class)
     @JsonProperty("data_do_evento_final")
-    private LocalDateTime dataEventoFinal;
+    private OffsetDateTime  dataEventoFinal;
 
-    @JsonSerialize(using = LocalDateTimeSerializer.class)
-    @JsonDeserialize(using = LocalDateTimeDeserializer.class)
     @JsonProperty("data_do_pagamento")
-    private LocalDateTime dataPagamento;
+    @JsonDeserialize(using = OffsetDateTimeOptionalZoneDeserializer.class)
+    private OffsetDateTime  dataPagamento;
 
     @Transient
     @JsonInclude(JsonInclude.Include.NON_NULL)
-    @JsonSerialize(using = LocalDateTimeSerializer.class)
-    @JsonDeserialize(using = LocalDateTimeDeserializer.class)
+    @JsonDeserialize(using = OffsetDateTimeOptionalZoneDeserializer.class)
     @JsonProperty("data_do_pagamento_final")
-    private LocalDateTime dataPagamentoFinal;
+    private OffsetDateTime  dataPagamentoFinal;
 
     @JsonProperty("descricao")
     private String descricao;
@@ -98,51 +97,51 @@ public class ControleFinanceiro implements Serializable {
         this.id = id;
     }
 
-    public LocalDateTime getDataReferencia() {
+    public OffsetDateTime getDataReferencia() {
         return dataReferencia;
     }
 
-    public void setDataReferencia(LocalDateTime dataReferencia) {
+    public void setDataReferencia(OffsetDateTime dataReferencia) {
         this.dataReferencia = dataReferencia;
     }
 
-    public LocalDateTime getDataReferenciaFinal() {
+    public OffsetDateTime getDataReferenciaFinal() {
         return dataReferenciaFinal;
     }
 
-    public void setDataReferenciaFinal(LocalDateTime dataReferenciaFinal) {
+    public void setDataReferenciaFinal(OffsetDateTime dataReferenciaFinal) {
         this.dataReferenciaFinal = dataReferenciaFinal;
     }
 
-    public LocalDateTime getDataEvento() {
+    public OffsetDateTime getDataEvento() {
         return dataEvento;
     }
 
-    public void setDataEvento(LocalDateTime dataEvento) {
+    public void setDataEvento(OffsetDateTime dataEvento) {
         this.dataEvento = dataEvento;
     }
 
-    public LocalDateTime getDataEventoFinal() {
+    public OffsetDateTime getDataEventoFinal() {
         return dataEventoFinal;
     }
 
-    public void setDataEventoFinal(LocalDateTime dataEventoFinal) {
+    public void setDataEventoFinal(OffsetDateTime dataEventoFinal) {
         this.dataEventoFinal = dataEventoFinal;
     }
 
-    public LocalDateTime getDataPagamento() {
+    public OffsetDateTime getDataPagamento() {
         return dataPagamento;
     }
 
-    public void setDataPagamento(LocalDateTime dataPagamento) {
+    public void setDataPagamento(OffsetDateTime dataPagamento) {
         this.dataPagamento = dataPagamento;
     }
 
-    public LocalDateTime getDataPagamentoFinal() {
+    public OffsetDateTime getDataPagamentoFinal() {
         return dataPagamentoFinal;
     }
 
-    public void setDataPagamentoFinal(LocalDateTime dataPagamentoFinal) {
+    public void setDataPagamentoFinal(OffsetDateTime dataPagamentoFinal) {
         this.dataPagamentoFinal = dataPagamentoFinal;
     }
 
@@ -163,7 +162,7 @@ public class ControleFinanceiro implements Serializable {
     }
 
     public Double getRenda() {
-        return (Objects.nonNull(renda) ? renda : 0.0);
+        return renda;
     }
 
     public void setRenda(Double renda) {
@@ -171,7 +170,7 @@ public class ControleFinanceiro implements Serializable {
     }
 
     public Double getGastos() {
-        return (Objects.nonNull(gastos) ? gastos : 0.0);
+        return gastos;
     }
 
     public void setGastos(Double gastos) {

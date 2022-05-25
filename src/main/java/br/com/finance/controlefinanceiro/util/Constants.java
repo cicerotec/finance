@@ -39,4 +39,6 @@ public class Constants {
 
     public static final String BUSCA_NOTA = "default:diacritics_upper(nota) LIKE default:diacritics_upper('%$$%')";
 
+    public static final String ORDER_BY_DATA_REFERENCIA = " ORDER BY dataReferencia";
+
 }

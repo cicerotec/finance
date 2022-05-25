@@ -108,6 +108,7 @@ public class ControleFinanceiroBusiness {
         if(!statements.isBlank()) {
             statements = WHERE.concat(statements);
             statements = statements.substring(0, statements.length() - AND.length());
+            statements = statements.concat(ORDER_BY_DATA_REFERENCIA);
             result = repoControleFinanceiroNQ.findControleFinanceiroByStatements(statements);
         }
 
