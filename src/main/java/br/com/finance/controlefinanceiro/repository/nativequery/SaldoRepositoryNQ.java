@@ -1,13 +1,12 @@
 package br.com.finance.controlefinanceiro.repository.nativequery;
 
 import br.com.finance.controlefinanceiro.core.document.Saldo;
+import org.joda.time.DateTime;
 import org.springframework.data.couchbase.repository.Query;
 import org.springframework.data.couchbase.repository.Scope;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import java.time.LocalDateTime;
-import java.time.OffsetDateTime;
 import java.util.List;
 
 @Repository
@@ -26,7 +25,7 @@ public interface SaldoRepositoryNQ extends CrudRepository<Saldo, String> {
             " GROUP BY a.instituicaoFinanceira" +
             " ORDER BY a.instituicaoFinanceira")
     List<Saldo> findSaldo(
-            OffsetDateTime dataReferenciaInicial,
-            OffsetDateTime dataReferenciaFinal);
+            DateTime dataReferenciaInicial,
+            DateTime dataReferenciaFinal);
 
 }

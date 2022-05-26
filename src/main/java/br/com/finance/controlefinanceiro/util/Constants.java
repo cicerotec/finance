@@ -5,9 +5,9 @@ public class Constants {
     public static final String ALIAS_CONTROLE_FINANCEIRO_COMMONS =
             " meta().id as __id, " +
                     " meta().cas as __cas, " +
-                    " MILLIS_TO_UTC(dataReferencia) as data_de_referencia," +
-                    " MILLIS_TO_UTC(dataEvento) as data_do_evento," +
-                    " MILLIS_TO_UTC(dataPagamento) as data_do_pagamento," +
+                    " MILLIS_TO_STR(dataReferencia) as data_de_referencia," +
+                    " MILLIS_TO_STR(dataEvento) as data_do_evento," +
+                    " MILLIS_TO_STR(dataPagamento) as data_do_pagamento," +
                     " descricao," +
                     " nota," +
                     " renda," +

@@ -1,7 +1,6 @@
 package br.com.finance.controlefinanceiro.repository.nativequery;
 
 import br.com.finance.controlefinanceiro.core.document.ControleFinanceiro;
-import br.com.finance.controlefinanceiro.util.HttpLoggingFilter;
 import com.couchbase.client.java.Cluster;
 import com.couchbase.client.java.query.QueryResult;
 import org.slf4j.Logger;

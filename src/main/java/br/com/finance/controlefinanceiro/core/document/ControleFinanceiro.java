@@ -1,26 +1,20 @@
 package br.com.finance.controlefinanceiro.core.document;
 
-import br.com.finance.controlefinanceiro.util.OffsetDateTimeOptionalZoneDeserializer;
+import br.com.finance.controlefinanceiro.util.MyDateTimeDeserializer;
 import com.fasterxml.jackson.annotation.JsonAlias;
-import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
-import com.fasterxml.jackson.datatype.jsr310.deser.LocalDateTimeDeserializer;
-import com.fasterxml.jackson.datatype.jsr310.deser.key.OffsetDateTimeKeyDeserializer;
-import com.fasterxml.jackson.datatype.jsr310.ser.LocalDateTimeSerializer;
-import com.fasterxml.jackson.datatype.jsr310.ser.OffsetDateTimeSerializer;
+import com.fasterxml.jackson.datatype.joda.ser.DateTimeSerializer;
+import org.joda.time.DateTime;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.annotation.Transient;
 import org.springframework.data.couchbase.core.mapping.Document;
 import org.springframework.data.couchbase.core.mapping.id.GeneratedValue;
 
 import java.io.Serializable;
-import java.time.LocalDateTime;
-import java.time.OffsetDateTime;
 import java.util.List;
-import java.util.Objects;
 
 import static org.springframework.data.couchbase.core.mapping.id.GenerationStrategy.UNIQUE;
 
@@ -36,34 +30,40 @@ public class ControleFinanceiro implements Serializable {
     private String id;
 
     @JsonProperty("data_de_referencia")
-    @JsonDeserialize(using = OffsetDateTimeOptionalZoneDeserializer.class)
-    private OffsetDateTime dataReferencia;
+    @JsonSerialize(using = DateTimeSerializer.class)
+    @JsonDeserialize(using = MyDateTimeDeserializer.class)
+    private DateTime dataReferencia;
 
     @Transient
     @JsonInclude(JsonInclude.Include.NON_NULL)
-    @JsonDeserialize(using = OffsetDateTimeOptionalZoneDeserializer.class)
+    @JsonSerialize(using = DateTimeSerializer.class)
+    @JsonDeserialize(using = MyDateTimeDeserializer.class)
     @JsonProperty("data_de_referencia_final")
-    private OffsetDateTime  dataReferenciaFinal;
+    private DateTime  dataReferenciaFinal;
 
     @JsonProperty("data_do_evento")
-    @JsonDeserialize(using = OffsetDateTimeOptionalZoneDeserializer.class)
-    private OffsetDateTime  dataEvento;
+    @JsonSerialize(using = DateTimeSerializer.class)
+    @JsonDeserialize(using = MyDateTimeDeserializer.class)
+    private DateTime  dataEvento;
 
     @Transient
     @JsonInclude(JsonInclude.Include.NON_NULL)
-    @JsonDeserialize(using = OffsetDateTimeOptionalZoneDeserializer.class)
+    @JsonSerialize(using = DateTimeSerializer.class)
+    @JsonDeserialize(using = MyDateTimeDeserializer.class)
     @JsonProperty("data_do_evento_final")
-    private OffsetDateTime  dataEventoFinal;
+    private DateTime  dataEventoFinal;
 
     @JsonProperty("data_do_pagamento")
-    @JsonDeserialize(using = OffsetDateTimeOptionalZoneDeserializer.class)
-    private OffsetDateTime  dataPagamento;
+    @JsonSerialize(using = DateTimeSerializer.class)
+    @JsonDeserialize(using = MyDateTimeDeserializer.class)
+    private DateTime  dataPagamento;
 
     @Transient
     @JsonInclude(JsonInclude.Include.NON_NULL)
-    @JsonDeserialize(using = OffsetDateTimeOptionalZoneDeserializer.class)
+    @JsonSerialize(using = DateTimeSerializer.class)
+    @JsonDeserialize(using = MyDateTimeDeserializer.class)
     @JsonProperty("data_do_pagamento_final")
-    private OffsetDateTime  dataPagamentoFinal;
+    private DateTime  dataPagamentoFinal;
 
     @JsonProperty("descricao")
     private String descricao;
@@ -97,51 +97,51 @@ public class ControleFinanceiro implements Serializable {
         this.id = id;
     }
 
-    public OffsetDateTime getDataReferencia() {
+    public DateTime getDataReferencia() {
         return dataReferencia;
     }
 
-    public void setDataReferencia(OffsetDateTime dataReferencia) {
+    public void setDataReferencia(DateTime dataReferencia) {
         this.dataReferencia = dataReferencia;
     }
 
-    public OffsetDateTime getDataReferenciaFinal() {
+    public DateTime getDataReferenciaFinal() {
         return dataReferenciaFinal;
     }
 
-    public void setDataReferenciaFinal(OffsetDateTime dataReferenciaFinal) {
+    public void setDataReferenciaFinal(DateTime dataReferenciaFinal) {
         this.dataReferenciaFinal = dataReferenciaFinal;
     }
 
-    public OffsetDateTime getDataEvento() {
+    public DateTime getDataEvento() {
         return dataEvento;
     }
 
-    public void setDataEvento(OffsetDateTime dataEvento) {
+    public void setDataEvento(DateTime dataEvento) {
         this.dataEvento = dataEvento;
     }
 
-    public OffsetDateTime getDataEventoFinal() {
+    public DateTime getDataEventoFinal() {
         return dataEventoFinal;
     }
 
-    public void setDataEventoFinal(OffsetDateTime dataEventoFinal) {
+    public void setDataEventoFinal(DateTime dataEventoFinal) {
         this.dataEventoFinal = dataEventoFinal;
     }
 
-    public OffsetDateTime getDataPagamento() {
+    public DateTime getDataPagamento() {
         return dataPagamento;
     }
 
-    public void setDataPagamento(OffsetDateTime dataPagamento) {
+    public void setDataPagamento(DateTime dataPagamento) {
         this.dataPagamento = dataPagamento;
     }
 
-    public OffsetDateTime getDataPagamentoFinal() {
+    public DateTime getDataPagamentoFinal() {
         return dataPagamentoFinal;
     }
 
-    public void setDataPagamentoFinal(OffsetDateTime dataPagamentoFinal) {
+    public void setDataPagamentoFinal(DateTime dataPagamentoFinal) {
         this.dataPagamentoFinal = dataPagamentoFinal;
     }
 

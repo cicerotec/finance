@@ -74,8 +74,8 @@ public class ControleFinanceiroBusiness {
         //data_referencia
         if (Objects.nonNull(document.getDataReferencia()) && Objects.nonNull(document.getDataReferenciaFinal())) {
             statements = statements + BUSCA_DATA_REFERENCIA.concat(AND)
-                    .replace("$$",document.getDataReferencia().format(dataTimeFormatUtil.getFormatter()))
-                    .replace("&&",document.getDataReferenciaFinal().format(dataTimeFormatUtil.getFormatter()));
+                    .replace("$$",document.getDataReferencia().toString())
+                    .replace("&&",document.getDataReferenciaFinal().toString());
         }
         //data_pagamento
         if (Objects.nonNull(document.getDataPagamento()) && Objects.nonNull(document.getDataPagamentoFinal())) {
